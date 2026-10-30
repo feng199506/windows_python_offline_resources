@@ -1,0 +1,2 @@
+# No extra Windows wheels for python312 in this round.
+# akshare==1.20.8 already in original 16_timeseries_quant_py312 lock.

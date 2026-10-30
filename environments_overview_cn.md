@@ -35,3 +35,7 @@ wheel 数为各组 wheelhouse 合计（含故意重复的 torch/TF）。明细�
 - 未在 Windows 上创建 venv、未 `pip install`、未 `import`、未跑训练。
 - 未下载模型权重、大型数据集、CUDA、cuDNN、CmdStan、FFmpeg、Graphviz 引擎、Playwright 浏览器。
 - 未解包或复现已归档研究项目。
+
+## 定向补充包 v1（不重新打包原 Release）
+
+见 [`python310_amd64_supplement/`](python310_amd64_supplement/) 与 [`python312_amd64_supplement/`](python312_amd64_supplement/)。原 lock 不变。源码包未构建。必须使用 3.10.11 / 3.12.10，不能装入 3.14。

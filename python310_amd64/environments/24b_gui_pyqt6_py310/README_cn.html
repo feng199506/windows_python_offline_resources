@@ -18,4 +18,12 @@ td.wide{max-width:420px;word-break:break-all}</style>
 <pre><code>powershell -ExecutionPolicy Bypass -File .\install_offline_en.ps1 -PythonExe &quot;C:\Python310\python.exe&quot;
 .\.venv\Scripts\python.exe .\check_environment_en.py</code></pre>
 <ol><li>只有 <code>check_report_en.json</code> 中 <code>ok: true</code> 且本机实际运行后，才可把该环境记为“安装验证通过”。</li></ol>
+<h2>本组能做什么</h2>
+<p>PyQt6 桌面 UI。</p>
+<p>不要与 PySide6 混装。</p>
+<h2>常用目标包</h2>
+<table><thead><tr><th>包</th><th>作用</th><th>官方文档</th></tr></thead><tbody><tr><td><code>PyQt6</code></td><td>Qt 绑定</td><td><a href="https://www.riverbankcomputing.com/static/Docs/PyQt6/">https://www.riverbankcomputing.com/static/Docs/PyQt6/</a></td></tr></tbody></table>
+<p>其余条目是传递依赖，见 <a href="requirements_lock_en.txt"><code>requirements_lock_en.txt</code></a>，不逐个说明。
+必须使用本树 <code>runtime</code> 中的 Python 3.10 或 3.12，不能装进 3.14。
+外部工具与未构建源码见同级目录的 <code>python3xx_amd64_supplement/</code>。</p>
 </body></html>

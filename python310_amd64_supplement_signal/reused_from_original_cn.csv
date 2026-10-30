@@ -1,0 +1,10 @@
+﻿file,bytes,sha256,origin
+emd_signal-1.10.0-py3-none-any.whl,76802,a3adac17c0950afb74094f1aac7864d858abd2dd7eb7257931fc90ff68e18c2d,reuse:/root/windows_python_offline_resources/supplement_signal_cache/emd_signal-1.10.0-py3-none-any.whl
+filterpy-2.0.0-py3-none-any.whl,111361,c5028eaf31a7181d2d5565a5447e9b1cda746c99b317f62d89018fc791ef1f7e,reuse:/root/linux_python_offline_resources/environments/13_stats_timeseries_py310/wheelhouse/filterpy-2.0.0-py3-none-any.whl
+pykalman-0.11.2-py2.py3-none-any.whl,252132,00dcc0c88b93a8ab6100295501e7f440350b872d558b41d0deff2fcaf827a553,reuse:/root/linux_python_offline_resources/environments/13_stats_timeseries_py310/wheelhouse/pykalman-0.11.2-py2.py3-none-any.whl
+pathos-0.3.5-py3-none-any.whl,82248,c95b04103c40a16c08db69cd4b5c52624d55208beadf1348681edece809ec4f8,reuse:/root/windows_python_offline_resources/supplement_signal_cache/pathos-0.3.5-py3-none-any.whl
+pox-0.3.7-py3-none-any.whl,29402,82a495249d13371314c1a5b5626a115e067ef5215d49530bf5efa37fbc25b56a,reuse:/root/windows_python_offline_resources/supplement_signal_cache/pox-0.3.7-py3-none-any.whl
+ppft-1.7.8-py3-none-any.whl,56759,d3e0e395215b14afc3dd5adfc032ccecfda2d4ed50dc7ded076cd1d215442843,reuse:/root/windows_python_offline_resources/supplement_signal_cache/ppft-1.7.8-py3-none-any.whl
+scikit_base-0.13.2-py3-none-any.whl,160792,0a67063c0323b9521ede91cfcc87ce097126de5f9d5367abed6e76ff97a0eda5,reuse:/root/linux_python_offline_resources/environments/13_stats_timeseries_py310/wheelhouse/scikit_base-0.13.2-py3-none-any.whl
+dill-0.4.1-py3-none-any.whl,120019,1e1ce33e978ae97fcfcff5638477032b801c46c7c65cf717f95fbc2248f79a9d,reuse:/root/windows_python_offline_resources/python310_amd64/environments/12_scientific_extra_py310/wheelhouse/dill-0.4.1-py3-none-any.whl
+multiprocess-0.70.19-py310-none-any.whl,134948,97404393419dcb2a8385910864eedf47a3cadf82c66345b44f036420eb0b5d87,reuse:/root/windows_python_offline_resources/python310_amd64/environments/09_huggingface_llm_cpu_py310/wheelhouse/multiprocess-0.70.19-py310-none-any.whl

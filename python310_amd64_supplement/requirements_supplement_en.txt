@@ -1,0 +1,11 @@
+# Additional installable wheels for python310. Do not merge into original lock.
+# Install inside 16_timeseries_quant_py310 venv after original lock.
+akshare==1.18.88
+html5lib==1.1
+tabulate==0.10.0
+decorator==5.3.1
+mini-racer==0.14.1
+webencodings==0.6.1
+xlrd==2.0.2
+openpyxl==3.1.5
+et-xmlfile==2.0.0

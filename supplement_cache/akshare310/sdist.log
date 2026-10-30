@@ -1,0 +1,12 @@
+Collecting akshare
+  Downloading akshare-1.20.8.tar.gz (1.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 9.3 MB/s  0:00:00
+
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Saved ./windows_python_offline_resources/supplement_cache/akshare310/akshare-1.20.8.tar.gz
+Successfully downloaded akshare

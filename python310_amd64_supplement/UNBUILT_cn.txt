@@ -1,0 +1,1 @@
+lime/ta/jieba/odfpy/jsonpath 仅保存 PyPI 源码包。Linux 下载主机没有为它们构建 win_amd64 wheel。不能把任何 Linux wheel 当作 Windows 包使用。本轮未在 Windows 上构建或验证。

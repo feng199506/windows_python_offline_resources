@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>信号处理定向补充（Windows / Linux，Python 3.10 与 3.12）</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1200px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3;position:sticky;top:0}code{background:#f5f5f5;padding:0 3px}
+pre{background:#f5f5f5;padding:8px;overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}
+td.wide{max-width:420px;word-break:break-all}</style>
+</head><body>
+<div class="nav"><a href="../index_cn.html">← 离线首页 index_cn.html</a> · <a href="%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86%E8%A1%A5%E5%85%85_cn.md">Markdown 原文</a></div>
+<h1>信号处理定向补充（Windows / Linux，Python 3.10 与 3.12）</h1>
+<p>本包是增量补充，<strong>不覆盖</strong>原 Release 资产，也不改原 <code>requirements_lock_en.txt</code>。
+原 Windows 包：<code>wpo-full-20261030</code>；原 Linux 包：<code>lpo-full-20261030</code>。
+Windows 上一轮工具补充仍是 <code>wpo-supplement-v1-20261030</code>，本包是另一份相关 Release。</p>
+<h2>覆盖范围</h2>
+<table><thead><tr><th>能力</th><th>包</th><th>说明</th></tr></thead><tbody><tr><td>傅里叶 / 频谱</td><td>NumPy、SciPy</td><td>已在原 <strong>03 信号</strong> 组，本包不重复下载 x86-64 / win_amd64 二进制</td></tr><tr><td>小波分解与重构</td><td>PyWavelets</td><td>同上，原 03 已有对应 CPython 版本的 wheel</td></tr><tr><td>EMD / EEMD / CEEMDAN</td><td><strong>EMD-signal</strong></td><td>pip 名 <code>EMD-signal</code>，<strong>导入名 <code>PyEMD</code></strong></td></tr><tr><td>Kalman 实时滤波</td><td>filterpy</td><td><code>predict</code> / <code>update</code>，因果</td></tr><tr><td>Kalman 离线平滑</td><td>pykalman</td><td><code>filter</code> 因果；<code>smooth</code> 使用未来观测，仅离线</td></tr></tbody></table>
+<h2>安装（在已有 03 环境上追加）</h2>
+<p>先按原树装好 <code>03_signal_*</code>（Windows 另可把 Linux 原 13 组里已有的 filterpy 视为无关，本包已带 Windows 可用的 any-wheel）。</p>
+<p>Windows（PowerShell，已有 <code>.venv</code>）：</p>
+<pre><code>powershell -ExecutionPolicy Bypass -File .\install_supplement_en.ps1</code></pre>
+<p>Linux：</p>
+<pre><code>bash ./install_supplement_en.sh</code></pre>
+<p>脚本只会安装 <a href="requirements_supplement_en.txt"><code>requirements_supplement_en.txt</code></a> 中的<strong>新增</strong>包，并从 <a href="packages_wheel/"><code>packages_wheel/</code></a> 以及原 03（及 Linux 原 13）wheelhouse 解析依赖。</p>
+<p>必须使用对应树的 CPython <strong>3.10.11 / 3.12.10</strong>，不要装进 3.14。</p>
+<h2>实时滤波 vs 离线平滑</h2>
+<ul><li><strong>实时 / 因果</strong>：<code>filterpy.kalman.KalmanFilter.predict</code> + <code>update</code>，或 <code>pykalman.KalmanFilter.filter</code>。时刻 t 的输出只依赖 <code>z[0]..z[t]</code>。</li><li><strong>离线平滑</strong>：<code>pykalman.KalmanFilter.smooth</code>（RTS）。时刻 t 的输出依赖 <code>z[0]..z[N-1]</code>，含未来观测。滞后更小、误差通常更低，<strong>不能</strong>接到必须在采样时刻给出估计的控制回路。</li></ul>
+<h2>开发板</h2>
+<p>原库开发板侧是 Raspberry Pi OS Bookworm <strong>Python 3.11</strong> 的 GPIO 通讯包，<strong>不是</strong> 3.10/3.12。
+本包不为 3.11 板子补信号库，也不把 <strong>x86-64 / win_amd64</strong> 二进制放进板端目录。
+仅当存在 <strong>aarch64 + 对应 CPython 3.10/3.12</strong> 的 wheel 时，才写入 <code>embedded_boards/aarch64/</code>。
+armv7l 若无官方 wheel，源码与构建依赖放在 <a href="packages_sdist_unbuilt/"><code>packages_sdist_unbuilt/</code></a>，状态为 <strong>未构建、未验证</strong>。</p>
+<h2>示例是否执行验证</h2>
+<p><a href="examples/README_cn.html"><code>examples/</code></a> 下脚本仅作最小调用示意。本轮在下载主机上<strong>未安装、未导入、未跑通</strong>这些示例（状态：<code>未执行验证</code>）。</p>
+<p>目标：Windows 10/11 x86-64，CPython 3.12.10。
+NumPy / SciPy / PyWavelets 复用原 03 组已有兼容 wheel，见 <a href="reused_from_original_cn.html"><code>reused_from_original_cn.csv</code></a> 仅记录本包实际硬链接到的文件。
+本包新增主要是 EMD-signal（PyEMD）、filterpy、pykalman 及 pathos/scikit-base 等传递依赖。</p>
+</body></html>

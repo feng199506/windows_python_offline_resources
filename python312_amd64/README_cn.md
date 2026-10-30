@@ -79,3 +79,17 @@ powershell -ExecutionPolicy Bypass -File .\install_offline_en.ps1 -PythonExe "C:
 - 未在目标 Windows 上创建 venv、未 `pip install`、未 `import`。
 - 无 CUDA / GPU wheel。TF 原生 Windows GPU 不在本套范围内。
 - Playwright 浏览器、FFmpeg、CmdStan、Graphviz 引擎、模型权重另见库根 [`external_dependencies_cn.csv`](../external_dependencies_cn.csv)。
+
+## 本轮定向补充
+
+原锁定清单未改。新增内容在独立目录 [`python312_amd64_supplement/`](../python312_amd64_supplement/)（随补充 zip 发布，原 Release tar 不变）。
+
+| 类别 | 内容 |
+| --- | --- |
+| 已下载 wheel | 原 31 组 wheelhouse；3.10 另补 `akshare==1.18.88` 及部分依赖 wheel |
+| 源码待构建 | lime 0.2.0.1、ta 0.11.0、jieba 0.42.1、odfpy 1.4.1、jsonpath 0.82.2（**未构建、未验证**，不是 Linux wheel） |
+| 已下载外部工具 | Chrome for Testing 156.0.8078.4、chromedriver、headless-shell、geckodriver 0.37.1、msedgedriver 156.0.4314.50、Playwright Firefox/WebKit/ffmpeg、FFmpeg 9.0.2 essentials、Tesseract 5.4.0 与 eng/chi_sim/chi_tra/osd |
+| 仍缺失 | Playwright 官方 Chromium rev 1248 zip、完整 Firefox 安装包、CmdStan 工具链、CUDA、HF/spaCy/NLTK 数据、串口/烧录工具、数据库服务器 |
+
+必须用 [`runtime/python-3.12.10-amd64.exe`](runtime/python-3.12.10-amd64.exe) 创建 venv，**不支持直接装入 Python 3.14**。
+说明：[`python312_amd64_supplement/离线安装与使用_cn.md`](../python312_amd64_supplement/%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8_cn.md)。

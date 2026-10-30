@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>科学计算扩展</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1200px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3;position:sticky;top:0}code{background:#f5f5f5;padding:0 3px}
+pre{background:#f5f5f5;padding:8px;overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}
+td.wide{max-width:420px;word-break:break-all}</style>
+</head><body>
+<div class="nav"><a href="../../index_cn.html">← 离线首页 index_cn.html</a> · <a href="12_scientific_extra_py312_README_cn.md">Markdown 原文</a></div>
+<h1>科学计算扩展</h1>
+<ul><li>环境编号：<code>12_scientific_extra_py312</code></li><li>目标：Windows 10/11 x86-64，CPython 3.12</li><li>用途：Numba、Dask、Polars、Zarr、PyTables、地理空间等。不含已有基础 Notebook 全集。</li><li>框架：numba/dask/polars/geopandas/zarr</li><li>本轮状态：<strong>已下载并静态检查</strong>。尚未在目标 Windows 上安装验证。</li></ul>
+<h2>包含内容</h2>
+<ul><li><code>requirements_direct_en.txt</code>：直接依赖（解析输入）</li><li><code>requirements_lock_en.txt</code>：由已下载 wheel 锁定的<strong>完整</strong>版本清单（含全部传递依赖）</li><li><code>wheelhouse/</code>：目标包及其全部传递依赖的 Windows wheel，文件名为上游原始名称。离线安装时用 <code>--no-index --find-links wheelhouse -r requirements_lock_en.txt</code>，不要只装 direct 文件。</li><li><code>wheel_manifest_cn.csv</code>：包名、版本、标签、大小、SHA256、依赖摘要</li><li><code>install_offline_en.ps1</code>：离线创建 venv 并安装</li><li><code>check_environment_en.py</code>：在 Windows 安装后运行</li></ul>
+<h2>限制</h2>
+<ul><li>这是通用科研基础环境，不是某个历史项目的精确复现。</li><li>不能与其他 Python 版本、GPU 包或 WSL2/Linux wheel 混装。</li><li>Python 包安装完成不等于权重、数据、编译器或外部服务已具备。</li><li>包来自 PyPI 或框架官方索引。</li></ul>
+<h2>Windows 安装步骤</h2>
+<ol><li>安装本套件中的 <code>python-3.12.10-amd64.exe</code>（独立树用 <code>runtime/</code>，库根用 <a href="../../installers/README_cn.html"><code>installers/</code></a>）。</li><li>安装同位置的 <code>vc_redist.x64.exe</code>（多数二进制扩展需要）。</li><li>在本目录打开 PowerShell：</li></ol>
+<pre><code>powershell -ExecutionPolicy Bypass -File .\install_offline_en.ps1 -PythonExe &quot;C:\Python312\python.exe&quot;
+.\.venv\Scripts\python.exe .\check_environment_en.py</code></pre>
+<ol><li>只有 <code>check_report_en.json</code> 中 <code>ok: true</code> 且本机实际运行后，才可把该环境记为“安装验证通过”。</li></ol>
+<h2>本组能做什么</h2>
+<p>Numba、Dask、Polars、地理空间等科学扩展。</p>
+<p>与 01 的 Notebook 全集分开。</p>
+<h2>常用目标包</h2>
+<table><thead><tr><th>包</th><th>作用</th><th>官方文档</th></tr></thead><tbody><tr><td><code>numba</code></td><td>JIT</td><td><a href="https://numba.readthedocs.io/">https://numba.readthedocs.io/</a></td></tr><tr><td><code>polars</code></td><td>DataFrame</td><td><a href="https://docs.pola.rs/">https://docs.pola.rs/</a></td></tr><tr><td><code>geopandas</code></td><td>地理表</td><td><a href="https://geopandas.org/">https://geopandas.org/</a></td></tr></tbody></table>
+<p>其余条目是传递依赖，见 <code>requirements_lock_en.txt</code>，不逐个说明。
+必须使用本树 <code>runtime</code> 中的 Python 3.10 或 3.12，不能装进 3.14。
+外部工具与未构建源码见同级目录的 <code>python3xx_amd64_supplement/</code>。</p>
+</body></html>

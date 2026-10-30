@@ -1,0 +1,14 @@
+2026-10-30T05:28:07Z RUN /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --disable-pip-version-check --isolated --dest /root/windows_python_offline_resources/supplement_cache/sdist --no-binary :all: --no-deps lime ta jieba odfpy
+2026-10-30T05:28:16Z OK pip download dest=/root/windows_python_offline_resources/supplement_cache/sdist
+2026-10-30T05:28:16Z RUN /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --disable-pip-version-check --isolated --dest /root/windows_python_offline_resources/supplement_cache/build_sdist --no-binary :all: --no-deps setuptools wheel build packaging pip
+2026-10-30T05:28:24Z OK pip download dest=/root/windows_python_offline_resources/supplement_cache/build_sdist
+2026-10-30T05:28:24Z RUN /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --disable-pip-version-check --isolated --dest /root/windows_python_offline_resources/supplement_cache/sdist --no-binary :all: --no-deps defusedxml
+2026-10-30T05:28:27Z OK pip download dest=/root/windows_python_offline_resources/supplement_cache/sdist
+2026-10-30T05:28:27Z RUN /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --disable-pip-version-check --isolated --dest /root/windows_python_offline_resources/supplement_cache/akshare310 --platform win_amd64 --python-version 310 --implementation cp --only-binary :all: akshare==1.18.88
+2026-10-30T05:28:29Z FAIL pip download rc=1:  1.18.90 Requires-Python >=3.11; 1.18.91 Requires-Python >=3.11; 1.18.92 Requires-Python >=3.11; 1.18.93 Requires-Python >=3.11; 1.18.94 Requires-Python >=3.11; 1.18.95 Requires-Python >=3.11; 1.18.96 Requires-Python >=3.11; 1.18.97 Requires-Python >=3.11; 1.19.1 Requires-Python >=3.11; 1.19.3 Requires-Python >=3.11; 1.19.5 Requires-Python >=3.11; 1.20.0 Requires-Python >=3.11; 1.20.1 Requires-Python >=3.11; 1.20.2 Requires-Python >=3.11; 1.20.3 Requires-Python >=3.11; 1.20.4 Requires-Python >=3.11; 1.20.5 Requires-Python >=3.11; 1.20.6 Requires-Python >=3.11; 1.20.7 Requires-Python >=3.11; 1.20.8 Requires-Python >=3.11
+ERROR: Could not find a version that satisfies the requirement jsonpath>=0.82 (from akshare) (from versions: none)
+ERROR: No matching distribution found for jsonpath>=0.82
+
+2026-10-30T05:28:29Z RUN /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --disable-pip-version-check --isolated --dest /root/windows_python_offline_resources/supplement_cache/sdist --no-binary :all: --no-deps akshare==1.18.88
+2026-10-30T05:28:32Z OK pip download dest=/root/windows_python_offline_resources/supplement_cache/sdist
+2026-10-30T05:28:33Z GET https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip -> /root/windows_python_offline_resources/supplement_cache/external/ffmpeg/ffmpeg-release-essentials.zip

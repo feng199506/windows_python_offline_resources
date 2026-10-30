@@ -34,3 +34,21 @@ powershell -ExecutionPolicy Bypass -File .\install_offline_en.ps1 -PythonExe "C:
 ```
 
 4. 只有 `check_report_en.json` 中 `ok: true` 且本机实际运行后，才可把该环境记为“安装验证通过”。
+
+## 本组能做什么
+
+Numba、Dask、Polars、地理空间等科学扩展。
+
+与 01 的 Notebook 全集分开。
+
+## 常用目标包
+
+| 包 | 作用 | 官方文档 |
+| --- | --- | --- |
+| `numba` | JIT | https://numba.readthedocs.io/ |
+| `polars` | DataFrame | https://docs.pola.rs/ |
+| `geopandas` | 地理表 | https://geopandas.org/ |
+
+其余条目是传递依赖，见 [`requirements_lock_en.txt`](requirements_lock_en.txt)，不逐个说明。
+必须使用本树 `runtime` 中的 Python 3.10 或 3.12，不能装进 3.14。
+外部工具与未构建源码见同级目录的 `python3xx_amd64_supplement/`。

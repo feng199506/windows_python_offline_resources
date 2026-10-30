@@ -1,0 +1,9 @@
+# Source-only. NOT built on the Linux download host. NOT Windows wheels.
+# On Windows, after original env exists, you MAY try:
+#   python -m pip install --no-index --find-links packages_sdist --find-links <env>\wheelhouse -r this file
+# Status: unbuilt, unverified.
+lime==0.2.0.1
+ta==0.11.0
+jieba==0.42.1
+odfpy==1.4.1
+jsonpath==0.82.2

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>离线安装与使用</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1200px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3;position:sticky;top:0}code{background:#f5f5f5;padding:0 3px}
+pre{background:#f5f5f5;padding:8px;overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}
+td.wide{max-width:420px;word-break:break-all}</style>
+</head><body>
+<div class="nav"><a href="../index_cn.html">← 离线首页 index_cn.html</a> · <a href="%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8_cn.md">Markdown 原文</a></div>
+<h1>离线安装与使用</h1>
+<p>适用原 Release：<strong><code>wpo-full-20261030</code></strong><br>
+仓库：<a href="https://github.com/feng199506/windows_python_offline_resources/releases/tag/wpo-full-20261030">https://github.com/feng199506/windows_python_offline_resources/releases/tag/wpo-full-20261030</a></p>
+<p>本文件随 <strong>补充包</strong> 发布，不修改原 Release 中的 tar 与锁定清单。<br>
+<strong>必须</strong>用各树附带的 CPython <strong>3.10.11</strong> 或 <strong>3.12.10</strong> 创建环境。不能把这些 wheel / 源码直接装进 Python 3.14。</p>
+<p>所有安装与调用示例均 <strong>未在目标 Windows 上执行</strong>（示例未验证）。</p>
+<h2>1. 原 Release 与补充包如何配合</h2>
+<ol><li>按 <code>download_restore_cn.md</code> 把原 tar 解压到同一目录，例如 <code>D:\wpo\</code>。</li><li>将本补充 zip 解压到 <strong>同一个目录</strong>，得到：</li><li><code>D:\wpo\python310_amd64\</code>（原树，不要改里面的 <code>requirements_lock_en.txt</code>）</li><li><code>D:\wpo\python310_amd64_supplement\</code>（本轮新增）</li><li>或对应的 <code>python312_amd64</code> / <code>python312_amd64_supplement</code></li><li>两棵树互相独立。只用 3.10 就下 3.10 的 4 个 part + 3.10 补充包；3.12 同理。</li><li>外部工具（FFmpeg、Tesseract、浏览器）在 <strong>两套补充目录里各有一份</strong>，不要跨树共用路径。</li></ol>
+<h2>2. 选择解释器</h2>
+<table><thead><tr><th>树</th><th>安装程序</th><th>建议路径</th></tr></thead><tbody><tr><td>3.10</td><td><a href="../python310_amd64/runtime/python-3.10.11-amd64.exe"><code>python310_amd64\runtime\python-3.10.11-amd64.exe</code></a></td><td><code>C:\Python310\python.exe</code></td></tr><tr><td>3.12</td><td><a href="../python312_amd64/runtime/python-3.12.10-amd64.exe"><code>python312_amd64\runtime\python-3.12.10-amd64.exe</code></a></td><td><code>C:\Python312\python.exe</code></td></tr></tbody></table>
+<p>同时安装 <code>runtime\vc_redist.x64.exe</code>。不要用 embeddable 包，不要用系统里的 3.14。</p>
+<h2>3. 创建原环境（锁定清单不变）</h2>
+<pre><code>cd D:\wpo\python312_amd64\environments\01_base_scientific_py312
+powershell -ExecutionPolicy Bypass -File .\install_offline_en.ps1 -PythonExe &quot;C:\Python312\python.exe&quot;
+.\.venv\Scripts\python.exe .\check_environment_en.py</code></pre>
+<p>脚本用 <code>--no-index --find-links wheelhouse</code> 安装 <strong>该组</strong> <code>requirements_lock_en.txt</code>。不要改这个 lock。</p>
+<h2>4. 安装补充清单（另行锁定）</h2>
+<p>补充可安装项在 <code>requirements_supplement_en.txt</code>（wheel）和 <code>requirements_supplement_sdist_en.txt</code>（源码，未构建）。</p>
+<p>在 <strong>已经装好的对应组 venv</strong> 中追加，例如 3.10 量化组：</p>
+<pre><code>cd D:\wpo\python310_amd64\environments\16_timeseries_quant_py310
+$py = &quot;.\.venv\Scripts\python.exe&quot;
+# 已有 Windows wheel 的补充项（akshare 1.18.88 等）
+&amp; $py -m pip install --no-index --find-links D:\wpo\python310_amd64_supplement\packages_wheel `
+  -r D:\wpo\python310_amd64_supplement\requirements_supplement_en.txt</code></pre>
+<p>源码包（lime / ta / jieba / odfpy / jsonpath）<strong>未构建、未验证</strong>。仅在目标 Windows 上、且已安装 Visual C++ 运行库（纯 Python 包通常足够）时，才可以尝试：</p>
+<pre><code>&amp; $py -m pip install --no-index --find-links D:\wpo\python310_amd64_supplement\packages_sdist `
+  --find-links .\wheelhouse `
+  -r D:\wpo\python310_amd64_supplement\requirements_supplement_sdist_en.txt</code></pre>
+<p>不要把 Linux 上下载或构建的 wheel 拷进这些目录冒充 Windows 包。本轮 <strong>没有</strong> 在 Linux 上为这些包产出 win_amd64 wheel。</p>
+<p><code>lime</code> 还需要 <code>scikit-image</code>（在 03 组，不在 14 组）。未在 14 的 venv 中预装。</p>
+<h2>5. 外部工具调用</h2>
+<p>路径均相对于各套补充目录。把该目录加入 <code>PATH</code> 或在脚本里写绝对路径。</p>
+<h3>FFmpeg（19_av_extra，以及需要命令行转码时）</h3>
+<p>解压 <code>external\ffmpeg\ffmpeg-9.0.2-essentials_build.zip</code> 后：</p>
+<pre><code>$env:Path = &quot;D:\wpo\python312_amd64_supplement\external\ffmpeg\ffmpeg-9.0.2-essentials_build\bin;&quot; + $env:Path
+ffmpeg -version</code></pre>
+<p><code>imageio-ffmpeg</code> / <code>ffmpeg-python</code> 只是封装；没有 <code>ffmpeg.exe</code> 时很多转码不能用。</p>
+<h3>Tesseract（18_vision_extra / pytesseract）</h3>
+<ol><li>运行 <code>external\tesseract\tesseract-ocr-w64-setup-5.4.0.20240606.exe</code>。</li><li>将 <code>external\tessdata\</code> 下的 <code>eng.traineddata</code>、<code>chi_sim.traineddata</code>、<code>chi_tra.traineddata</code>、<code>osd.traineddata</code> 拷到 Tesseract 的 <code>tessdata</code> 目录，或设置：</li></ol>
+<pre><code>$env:TESSDATA_PREFIX = &quot;D:\wpo\python312_amd64_supplement\external\tessdata&quot;</code></pre>
+<ol><li>Python 中（venv 已装 pytesseract）：</li></ol>
+<pre><code>import pytesseract
+pytesseract.pytesseract.tesseract_cmd = r&quot;C:\Program Files\Tesseract-OCR\tesseract.exe&quot;</code></pre>
+<p>未在 Windows 上跑过，安装路径可能因选项而异。</p>
+<h3>Selenium（22_crawler）</h3>
+<p>已提供 Chrome for Testing 156.0.8078.4 与匹配的 chromedriver，以及 geckodriver、msedgedriver。系统自带 Edge 时可用 msedgedriver；完整 Firefox 安装包未收录。</p>
+<pre><code>from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+opt = Options()
+opt.binary_location = r&quot;D:\wpo\python312_amd64_supplement\external\chrome\chrome-win64\chrome.exe&quot;
+drv = webdriver.Chrome(
+    service=Service(r&quot;D:\wpo\python312_amd64_supplement\external\chromedriver\chromedriver-win64\chromedriver.exe&quot;),
+    options=opt,
+)</code></pre>
+<p>先解压对应 zip。访问真实网站需要联网。</p>
+<h3>Playwright（22b_playwright，playwright==1.64.1）</h3>
+<ul><li>Firefox rev 1555、WebKit rev 2370、Playwright 自带 ffmpeg rev 1013 已下载。</li><li>官方 Chromium rev 1248 的 <code>chromium-win64.zip</code> 在 CDN 上不可用（HTTP 400）。请用 Chrome for Testing 156.0.8078.4 作为 Chromium 可执行文件：</li></ul>
+<pre><code>from playwright.sync_api import sync_playwright
+with sync_playwright() as p:
+    browser = p.chromium.launch(
+        executable_path=r&quot;D:\wpo\python312_amd64_supplement\external\chrome\chrome-win64\chrome.exe&quot;
+    )</code></pre>
+<p>Firefox/WebKit 可解压到 Playwright 浏览器目录后设置 <code>PLAYWRIGHT_BROWSERS_PATH</code>（示例未验证）。</p>
+<h2>6. 不要做的事</h2>
+<ul><li>不要覆盖原 <code>requirements_lock_en.txt</code>。</li><li>不要把 3.10 与 3.12 的包装进同一个 venv。</li><li>不要把本库装进 Python 3.14。</li><li>不要把 GPU / Linux wheel 混入 CPU 环境。</li><li>未下载：模型权重、NLTK/spaCy 语料、CUDA、数据库服务器、CmdStan 编译器、串口/烧录工具、完整 Firefox 安装包。</li></ul>
+</body></html>

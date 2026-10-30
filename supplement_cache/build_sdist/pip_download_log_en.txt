@@ -1,0 +1,49 @@
+Collecting setuptools
+  Downloading setuptools-84.2.1.tar.gz (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 35.9 MB/s  0:00:00
+
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting wheel
+  Downloading wheel-0.48.0.tar.gz (66 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting build
+  Downloading build-1.6.1.tar.gz (113 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting packaging
+  Downloading packaging-26.3.tar.gz (313 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting pip
+  Downloading pip-26.2.2.tar.gz (1.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 36.3 MB/s  0:00:00
+
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Saved ./supplement_cache/build_sdist/setuptools-84.2.1.tar.gz
+Saved ./supplement_cache/build_sdist/wheel-0.48.0.tar.gz
+Saved ./supplement_cache/build_sdist/build-1.6.1.tar.gz
+Saved ./supplement_cache/build_sdist/packaging-26.3.tar.gz
+Saved ./supplement_cache/build_sdist/pip-26.2.2.tar.gz
+Successfully downloaded setuptools wheel build packaging pip
+

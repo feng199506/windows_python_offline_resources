@@ -34,3 +34,20 @@ powershell -ExecutionPolicy Bypass -File .\install_offline_en.ps1 -PythonExe "C:
 ```
 
 4. 只有 `check_report_en.json` 中 `ok: true` 且本机实际运行后，才可把该环境记为“安装验证通过”。
+
+## 本组能做什么
+
+不平衡学习、SHAP、UMAP、HDBSCAN。lime 仅补充源码。
+
+lime 还需要 03 组的 scikit-image。
+
+## 常用目标包
+
+| 包 | 作用 | 官方文档 |
+| --- | --- | --- |
+| `shap` | 解释 | https://shap.readthedocs.io/ |
+| `lime` | 局部解释（sdist 未构建） | https://lime-ml.readthedocs.io/ |
+
+其余条目是传递依赖，见 [`requirements_lock_en.txt`](requirements_lock_en.txt)，不逐个说明。
+必须使用本树 `runtime` 中的 Python 3.10 或 3.12，不能装进 3.14。
+外部工具与未构建源码见同级目录的 `python3xx_amd64_supplement/`。

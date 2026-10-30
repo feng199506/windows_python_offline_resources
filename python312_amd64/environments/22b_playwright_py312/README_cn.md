@@ -34,3 +34,19 @@ powershell -ExecutionPolicy Bypass -File .\install_offline_en.ps1 -PythonExe "C:
 ```
 
 4. 只有 `check_report_en.json` 中 `ok: true` 且本机实际运行后，才可把该环境记为“安装验证通过”。
+
+## 本组能做什么
+
+Playwright Python。Firefox/WebKit zip 已下；官方 Chromium 改用 Chrome for Testing。
+
+playwright==1.64.1。访问站点需联网。
+
+## 常用目标包
+
+| 包 | 作用 | 官方文档 |
+| --- | --- | --- |
+| `playwright` | 浏览器自动化 | https://playwright.dev/python/ |
+
+其余条目是传递依赖，见 [`requirements_lock_en.txt`](requirements_lock_en.txt)，不逐个说明。
+必须使用本树 `runtime` 中的 Python 3.10 或 3.12，不能装进 3.14。
+外部工具与未构建源码见同级目录的 `python3xx_amd64_supplement/`。

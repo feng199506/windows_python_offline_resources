@@ -1,0 +1,6 @@
+{
+  "ok": false,
+  "version": "1.18.88",
+  "requires_python": ">=3.9",
+  "reason": "ERROR: Ignored the following versions that require a different python version: 1.18.90 Requires-Python >=3.11; 1.18.91 Requires-Python >=3.11; 1.18.92 Requires-Python >=3.11; 1.18.93 Requires-Python >=3.11; 1.18.94 Requires-Python >=3.11; 1.18.95 Requires-Python >=3.11; 1.18.96 Requires-Python >=3.11; 1.18.97 Requires-Python >=3.11; 1.19.1 Requires-Python >=3.11; 1.19.3 Requires-Python >=3.11; 1.19.5 Requires-Python >=3.11; 1.20.0 Requires-Python >=3.11; 1.20.1 Requires-Python >=3.11; 1.20.2 Requires-Python >=3.11; 1.20.3 Requires-Python >=3.11; 1.20.4 Requires-Python >=3.11; 1.20.5 Requires-Python >=3.11; 1.20.6 Requires-Python >=3.11; 1.20.7 Requires-Python >=3.11; 1.20.8 Requires-Python >=3.11\nERROR: Could not find a version that satisfies the requirement jsonpath>=0.82 (from akshare) (from versions: none)\nERROR: No matching distribution found for jsonpath>=0.82\n"
+}

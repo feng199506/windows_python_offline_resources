@@ -18,4 +18,12 @@ td.wide{max-width:420px;word-break:break-all}</style>
 <pre><code>powershell -ExecutionPolicy Bypass -File .\install_offline_en.ps1 -PythonExe &quot;C:\Python310\python.exe&quot;
 .\.venv\Scripts\python.exe .\check_environment_en.py</code></pre>
 <ol><li>只有 <code>check_report_en.json</code> 中 <code>ok: true</code> 且本机实际运行后，才可把该环境记为“安装验证通过”。</li></ol>
+<h2>本组能做什么</h2>
+<p>时序模型、行情接口、回测。ta 源码待构建；3.10 的 akshare 在补充包。</p>
+<p>接口类包默认要联网。</p>
+<h2>常用目标包</h2>
+<table><thead><tr><th>包</th><th>作用</th><th>官方文档</th></tr></thead><tbody><tr><td><code>yfinance</code></td><td>行情（联网）</td><td><a href="https://github.com/ranaroussi/yfinance">https://github.com/ranaroussi/yfinance</a></td></tr><tr><td><code>akshare</code></td><td>财经数据（联网）</td><td><a href="https://akshare.akfamily.xyz/">https://akshare.akfamily.xyz/</a></td></tr><tr><td><code>ta</code></td><td>指标（sdist 未构建）</td><td><a href="https://technical-analysis-library-in-python.readthedocs.io/">https://technical-analysis-library-in-python.readthedocs.io/</a></td></tr></tbody></table>
+<p>其余条目是传递依赖，见 <a href="requirements_lock_en.txt"><code>requirements_lock_en.txt</code></a>，不逐个说明。
+必须使用本树 <code>runtime</code> 中的 Python 3.10 或 3.12，不能装进 3.14。
+外部工具与未构建源码见同级目录的 <code>python3xx_amd64_supplement/</code>。</p>
 </body></html>

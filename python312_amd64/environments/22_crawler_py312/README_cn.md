@@ -34,3 +34,20 @@ powershell -ExecutionPolicy Bypass -File .\install_offline_en.ps1 -PythonExe "C:
 ```
 
 4. 只有 `check_report_en.json` 中 `ok: true` 且本机实际运行后，才可把该环境记为“安装验证通过”。
+
+## 本组能做什么
+
+Scrapy 与 Selenium。浏览器与驱动在补充包。
+
+抓取网站需要联网。
+
+## 常用目标包
+
+| 包 | 作用 | 官方文档 |
+| --- | --- | --- |
+| `scrapy` | 爬虫 | https://docs.scrapy.org/ |
+| `selenium` | 浏览器驱动 | https://www.selenium.dev/documentation/ |
+
+其余条目是传递依赖，见 [`requirements_lock_en.txt`](requirements_lock_en.txt)，不逐个说明。
+必须使用本树 `runtime` 中的 Python 3.10 或 3.12，不能装进 3.14。
+外部工具与未构建源码见同级目录的 `python3xx_amd64_supplement/`。
