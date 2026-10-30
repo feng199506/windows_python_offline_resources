@@ -1,0 +1,34 @@
+# Direct dependencies for 25_devtools_py310
+# Target: Windows 10/11 x86-64, CPython 3.10
+# Generated for offline wheel download. Not a historical project lockfile.
+
+pip
+setuptools
+wheel
+packaging
+pytest
+pytest-cov
+pytest-xdist
+pytest-asyncio
+hypothesis
+coverage
+tox
+nox
+black
+ruff
+isort
+mypy
+pylint
+flake8
+build
+twine
+hatch
+pyinstaller
+pre-commit
+sphinx
+mkdocs
+mkdocs-material
+cookiecutter
+pip-tools
+ipython
+ipdb

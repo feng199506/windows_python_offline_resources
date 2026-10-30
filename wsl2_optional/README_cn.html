@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>WSL2 / Linux 可选说明</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1200px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3;position:sticky;top:0}code{background:#f5f5f5;padding:0 3px}
+pre{background:#f5f5f5;padding:8px;overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}
+td.wide{max-width:420px;word-break:break-all}</style>
+</head><body>
+<div class="nav"><a href="../index_cn.html">← 离线首页 index_cn.html</a> · <a href="README_cn.md">Markdown 原文</a></div>
+<h1>WSL2 / Linux 可选说明</h1>
+<p>有些组件在 Windows 原生环境没有可用 wheel、需要 Linux 系统库，或官方已改为只在 WSL2 提供 GPU。这些内容<strong>不得</strong>并入 <a href="../environments/"><code>environments/</code></a> 的 Windows wheelhouse。</p>
+<p>本轮不安装 WSL2，不下载 Linux wheel，不运行 Linux 项目代码。</p>
+<h2>何时使用 WSL2</h2>
+<ul><li>TensorFlow GPU（TF 2.11 及以后的官方 GPU 路线）</li><li>仅发布 <code>manylinux</code> wheel、没有 <code>win_amd64</code> 的包</li><li>需要 gcc/gfortran、系统共享库、或 Linux 专用仿真器的项目</li><li>PyMC/PyTensor 要大规模编译自定义算子，而本机没有 Windows C++ 工具链时</li></ul>
+<h2>TensorFlow GPU（WSL2）</h2>
+<p>与原生 Windows 历史 GPU（TF≤2.10）分开：</p>
+<table><thead><tr><th>路线</th><th>位置</th><th>TF 版本线索</th><th>本轮</th></tr></thead><tbody><tr><td>原生 Windows GPU</td><td>仅旧实验</td><td>TF 2.10 及更早</td><td>不下载</td></tr><tr><td>原生 Windows CPU</td><td><code>environments/07_tensorflow_cpu_py310</code></td><td>TF 2.21 CPU / tensorflow-intel</td><td>已下载 CPU wheel</td></tr><tr><td>WSL2 Linux GPU</td><td>本目录未来的 Linux 清单</td><td>官方当前 GPU 构建</td><td>不下载</td></tr></tbody></table>
+<p>WSL2 内应按 TensorFlow 官方 Linux GPU 文档安装：NVIDIA 驱动（Windows 侧）+ WSL2 CUDA 用户态 + Linux <code>tensorflow</code> GPU wheel。不要把 Linux <code>manylinux</code> wheel 拷进 Windows venv。</p>
+<p>预留（未创建 wheelhouse）：</p>
+<pre><code>wsl2_optional/tensorflow_gpu_linux_py310/requirements_direct_en.txt</code></pre>
+<p>该文件仅作占位提示，见同目录 <a href="tensorflow_gpu_linux_py310_requirements_en.txt"><code>tensorflow_gpu_linux_py310_requirements_en.txt</code></a>。</p>
+<h2>可能需要 WSL2 或编译的组件</h2>
+<p>详见 <code>../compatibility_issues_cn.csv</code> 与 <code>../external_dependencies_cn.csv</code>。常见项：</p>
+<ul><li>CmdStan（C++ 工具链，cmdstanpy 只是 Python 封装）</li><li>部分仿真器（MuJoCo、Atari ROM、部分物理引擎）</li><li>无 Windows wheel 的科学包历史版本</li><li>需要系统 FFmpeg 开发库才能从源码编译的音频扩展（wheel 可用时不必）</li></ul>
+<h2>与基础环境的关系</h2>
+<p>在 WSL2 中应新建独立 venv，不要尝试“升级” Windows 离线环境。补依赖时只针对即将运行的那一个 Release，对照基础环境后另建项目环境。</p>
+</body></html>

@@ -1,0 +1,21 @@
+# Direct dependencies for 21_database_py312
+# Target: Windows 10/11 x86-64, CPython 3.12
+# Generated for offline wheel download. Not a historical project lockfile.
+
+pip
+setuptools
+wheel
+packaging
+sqlalchemy[asyncio]
+alembic
+greenlet
+aiosqlite
+psycopg[binary]
+pymysql
+pymongo
+redis
+duckdb
+pyodbc
+peewee
+sqlite-utils
+elasticsearch

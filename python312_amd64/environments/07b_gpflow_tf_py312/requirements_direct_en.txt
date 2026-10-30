@@ -1,0 +1,15 @@
+# Direct dependencies for 07b_gpflow_tf_py312
+# Target: Windows 10/11 x86-64, CPython 3.12
+# Generated for offline wheel download. Not a historical project lockfile.
+
+pip
+setuptools
+wheel
+packaging
+numpy<2
+scipy
+tensorflow==2.16.2
+tensorflow-intel==2.16.2
+tensorflow-probability==0.24.0
+tf-keras==2.16.0
+gpflow==2.11.2

@@ -1,0 +1,6 @@
+environment: 04_pytorch_cpu_py313
+primary_index: https://download.pytorch.org/whl/cpu
+extra_index: https://pypi.org/simple
+
+All wheels were downloaded with pip using --only-binary=:all: and Windows tags.
+Filenames are official upstream names and must not be renamed.

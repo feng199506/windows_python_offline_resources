@@ -1,0 +1,33 @@
+{
+  "environment": "13_stats_optimize_extra_py310",
+  "status": "downloaded",
+  "python": "310",
+  "direct_ok": [
+    "pip",
+    "setuptools",
+    "wheel",
+    "packaging",
+    "numpy",
+    "scipy",
+    "pandas",
+    "matplotlib",
+    "scikit-learn",
+    "statsmodels",
+    "pingouin",
+    "lifelines",
+    "linearmodels",
+    "arch",
+    "optuna",
+    "hyperopt",
+    "scikit-optimize",
+    "cvxopt",
+    "nevergrad",
+    "pymoo"
+  ],
+  "failed": [],
+  "wheel_count": 68,
+  "total_bytes": 137404738,
+  "started_utc": "2026-10-30T04:52:10Z",
+  "finished_utc": "2026-10-30T04:52:21Z",
+  "notes": "expansion round; Windows install not verified"
+}

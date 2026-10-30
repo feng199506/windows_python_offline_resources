@@ -1,0 +1,17 @@
+{
+  "environment": "24d_gui_wx_py312",
+  "status": "downloaded",
+  "python": "312",
+  "direct_ok": [
+    "pip",
+    "setuptools",
+    "wheel",
+    "packaging",
+    "wxPython"
+  ],
+  "failed": [],
+  "wheel_count": 6,
+  "total_bytes": 35096393,
+  "started_utc": "2026-10-30T05:04:44Z",
+  "finished_utc": "2026-10-30T05:04:46Z"
+}

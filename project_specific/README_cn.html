@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>项目专用环境</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1200px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3;position:sticky;top:0}code{background:#f5f5f5;padding:0 3px}
+pre{background:#f5f5f5;padding:8px;overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}
+td.wide{max-width:420px;word-break:break-all}</style>
+</head><body>
+<div class="nav"><a href="../index_cn.html">← 离线首页 index_cn.html</a> · <a href="README_cn.md">Markdown 原文</a></div>
+<h1>项目专用环境</h1>
+<p>与 <a href="../environments/"><code>environments/</code></a> 中的通用组分开存放。当某组无法与通用框架环境共用时，在此锁定。</p>
+<p>当前已准备：</p>
+<table><thead><tr><th>目录</th><th>原因</th></tr></thead><tbody><tr><td><a href="07b_gpflow_tf_py310/README_cn.html"><code>07b_gpflow_tf_py310/</code></a></td><td>GPflow 需要 numpy&lt;2 以及 TF 2.16 + TFP 0.24 + tf-keras 2.16。不能装进 <code>07_tensorflow_cpu_py310</code>（TF 2.21 / numpy 2.x）。</td></tr></tbody></table>
+<p>未来按 <code>../project_dependency_supplement_guide_cn.md</code> 为<strong>单个</strong> Release 新增目录，例如 <code>project_specific/&lt;release_id&gt;/</code>。不要升级并覆盖上述基础锁定。</p>
+</body></html>

@@ -1,0 +1,43 @@
+# Locked from downloaded Windows wheels for 21_database_py310
+# Host used pip download --platform win_amd64 --python-version 310 --implementation cp --only-binary=:all:
+# Do not mix with GPU or Linux wheels.
+
+aiosqlite==0.22.1
+alembic==1.20.1
+anyio==4.15.1
+async-timeout==5.0.1
+certifi==2026.10.23
+click==8.5.0
+click-default-group==1.2.4
+dnspython==2.8.0
+duckdb==1.5.6
+elastic-transport==9.4.2
+elasticsearch==9.5.1
+exceptiongroup==1.3.1
+greenlet==3.5.6
+idna==3.20
+mako==1.4.3
+markupsafe==3.0.4
+packaging==26.3
+peewee==4.5.3
+pip==26.2.2
+pluggy==1.7.0
+psycopg==3.3.6
+psycopg-binary==3.3.6
+pymongo==4.18.3
+pymysql==1.2.3
+pyodbc==5.3.0
+python-dateutil==3.0.0
+redis==8.1.0
+setuptools==84.2.1
+six==1.17.0
+sniffio==1.3.1
+sqlalchemy==2.0.55
+sqlite-fts4==1.0.3
+sqlite-utils==4.2.1
+tabulate==0.10.0
+tomli==2.5.0
+typing-extensions==4.16.0
+tzdata==2026.6
+urllib3==2.8.0
+wheel==0.48.0

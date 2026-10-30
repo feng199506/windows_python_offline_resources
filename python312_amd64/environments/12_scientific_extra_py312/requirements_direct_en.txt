@@ -1,0 +1,32 @@
+# Direct dependencies for 12_scientific_extra_py312
+# Target: Windows 10/11 x86-64, CPython 3.12
+# Generated for offline wheel download. Not a historical project lockfile.
+
+pip
+setuptools
+wheel
+packaging
+numpy
+scipy
+pandas
+pyarrow
+numba
+bottleneck
+numexpr
+dask[array,dataframe,distributed]
+polars
+zarr
+tables
+sparse
+astropy
+pint
+uncertainties
+lmfit
+shapely
+pyproj
+geopandas
+fiona
+rasterio
+rtree
+igraph
+networkx

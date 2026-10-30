@@ -1,0 +1,12 @@
+{
+  "environment": "10_onnx_api_app_py310",
+  "status": "downloaded",
+  "python": "310",
+  "direct_packages": "pip setuptools wheel packaging numpy onnx onnxruntime fastapi uvicorn pydantic python-multipart starlette gradio streamlit",
+  "wheel_count": 82,
+  "total_bytes": 190592813,
+  "started_utc": "2026-10-30T04:28:29Z",
+  "finished_utc": "2026-10-30T04:28:42Z",
+  "notes": "static download only; Windows install not verified",
+  "error_tail": ""
+}

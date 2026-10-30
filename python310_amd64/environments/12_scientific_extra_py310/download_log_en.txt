@@ -1,0 +1,359 @@
+Collecting pip (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 5))
+  Using cached pip-26.2.2-py3-none-any.whl.metadata (4.6 kB)
+Collecting setuptools (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 6))
+  Using cached setuptools-84.2.1-py3-none-any.whl.metadata (6.6 kB)
+Collecting wheel (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 7))
+  Using cached wheel-0.48.0-py3-none-any.whl.metadata (2.3 kB)
+Collecting packaging (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 8))
+  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting numpy (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 9))
+  Using cached numpy-2.2.6-cp310-cp310-win_amd64.whl.metadata (60 kB)
+Collecting scipy (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 10))
+  Using cached scipy-1.15.3-cp310-cp310-win_amd64.whl.metadata (60 kB)
+Collecting pandas (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 11))
+  Using cached pandas-2.3.3-cp310-cp310-win_amd64.whl.metadata (19 kB)
+Collecting pyarrow (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 12))
+  Using cached pyarrow-25.0.1-cp310-cp310-win_amd64.whl.metadata (3.0 kB)
+Collecting numba (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 13))
+  Using cached numba-0.68.1-cp310-cp310-win_amd64.whl.metadata (2.9 kB)
+Collecting bottleneck (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 14))
+  Downloading bottleneck-1.6.0-cp310-cp310-win_amd64.whl.metadata (8.4 kB)
+Collecting numexpr (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 15))
+  Downloading numexpr-2.14.1-cp310-cp310-win_amd64.whl.metadata (9.3 kB)
+Collecting polars (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 17))
+  Downloading polars-2.0.0-py3-none-any.whl.metadata (11 kB)
+Collecting zarr (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 18))
+  Downloading zarr-2.18.3-py3-none-any.whl.metadata (5.7 kB)
+Collecting tables (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 19))
+  Downloading tables-3.10.1-cp310-cp310-win_amd64.whl.metadata (2.3 kB)
+Collecting sparse (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 20))
+  Downloading sparse-0.17.0-py2.py3-none-any.whl.metadata (5.3 kB)
+Collecting astropy (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 21))
+  Downloading astropy-6.1.7-cp310-cp310-win_amd64.whl.metadata (10 kB)
+Collecting pint (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 22))
+  Downloading Pint-0.24.4-py3-none-any.whl.metadata (8.5 kB)
+Collecting uncertainties (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 23))
+  Downloading uncertainties-3.2.3-py3-none-any.whl.metadata (7.0 kB)
+Collecting lmfit (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 24))
+  Downloading lmfit-1.3.4-py3-none-any.whl.metadata (8.8 kB)
+Collecting shapely (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 25))
+  Downloading shapely-2.1.2-cp310-cp310-win_amd64.whl.metadata (7.1 kB)
+Collecting pyproj (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 26))
+  Downloading pyproj-3.7.1-cp310-cp310-win_amd64.whl.metadata (31 kB)
+Collecting geopandas (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 27))
+  Downloading geopandas-1.1.4-py3-none-any.whl.metadata (2.3 kB)
+Collecting fiona (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 28))
+  Downloading fiona-1.10.1-cp310-cp310-win_amd64.whl.metadata (58 kB)
+Collecting rasterio (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 29))
+  Downloading rasterio-1.4.4-cp310-cp310-win_amd64.whl.metadata (9.6 kB)
+Collecting rtree (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 30))
+  Downloading rtree-1.4.1-py3-none-win_amd64.whl.metadata (2.2 kB)
+Collecting igraph (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 31))
+  Downloading igraph-1.0.0-cp39-abi3-win_amd64.whl.metadata (4.5 kB)
+Collecting networkx (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 32))
+  Using cached networkx-3.4.2-py3-none-any.whl.metadata (6.3 kB)
+Collecting dask[array,dataframe,distributed] (from -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 16))
+  Downloading dask-2026.8.0-py3-none-any.whl.metadata (3.8 kB)
+Collecting python-dateutil>=2.8.2 (from pandas->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 11))
+  Using cached python_dateutil-3.0.0-py2.py3-none-any.whl.metadata (8.2 kB)
+Collecting pytz>=2020.1 (from pandas->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 11))
+  Using cached pytz-2026.6-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzdata>=2022.7 (from pandas->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 11))
+  Using cached tzdata-2026.6-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting llvmlite<0.51,>=0.50.0dev0 (from numba->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 13))
+  Using cached llvmlite-0.50.0-cp310-cp310-win_amd64.whl.metadata (5.0 kB)
+Collecting click>=8.1 (from dask[array,dataframe,distributed]->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 16))
+  Using cached click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting cloudpickle>=3.0.0 (from dask[array,dataframe,distributed]->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 16))
+  Using cached cloudpickle-3.1.2-py3-none-any.whl.metadata (7.1 kB)
+Collecting fsspec>=2021.09.0 (from dask[array,dataframe,distributed]->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 16))
+  Using cached fsspec-2026.9.0-py3-none-any.whl.metadata (10 kB)
+Collecting partd>=1.4.0 (from dask[array,dataframe,distributed]->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 16))
+  Downloading partd-1.4.2-py3-none-any.whl.metadata (4.6 kB)
+Collecting pyyaml>=5.4.1 (from dask[array,dataframe,distributed]->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 16))
+  Using cached pyyaml-6.0.3-cp310-cp310-win_amd64.whl.metadata (2.4 kB)
+Collecting toolz>=0.12.0 (from dask[array,dataframe,distributed]->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 16))
+  Using cached toolz-1.2.0-py3-none-any.whl.metadata (5.2 kB)
+Collecting distributed<2026.8.1,>=2026.8.0 (from dask[array,dataframe,distributed]->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 16))
+  Downloading distributed-2026.8.0-py3-none-any.whl.metadata (3.4 kB)
+Collecting jinja2>=2.10.3 (from distributed<2026.8.1,>=2026.8.0->dask[array,dataframe,distributed]->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 16))
+  Using cached jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting locket>=1.0.0 (from distributed<2026.8.1,>=2026.8.0->dask[array,dataframe,distributed]->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 16))
+  Downloading locket-1.0.0-py2.py3-none-any.whl.metadata (2.8 kB)
+Collecting msgpack>=1.0.2 (from distributed<2026.8.1,>=2026.8.0->dask[array,dataframe,distributed]->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 16))
+  Using cached msgpack-1.2.4-cp310-cp310-win_amd64.whl.metadata (8.5 kB)
+Collecting psutil>=5.8.0 (from distributed<2026.8.1,>=2026.8.0->dask[array,dataframe,distributed]->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 16))
+  Using cached psutil-7.2.2-cp37-abi3-win_amd64.whl.metadata (22 kB)
+Collecting sortedcontainers>=2.0.5 (from distributed<2026.8.1,>=2026.8.0->dask[array,dataframe,distributed]->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 16))
+  Downloading sortedcontainers-2.4.0-py2.py3-none-any.whl.metadata (10 kB)
+Collecting tblib!=3.2.0,!=3.2.1,>=1.6.0 (from distributed<2026.8.1,>=2026.8.0->dask[array,dataframe,distributed]->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 16))
+  Downloading tblib-3.2.2-py3-none-any.whl.metadata (27 kB)
+Collecting tornado>=6.2.0 (from distributed<2026.8.1,>=2026.8.0->dask[array,dataframe,distributed]->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 16))
+  Using cached tornado-6.5.10-cp39-abi3-win_amd64.whl.metadata (2.9 kB)
+Collecting zict>=3.0.0 (from distributed<2026.8.1,>=2026.8.0->dask[array,dataframe,distributed]->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 16))
+  Downloading zict-3.0.0-py2.py3-none-any.whl.metadata (899 bytes)
+Collecting polars-runtime-32==2.0.0 (from polars->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 17))
+  Downloading polars_runtime_32-2.0.0-cp310-abi3-win_amd64.whl.metadata (1.5 kB)
+Collecting asciitree (from zarr->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 18))
+  Downloading asciitree-1.0.0-py3-none-any.whl.metadata (1.2 kB)
+Collecting numcodecs>=0.10.0 (from zarr->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 18))
+  Downloading numcodecs-0.13.1-cp310-cp310-win_amd64.whl.metadata (3.0 kB)
+Collecting fasteners (from zarr->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 18))
+  Downloading fasteners-0.20-py3-none-any.whl.metadata (4.8 kB)
+Collecting py-cpuinfo (from tables->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 19))
+  Downloading py_cpuinfo-9.0.0-py3-none-any.whl.metadata (794 bytes)
+Collecting blosc2>=2.3.0 (from tables->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 19))
+  Downloading blosc2-4.3.3-cp310-cp310-win_amd64.whl.metadata (6.4 kB)
+Collecting typing-extensions>=4.4.0 (from tables->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 19))
+  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting pyerfa>=2.0.1.1 (from astropy->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 21))
+  Downloading pyerfa-2.0.1.5-cp39-abi3-win_amd64.whl.metadata (5.9 kB)
+Collecting astropy-iers-data>=0.2024.10.28.0.34.7 (from astropy->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 21))
+  Downloading astropy_iers_data-0.2026.10.19.0.52.1-py3-none-any.whl.metadata (3.4 kB)
+Collecting platformdirs>=2.1.0 (from pint->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 22))
+  Using cached platformdirs-4.12.4-py3-none-any.whl.metadata (5.5 kB)
+Collecting flexcache>=0.3 (from pint->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 22))
+  Downloading flexcache-0.3-py3-none-any.whl.metadata (7.0 kB)
+Collecting flexparser>=0.4 (from pint->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 22))
+  Downloading flexparser-0.4-py3-none-any.whl.metadata (18 kB)
+Collecting asteval>=1.0 (from lmfit->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 24))
+  Downloading asteval-1.0.10-py3-none-any.whl.metadata (6.8 kB)
+Collecting dill>=0.3.4 (from lmfit->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 24))
+  Using cached dill-0.4.1-py3-none-any.whl.metadata (10 kB)
+Collecting certifi (from pyproj->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 26))
+  Using cached certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+Collecting pyogrio>=0.7.2 (from geopandas->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 27))
+  Downloading pyogrio-0.13.0-cp310-cp310-win_amd64.whl.metadata (6.0 kB)
+Collecting attrs>=19.2.0 (from fiona->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 28))
+  Using cached attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+Collecting click-plugins>=1.0 (from fiona->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 28))
+  Downloading click_plugins-1.1.1.2-py2.py3-none-any.whl.metadata (6.5 kB)
+Collecting cligj>=0.5 (from fiona->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 28))
+  Downloading cligj-0.7.2-py3-none-any.whl.metadata (5.0 kB)
+Collecting affine (from rasterio->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 29))
+  Downloading affine-3.0.1-py3-none-any.whl.metadata (4.5 kB)
+Collecting pyparsing (from rasterio->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 29))
+  Using cached pyparsing-3.3.3-py3-none-any.whl.metadata (5.9 kB)
+Collecting texttable>=1.6.2 (from igraph->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 31))
+  Downloading texttable-1.7.2-py2.py3-none-any.whl.metadata (10 kB)
+Collecting ndindex (from blosc2>=2.3.0->tables->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 19))
+  Downloading ndindex-1.10.1-cp310-cp310-win_amd64.whl.metadata (3.7 kB)
+Collecting pydantic (from blosc2>=2.3.0->tables->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 19))
+  Using cached pydantic-2.14.2-py3-none-any.whl.metadata (137 kB)
+Collecting requests (from blosc2>=2.3.0->tables->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 19))
+  Using cached requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+Collecting threadpoolctl (from blosc2>=2.3.0->tables->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 19))
+  Using cached threadpoolctl-3.7.0-py3-none-any.whl.metadata (24 kB)
+Collecting MarkupSafe>=2.0 (from jinja2>=2.10.3->distributed<2026.8.1,>=2026.8.0->dask[array,dataframe,distributed]->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 16))
+  Using cached markupsafe-3.0.4-cp310-cp310-win_amd64.whl.metadata (2.8 kB)
+Collecting six>=1.6 (from python-dateutil>=2.8.2->pandas->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 11))
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting annotated-types>=0.6.0 (from pydantic->blosc2>=2.3.0->tables->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 19))
+  Using cached annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.50.2 (from pydantic->blosc2>=2.3.0->tables->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 19))
+  Using cached pydantic_core-2.50.2-cp310-cp310-win_amd64.whl.metadata (6.7 kB)
+Collecting typing-inspection>=0.4.4 (from pydantic->blosc2>=2.3.0->tables->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 19))
+  Using cached typing_inspection-0.4.4-py3-none-any.whl.metadata (2.6 kB)
+Collecting charset_normalizer<4,>=2 (from requests->blosc2>=2.3.0->tables->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 19))
+  Using cached charset_normalizer-3.5.2-cp310-cp310-win_amd64.whl.metadata (47 kB)
+Collecting idna<4,>=2.5 (from requests->blosc2>=2.3.0->tables->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 19))
+  Using cached idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+Collecting urllib3<3,>=1.26 (from requests->blosc2>=2.3.0->tables->-r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt (line 19))
+  Using cached urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+Using cached pip-26.2.2-py3-none-any.whl (1.8 MB)
+Using cached setuptools-84.2.1-py3-none-any.whl (876 kB)
+Using cached wheel-0.48.0-py3-none-any.whl (33 kB)
+Using cached packaging-26.3-py3-none-any.whl (129 kB)
+Using cached numpy-2.2.6-cp310-cp310-win_amd64.whl (12.9 MB)
+Using cached scipy-1.15.3-cp310-cp310-win_amd64.whl (41.3 MB)
+Using cached pandas-2.3.3-cp310-cp310-win_amd64.whl (11.3 MB)
+Using cached pyarrow-25.0.1-cp310-cp310-win_amd64.whl (27.8 MB)
+Using cached numba-0.68.1-cp310-cp310-win_amd64.whl (2.8 MB)
+Using cached llvmlite-0.50.0-cp310-cp310-win_amd64.whl (41.9 MB)
+Downloading bottleneck-1.6.0-cp310-cp310-win_amd64.whl (113 kB)
+Downloading numexpr-2.14.1-cp310-cp310-win_amd64.whl (160 kB)
+Downloading dask-2026.8.0-py3-none-any.whl (1.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 14.3 MB/s  0:00:00
+
+Downloading distributed-2026.8.0-py3-none-any.whl (1.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 19.5 MB/s  0:00:00
+
+Downloading polars-2.0.0-py3-none-any.whl (876 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 876.6/876.6 kB 11.9 MB/s  0:00:00
+
+Downloading polars_runtime_32-2.0.0-cp310-abi3-win_amd64.whl (54.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.2/54.2 MB 62.8 MB/s  0:00:00
+
+Downloading zarr-2.18.3-py3-none-any.whl (210 kB)
+Downloading tables-3.10.1-cp310-cp310-win_amd64.whl (6.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 65.4 MB/s  0:00:00
+
+Downloading sparse-0.17.0-py2.py3-none-any.whl (259 kB)
+Downloading astropy-6.1.7-cp310-cp310-win_amd64.whl (6.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.4/6.4 MB 65.7 MB/s  0:00:00
+
+Downloading Pint-0.24.4-py3-none-any.whl (302 kB)
+Downloading uncertainties-3.2.3-py3-none-any.whl (60 kB)
+Downloading lmfit-1.3.4-py3-none-any.whl (97 kB)
+Downloading shapely-2.1.2-cp310-cp310-win_amd64.whl (1.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 43.1 MB/s  0:00:00
+
+Downloading pyproj-3.7.1-cp310-cp310-win_amd64.whl (6.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 30.9 MB/s  0:00:00
+
+Downloading geopandas-1.1.4-py3-none-any.whl (343 kB)
+Downloading fiona-1.10.1-cp310-cp310-win_amd64.whl (24.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 24.5/24.5 MB 53.2 MB/s  0:00:00
+
+Using cached click-8.5.0-py3-none-any.whl (125 kB)
+Downloading rasterio-1.4.4-cp310-cp310-win_amd64.whl (25.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 25.7/25.7 MB 53.4 MB/s  0:00:00
+
+Downloading rtree-1.4.1-py3-none-win_amd64.whl (389 kB)
+Downloading igraph-1.0.0-cp39-abi3-win_amd64.whl (3.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 62.7 MB/s  0:00:00
+
+Using cached networkx-3.4.2-py3-none-any.whl (1.7 MB)
+Downloading asteval-1.0.10-py3-none-any.whl (23 kB)
+Downloading astropy_iers_data-0.2026.10.19.0.52.1-py3-none-any.whl (2.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 55.9 MB/s  0:00:00
+
+Using cached attrs-26.1.0-py3-none-any.whl (67 kB)
+Downloading blosc2-4.3.3-cp310-cp310-win_amd64.whl (4.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.1/4.1 MB 23.8 MB/s  0:00:00
+
+Downloading click_plugins-1.1.1.2-py2.py3-none-any.whl (11 kB)
+Downloading cligj-0.7.2-py3-none-any.whl (7.1 kB)
+Using cached cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+Using cached dill-0.4.1-py3-none-any.whl (120 kB)
+Downloading flexcache-0.3-py3-none-any.whl (13 kB)
+Downloading flexparser-0.4-py3-none-any.whl (27 kB)
+Using cached fsspec-2026.9.0-py3-none-any.whl (221 kB)
+Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+Downloading locket-1.0.0-py2.py3-none-any.whl (4.4 kB)
+Using cached markupsafe-3.0.4-cp310-cp310-win_amd64.whl (14 kB)
+Using cached msgpack-1.2.4-cp310-cp310-win_amd64.whl (75 kB)
+Downloading numcodecs-0.13.1-cp310-cp310-win_amd64.whl (828 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 828.6/828.6 kB 31.8 MB/s  0:00:00
+
+Downloading partd-1.4.2-py3-none-any.whl (18 kB)
+Using cached platformdirs-4.12.4-py3-none-any.whl (32 kB)
+Using cached psutil-7.2.2-cp37-abi3-win_amd64.whl (137 kB)
+Downloading pyerfa-2.0.1.5-cp39-abi3-win_amd64.whl (349 kB)
+Downloading pyogrio-0.13.0-cp310-cp310-win_amd64.whl (23.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23.9/23.9 MB 79.7 MB/s  0:00:00
+
+Using cached python_dateutil-3.0.0-py2.py3-none-any.whl (94 kB)
+Using cached pytz-2026.6-py2.py3-none-any.whl (506 kB)
+Using cached pyyaml-6.0.3-cp310-cp310-win_amd64.whl (158 kB)
+Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading sortedcontainers-2.4.0-py2.py3-none-any.whl (29 kB)
+Downloading tblib-3.2.2-py3-none-any.whl (12 kB)
+Downloading texttable-1.7.2-py2.py3-none-any.whl (10 kB)
+Using cached toolz-1.2.0-py3-none-any.whl (60 kB)
+Using cached tornado-6.5.10-cp39-abi3-win_amd64.whl (468 kB)
+Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Using cached tzdata-2026.6-py2.py3-none-any.whl (348 kB)
+Downloading zict-3.0.0-py2.py3-none-any.whl (43 kB)
+Downloading affine-3.0.1-py3-none-any.whl (10 kB)
+Downloading asciitree-1.0.0-py3-none-any.whl (5.3 kB)
+Using cached certifi-2026.10.23-py3-none-any.whl (135 kB)
+Downloading fasteners-0.20-py3-none-any.whl (18 kB)
+Downloading ndindex-1.10.1-cp310-cp310-win_amd64.whl (157 kB)
+Downloading py_cpuinfo-9.0.0-py3-none-any.whl (22 kB)
+Using cached pydantic-2.14.2-py3-none-any.whl (490 kB)
+Using cached pydantic_core-2.50.2-cp310-cp310-win_amd64.whl (2.2 MB)
+Using cached annotated_types-0.8.0-py3-none-any.whl (13 kB)
+Using cached typing_inspection-0.4.4-py3-none-any.whl (14 kB)
+Using cached pyparsing-3.3.3-py3-none-any.whl (126 kB)
+Using cached requests-2.34.2-py3-none-any.whl (73 kB)
+Using cached charset_normalizer-3.5.2-cp310-cp310-win_amd64.whl (215 kB)
+Using cached idna-3.20-py3-none-any.whl (69 kB)
+Using cached urllib3-2.8.0-py3-none-any.whl (135 kB)
+Using cached threadpoolctl-3.7.0-py3-none-any.whl (26 kB)
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/pip-26.2.2-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/setuptools-84.2.1-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/wheel-0.48.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/packaging-26.3-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/numpy-2.2.6-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/scipy-1.15.3-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/pandas-2.3.3-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/pyarrow-25.0.1-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/numba-0.68.1-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/llvmlite-0.50.0-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/bottleneck-1.6.0-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/numexpr-2.14.1-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/dask-2026.8.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/distributed-2026.8.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/polars-2.0.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/polars_runtime_32-2.0.0-cp310-abi3-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/zarr-2.18.3-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/tables-3.10.1-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/sparse-0.17.0-py2.py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/astropy-6.1.7-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/Pint-0.24.4-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/uncertainties-3.2.3-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/lmfit-1.3.4-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/shapely-2.1.2-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/pyproj-3.7.1-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/geopandas-1.1.4-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/fiona-1.10.1-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/click-8.5.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/rasterio-1.4.4-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/rtree-1.4.1-py3-none-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/igraph-1.0.0-cp39-abi3-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/networkx-3.4.2-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/asteval-1.0.10-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/astropy_iers_data-0.2026.10.19.0.52.1-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/attrs-26.1.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/blosc2-4.3.3-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/click_plugins-1.1.1.2-py2.py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/cligj-0.7.2-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/cloudpickle-3.1.2-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/dill-0.4.1-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/flexcache-0.3-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/flexparser-0.4-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/fsspec-2026.9.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/jinja2-3.1.6-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/locket-1.0.0-py2.py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/markupsafe-3.0.4-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/msgpack-1.2.4-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/numcodecs-0.13.1-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/partd-1.4.2-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/platformdirs-4.12.4-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/psutil-7.2.2-cp37-abi3-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/pyerfa-2.0.1.5-cp39-abi3-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/pyogrio-0.13.0-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/python_dateutil-3.0.0-py2.py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/pytz-2026.6-py2.py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/pyyaml-6.0.3-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/six-1.17.0-py2.py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/sortedcontainers-2.4.0-py2.py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/tblib-3.2.2-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/texttable-1.7.2-py2.py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/toolz-1.2.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/tornado-6.5.10-cp39-abi3-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/typing_extensions-4.16.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/tzdata-2026.6-py2.py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/zict-3.0.0-py2.py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/affine-3.0.1-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/asciitree-1.0.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/certifi-2026.10.23-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/fasteners-0.20-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/ndindex-1.10.1-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/py_cpuinfo-9.0.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/pydantic-2.14.2-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/pydantic_core-2.50.2-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/annotated_types-0.8.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/typing_inspection-0.4.4-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/pyparsing-3.3.3-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/requests-2.34.2-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/charset_normalizer-3.5.2-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/idna-3.20-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/urllib3-2.8.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse/threadpoolctl-3.7.0-py3-none-any.whl
+Successfully downloaded pip setuptools wheel packaging numpy scipy pandas pyarrow numba llvmlite bottleneck numexpr dask distributed polars polars-runtime-32 zarr tables sparse astropy pint uncertainties lmfit shapely pyproj geopandas fiona click rasterio rtree igraph networkx asteval astropy-iers-data attrs blosc2 click-plugins cligj cloudpickle dill flexcache flexparser fsspec jinja2 locket MarkupSafe msgpack numcodecs partd platformdirs psutil pyerfa pyogrio python-dateutil pytz pyyaml six sortedcontainers tblib texttable toolz tornado typing-extensions tzdata zict affine asciitree certifi fasteners ndindex py-cpuinfo pydantic pydantic-core annotated-types typing-inspection pyparsing requests charset_normalizer idna urllib3 threadpoolctl
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 310 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/environments/12_scientific_extra_py310/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated -r /root/windows_python_offline_resources/environments/12_scientific_extra_py310/requirements_direct_en.txt
+
+[exit 0]

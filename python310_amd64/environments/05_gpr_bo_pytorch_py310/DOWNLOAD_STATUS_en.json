@@ -1,0 +1,12 @@
+{
+  "environment": "05_gpr_bo_pytorch_py310",
+  "status": "downloaded",
+  "python": "310",
+  "direct_packages": "pip setuptools wheel packaging numpy scipy pandas torch linear_operator gpytorch botorch",
+  "wheel_count": 35,
+  "total_bytes": 207104707,
+  "started_utc": "2026-10-30T04:27:20Z",
+  "finished_utc": "2026-10-30T04:27:34Z",
+  "notes": "static download only; Windows install not verified",
+  "error_tail": ""
+}

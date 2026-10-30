@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>官方安装程序</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1200px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3;position:sticky;top:0}code{background:#f5f5f5;padding:0 3px}
+pre{background:#f5f5f5;padding:8px;overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}
+td.wide{max-width:420px;word-break:break-all}</style>
+</head><body>
+<div class="nav"><a href="../index_cn.html">← 离线首页 index_cn.html</a> · <a href="README_cn.md">Markdown 原文</a></div>
+<h1>官方安装程序</h1>
+<p>全部保留上游原始文件名。完整离线安装程序，不是在线引导包，也不是 Python embeddable 包。</p>
+<p>详细哈希与签名见 <a href="installer_inventory_cn.html"><code>installer_inventory_cn.csv</code></a>。</p>
+<h2>选择依据</h2>
+<table><thead><tr><th>文件</th><th>用途</th><th>支持状态（截至 2026-10-30）</th></tr></thead><tbody><tr><td>python-3.10.11-amd64.exe</td><td>正式树 <a href="../python310_amd64/README_cn.html"><code>python310_amd64/</code></a></td><td>3.10 已于 2026-10-01 EOL。这是最后带 Windows 安装程序的 3.10。</td></tr><tr><td>python-3.12.10-amd64.exe</td><td>正式树 <a href="../python312_amd64/README_cn.html"><code>python312_amd64/</code></a></td><td>3.12 安全支持至 2028-10。这是最后带 Windows 安装程序的 3.12；其后为源码安全修复。发布页 MD5 <code>5eddb0b6f12c852725de071ae681dde4</code> 已核对。</td></tr><tr><td>python-3.13.17-amd64.exe</td><td>遗留，非正式第二树</td><td>早期试验残留。</td></tr><tr><td>vc_redist.x64.exe</td><td>MSVC 运行库</td><td>官方 standalone x64 redistributable。</td></tr><tr><td>Git-2.56.0.4-64-bit.exe</td><td>Git for Windows</td><td>官方 GitHub Release 完整安装程序。</td></tr></tbody></table>
+<p>未选用：</p>
+<ul><li>Python 3.14/3.15：任务指定第二套为 3.12，不下载 3.14。</li><li>embeddable zip：缺少完整开发/venv 体验，不用来替代常规安装程序。</li></ul>
+<h2>数字签名（从 PE 证书表解析）</h2>
+<p>在 Linux 上确认 Authenticode 证书表存在，<strong>未</strong>用 Windows <code>signtool</code> 做信任链验证。</p>
+<table><thead><tr><th>文件</th><th>说明</th></tr></thead><tbody><tr><td>python-3.10.11-amd64.exe</td><td>证书表存在；主题需在 Windows 上用 signtool 查看</td></tr><tr><td>python-3.12.10-amd64.exe</td><td>证书表存在（size=14056）；另附官方 <code>.asc</code> / <code>.sigstore</code></td></tr><tr><td>python-3.13.17-amd64.exe</td><td>遗留；SHA256 与发布页一致</td></tr><tr><td>vc_redist.x64.exe</td><td>Microsoft Corporation</td></tr><tr><td>Git-2.56.0.4-64-bit.exe</td><td>Johannes Schindelin；SHA256 与 GitHub Release 表一致</td></tr></tbody></table>
+<p>同时下载了 python.org 提供的 <code>.asc</code> 与 <code>.sigstore</code> 旁路文件。</p>
+</body></html>

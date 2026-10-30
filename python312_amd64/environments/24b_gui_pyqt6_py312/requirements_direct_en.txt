@@ -1,0 +1,9 @@
+# Direct dependencies for 24b_gui_pyqt6_py312
+# Target: Windows 10/11 x86-64, CPython 3.12
+# Generated for offline wheel download. Not a historical project lockfile.
+
+pip
+setuptools
+wheel
+packaging
+PyQt6

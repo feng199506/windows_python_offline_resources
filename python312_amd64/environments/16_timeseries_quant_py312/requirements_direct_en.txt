@@ -1,0 +1,21 @@
+# Direct dependencies for 16_timeseries_quant_py312
+# Target: Windows 10/11 x86-64, CPython 3.12
+# Generated for offline wheel download. Not a historical project lockfile.
+
+pip
+setuptools
+wheel
+packaging
+numpy
+pandas
+scipy
+statsmodels
+scikit-learn
+pmdarima
+prophet
+tsfresh
+yfinance
+akshare
+exchange-calendars
+backtrader
+empyrical

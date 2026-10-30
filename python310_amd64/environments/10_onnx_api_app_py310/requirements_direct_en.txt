@@ -1,0 +1,18 @@
+# Direct dependencies for 10_onnx_api_app_py310
+# Target: Windows 10/11 x86-64, CPython 3.10
+# Generated for offline wheel download. Not a historical project lockfile.
+
+pip
+setuptools
+wheel
+packaging
+numpy
+onnx
+onnxruntime
+fastapi
+uvicorn
+pydantic
+python-multipart
+starlette
+gradio
+streamlit

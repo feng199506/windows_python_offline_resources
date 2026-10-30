@@ -1,0 +1,12 @@
+{
+  "environment": "09_huggingface_llm_cpu_py310",
+  "status": "downloaded",
+  "python": "310",
+  "direct_packages": "pip setuptools wheel packaging numpy torch transformers datasets tokenizers accelerate peft trl safetensors huggingface_hub sentencepiece protobuf regex filelock fsspec tqdm pyyaml",
+  "wheel_count": 60,
+  "total_bytes": 209057334,
+  "started_utc": "2026-10-30T04:28:07Z",
+  "finished_utc": "2026-10-30T04:28:29Z",
+  "notes": "static download only; Windows install not verified",
+  "error_tail": ""
+}

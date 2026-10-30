@@ -1,0 +1,12 @@
+{
+  "environment": "08_rl_basic_py310",
+  "status": "downloaded",
+  "python": "310",
+  "direct_packages": "pip setuptools wheel packaging numpy pandas matplotlib torch gymnasium pygame stable-baselines3 tensorboard tqdm cloudpickle",
+  "wheel_count": 39,
+  "total_bytes": 192735280,
+  "started_utc": "2026-10-30T04:27:54Z",
+  "finished_utc": "2026-10-30T04:28:07Z",
+  "notes": "static download only; Windows install not verified",
+  "error_tail": ""
+}

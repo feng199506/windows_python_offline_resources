@@ -1,0 +1,18 @@
+﻿组件,对应环境或项目类型,版本条件,官方地址,本轮是否下载,可否完整离线安装,说明
+Microsoft Visual C++ Redistributable x64,几乎所有含二进制扩展的环境,VS 2015-2022 合并包（aka.ms vs/17/release）,https://aka.ms/vs/17/release/vc_redist.x64.exe,已下载完整安装程序,是,numpy/scipy/torch/tensorflow 等均可能需要。已放入 installers/vc_redist.x64.exe
+Git for Windows,获取源代码与后续补依赖,2.56.0.windows.4 x64,https://github.com/git-for-windows/git/releases/tag/v2.56.0.windows.4,已下载完整安装程序,是,安装程序 Git-2.56.0.4-64-bit.exe。不是 MinGit。
+FFmpeg,音频/视频 I/O、部分 librosa 回退解码、多媒体科研,建议官方 Windows gyan.dev 或 BtbN 完整构建；版本随项目而定,https://ffmpeg.org/download.html,未下载,是（完整 zip/7z 构建可解压使用）,librosa 常用 soundfile；仅当项目明确需要命令行 ffmpeg 时再取。体积较大。
+Graphviz,python-graphviz、部分模型可视化,官方 Windows 安装程序,https://graphviz.org/download/,未下载,是,Python 的 graphviz 包只是封装；未装 Graphviz 可执行文件则无法出图。
+CmdStan / Stan C++ 工具链,06_bayesian_mc_py310 的 cmdstanpy,CmdStan 版本需与 cmdstanpy 文档匹配,https://mc-stan.org/cmdstanpy/,未下载,需另备,cmdstanpy wheel 已按组准备；Stan 编译器、Make、C++ 工具链不在 Python 包内。Windows 可用官方 CmdStan 发布包或 WSL2。
+Microsoft C++ Build Tools,PyTensor/部分包的运行时编译、无 wheel 时从源码构建,Visual Studio Build Tools + Windows 10/11 SDK,https://visualstudio.microsoft.com/visual-cpp-build-tools/,未下载,是（Build Tools 安装程序较大）,本通用库以 wheel 为主。只有未来项目必须编译扩展时再装。
+Java Runtime,部分旧工具、Stan 周边、个别数据工具,项目指定的 LTS（如 17/21）,https://adoptium.net/,未下载,是,当前通用环境无硬性 Java 依赖；有项目要求时再装。
+NVIDIA GPU 驱动,gpu_optional、WSL2 TensorFlow/PyTorch GPU,必须满足所选框架官方最低驱动,https://www.nvidia.com/Download/index.aspx,未下载,是（驱动安装程序）,先运行 gpu_optional/collect_windows_hardware_en.ps1。
+CUDA Toolkit,原生 Windows 旧 TF GPU 或自行编译,由框架版本锁定（例如 TF2.10 常用 11.2；PyTorch 则常用官方 cuXXX 索引而不必独立装 Toolkit）,https://developer.nvidia.com/cuda-toolkit-archive,未下载,是但体积很大,未知硬件前不下载。PyTorch 官方 GPU wheel 通常自带 CUDA 运行时。
+cuDNN,与 CUDA Toolkit / 旧 TF GPU 配套,必须与 CUDA 和框架版本匹配,https://developer.nvidia.com/cudnn,未下载,需账号的历史包注意条款,未知硬件前不下载。
+TensorRT,可选推理加速,与 CUDA 匹配,https://developer.nvidia.com/tensorrt,未下载,视发行包而定,非必需。
+WSL2,tensorflow GPU、Linux-only 包,Windows 10 19044+ / Windows 11,https://learn.microsoft.com/windows/wsl/install,未下载,系统功能+内核,见 wsl2_optional/README_cn.md。
+MuJoCo,部分强化学习环境,项目指定；体积与许可证独立,https://github.com/google-deepmind/mujoco,未下载,二进制可离线,通用 RL 基础环境刻意不含。
+Atari ROM / AutoROM,部分 Gymnasium 环境,法律限制,项目文档,未下载,否（版权）,不纳入通用库。
+pygame,08_rl_basic classic control,随该环境 wheel 提供,PyPI,已随 RL 环境下载 wheel,是（Python 包）,仅覆盖 Classic Control 一类；不是系统仿真器。
+模型权重（Hugging Face 等）,09_huggingface_llm_cpu_py310,由具体模型卡决定,https://huggingface.co/,未下载,视许可证,包安装 ≠ 权重具备。需时另建缓存目录。
+大型数据集,通用,由项目决定,各数据集主页,未下载,视许可证,补依赖指南要求按单个 Release 另取。

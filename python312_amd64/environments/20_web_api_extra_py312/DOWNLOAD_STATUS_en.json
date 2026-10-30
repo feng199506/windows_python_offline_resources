@@ -1,0 +1,27 @@
+{
+  "environment": "20_web_api_extra_py312",
+  "status": "downloaded",
+  "python": "312",
+  "direct_ok": [
+    "pip",
+    "setuptools",
+    "wheel",
+    "packaging",
+    "flask[async]",
+    "django",
+    "waitress",
+    "aiohttp",
+    "celery[redis]",
+    "redis",
+    "graphene",
+    "marshmallow",
+    "httpx",
+    "requests",
+    "uvicorn"
+  ],
+  "failed": [],
+  "wheel_count": 53,
+  "total_bytes": 17179358,
+  "started_utc": "2026-10-30T05:04:06Z",
+  "finished_utc": "2026-10-30T05:04:09Z"
+}

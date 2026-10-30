@@ -1,0 +1,26 @@
+{
+  "environment": "08_rl_basic_py312",
+  "status": "downloaded",
+  "python": "312",
+  "direct_ok": [
+    "pip",
+    "setuptools",
+    "wheel",
+    "packaging",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "torch",
+    "gymnasium",
+    "pygame",
+    "stable-baselines3",
+    "tensorboard",
+    "tqdm",
+    "cloudpickle"
+  ],
+  "failed": [],
+  "wheel_count": 38,
+  "total_bytes": 193898965,
+  "started_utc": "2026-10-30T05:00:23Z",
+  "finished_utc": "2026-10-30T05:00:34Z"
+}

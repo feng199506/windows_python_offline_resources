@@ -1,0 +1,18 @@
+# Direct dependencies for 08_rl_basic_py312
+# Target: Windows 10/11 x86-64, CPython 3.12
+# Generated for offline wheel download. Not a historical project lockfile.
+
+pip
+setuptools
+wheel
+packaging
+numpy
+pandas
+matplotlib
+torch
+gymnasium
+pygame
+stable-baselines3
+tensorboard
+tqdm
+cloudpickle

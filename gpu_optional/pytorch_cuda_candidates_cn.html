@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>PyTorch CUDA 待选表（未下载）</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1200px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3;position:sticky;top:0}code{background:#f5f5f5;padding:0 3px}
+pre{background:#f5f5f5;padding:8px;overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}
+td.wide{max-width:420px;word-break:break-all}</style>
+</head><body>
+<div class="nav"><a href="../index_cn.html">← 离线首页 index_cn.html</a> · <a href="pytorch_cuda_candidates_cn.md">Markdown 原文</a></div>
+<h1>PyTorch CUDA 待选表（未下载）</h1>
+<p>以官方 Get Started / Previous Versions 为准，选定前核对该日文档：</p>
+<ul><li><a href="https://pytorch.org/get-started/locally/">https://pytorch.org/get-started/locally/</a></li><li><a href="https://pytorch.org/get-started/previous-versions/">https://pytorch.org/get-started/previous-versions/</a></li></ul>
+<p>本轮 <strong>没有</strong> 下载下表中的任何 CUDA wheel。</p>
+<table><thead><tr><th>方案编号</th><th>适用条件</th><th>pip 索引</th><th>目标 Python</th><th>与本库 CPU 环境关系</th><th>本轮</th></tr></thead><tbody><tr><td>P-CU-A</td><td>NVIDIA GPU + 足够新的 Windows 驱动，官方当前 cu12x</td><td><code>https://download.pytorch.org/whl/cu126</code>（以当时文档为准）</td><td>3.10 或 3.13，与 CPU 环境分开</td><td>新建 <code>gpu_optional/pytorch_cuXXX_py310/</code>，不要改 <code>04_pytorch_cpu_*</code></td><td>未下载</td></tr><tr><td>P-CU-B</td><td>驱动只支持 CUDA 11.8</td><td><code>https://download.pytorch.org/whl/cu118</code></td><td>通常 3.10</td><td>可能无法使用最新 torch，需按官方 previous-versions 锁定</td><td>未下载</td></tr><tr><td>P-CPU</td><td>无 NVIDIA GPU</td><td>PyPI / <code>whl/cpu</code></td><td>3.10 或 3.13</td><td>已准备 CPU 环境</td><td>已下载 CPU</td></tr><tr><td>P-WSL2</td><td>只在 WSL2/Linux 用 GPU</td><td>Linux cuXXX 索引</td><td>WSL2 内 Linux Python</td><td>见 <a href="../wsl2_optional/README_cn.html"><code>wsl2_optional/</code></a>，Windows wheelhouse 不可用</td><td>未下载</td></tr></tbody></table>
+<p>选定规则：</p>
+<ol><li>先跑 <a href="collect_windows_hardware_en.ps1"><code>collect_windows_hardware_en.ps1</code></a>。</li><li>只选一行。</li><li>用 <code>--platform win_amd64 --python-version 310|313 --only-binary=:all:</code> 下载。</li><li>锁进独立目录，保留官方 <code>.whl</code> 文件名。</li></ol>
+</body></html>

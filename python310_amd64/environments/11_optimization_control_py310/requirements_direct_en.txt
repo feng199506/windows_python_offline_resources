@@ -1,0 +1,16 @@
+# Direct dependencies for 11_optimization_control_py310
+# Target: Windows 10/11 x86-64, CPython 3.10
+# Generated for offline wheel download. Not a historical project lockfile.
+
+pip
+setuptools
+wheel
+packaging
+numpy
+scipy
+cvxpy
+osqp
+clarabel
+scs
+control
+casadi

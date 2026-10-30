@@ -1,0 +1,6 @@
+environment: 09_huggingface_llm_cpu_py312
+primary_index: https://download.pytorch.org/whl/cpu
+extra_index: https://pypi.org/simple
+
+All wheels were downloaded with pip using --only-binary=:all: and Windows tags.
+Filenames are official upstream names and must not be renamed.

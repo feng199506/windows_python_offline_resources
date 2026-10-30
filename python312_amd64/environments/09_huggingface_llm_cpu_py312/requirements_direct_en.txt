@@ -1,0 +1,25 @@
+# Direct dependencies for 09_huggingface_llm_cpu_py312
+# Target: Windows 10/11 x86-64, CPython 3.12
+# Generated for offline wheel download. Not a historical project lockfile.
+
+pip
+setuptools
+wheel
+packaging
+numpy
+torch
+transformers
+datasets
+tokenizers
+accelerate
+peft
+trl
+safetensors
+huggingface_hub
+sentencepiece
+protobuf
+regex
+filelock
+fsspec
+tqdm
+pyyaml

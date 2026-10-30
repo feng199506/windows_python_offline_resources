@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>环境总览</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1200px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3;position:sticky;top:0}code{background:#f5f5f5;padding:0 3px}
+pre{background:#f5f5f5;padding:8px;overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}
+td.wide{max-width:420px;word-break:break-all}</style>
+</head><body>
+<div class="nav"><a href="index_cn.html">← 离线首页 index_cn.html</a> · <a href="environments_overview_cn.md">Markdown 原文</a></div>
+<h1>环境总览</h1>
+<p>本库是 Windows 通用科研 Python <strong>离线基础环境</strong>，不是历史项目精确复现。<br>
+正式交付两棵独立树：<a href="python310_amd64/README_cn.html"><code>python310_amd64/</code></a>（CPython 3.10.11）与 <a href="python312_amd64/README_cn.html"><code>python312_amd64/</code></a>（CPython 3.12.10）。<br>
+本轮状态：已下载官方安装程序与 Windows wheel，并完成静态检查。<br>
+<strong>尚未</strong>在目标 Windows 上安装或运行，因此没有任何一组可标记为“安装验证通过”。</p>
+<h2>Python 选择</h2>
+<table><thead><tr><th>解释器</th><th>安装程序</th><th>角色</th></tr></thead><tbody><tr><td>CPython 3.10.11 x64</td><td><a href="python310_amd64/runtime/python-3.10.11-amd64.exe"><code>python310_amd64/runtime/python-3.10.11-amd64.exe</code></a></td><td>旧项目复现。<strong>2026-10-01 已结束安全支持</strong>。</td></tr><tr><td>CPython 3.12.10 x64</td><td><a href="python312_amd64/runtime/python-3.12.10-amd64.exe"><code>python312_amd64/runtime/python-3.12.10-amd64.exe</code></a></td><td>仍受支持的第二套（至 2028-10）。最后带 Windows 安装程序的 3.12。</td></tr></tbody></table>
+<p>依据见 <a href="guides/python_version_policy_cn.html"><code>guides/python_version_policy_cn.md</code></a>。3.10 与 3.12 的 wheel <strong>不能</strong>装进同一 venv。</p>
+<table><thead><tr><th>树</th><th>环境组</th><th>wheel 数</th><th>体积</th></tr></thead><tbody><tr><td><a href="python310_amd64/README_cn.html"><code>python310_amd64/</code></a></td><td>31</td><td>1504</td><td>4.64 GiB</td></tr><tr><td><a href="python312_amd64/README_cn.html"><code>python312_amd64/</code></a></td><td>31</td><td>1478</td><td>5.02 GiB</td></tr></tbody></table>
+<p>wheel 数为各组 wheelhouse 合计（含故意重复的 torch/TF）。明细见各树 <a href="README_cn.html"><code>README_cn.md</code></a> 与 <code>tree_stats_en.json</code>。</p>
+<h2>静态检查实际做了什么</h2>
+<ul><li><code>pip download --platform win_amd64 --python-version 310|312 --implementation cp --only-binary=:all:</code>（Linux 主机，Windows 目标），解析并下载全部传递依赖。</li><li>第二遍读取每个 wheel 的 <code>Requires-Dist</code>，按 <code>sys_platform=win32</code> 与目标 Python 版本补下载标记依赖。</li><li>检查每个 <code>.whl</code> 可被 zip 打开。</li><li>平台标签仅为 <code>win_amd64</code> 或 <code>any</code>；无 manylinux/macOS/sdist 混入。</li><li>确认无 <code>onnxruntime-gpu</code>、无 <code>+cu</code> CUDA torch、OpenCV 仅为 headless 4.10。</li><li>安装程序：3.12.10 的 MD5 与 python.org 发布页一致；3.10.11 页面只公布 MD5，本库记录自算 SHA256。</li></ul>
+<h2>还没做、因此不能声称的事项</h2>
+<ul><li>未在 Windows 上创建 venv、未 <code>pip install</code>、未 <code>import</code>、未跑训练。</li><li>未下载模型权重、大型数据集、CUDA、cuDNN、CmdStan、FFmpeg、Graphviz 引擎、Playwright 浏览器。</li><li>未解包或复现已归档研究项目。</li></ul>
+</body></html>

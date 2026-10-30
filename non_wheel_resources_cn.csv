@@ -1,0 +1,20 @@
+﻿资源,类别,为何不算已下载依赖,官方来源,本轮状态
+FFmpeg 可执行文件,音视频,系统二进制不是 Python wheel,https://ffmpeg.org/download.html,未下载；仅有 ffmpeg-python / imageio-ffmpeg 封装
+Playwright 浏览器（Chromium/Firefox/WebKit）,爬虫与浏览器自动化,playwright install 拉取的浏览器运行时,https://playwright.dev/python/docs/browsers,未下载；仅有 playwright Python wheel
+Chrome / Edge / Firefox,Selenium,浏览器安装包,各浏览器官网,未下载
+Tesseract OCR,计算机视觉 / OCR,pytesseract 只是封装,https://github.com/tesseract-ocr/tesseract,未下载
+Poppler,PDF 转图像,pdf2image 等需要的系统工具,https://poppler.freedesktop.org/,未下载
+Ghostscript,PDF/camelot,系统工具,https://www.ghostscript.com/,未下载
+Java Runtime,tabula-py 等,JVM,https://adoptium.net/,未下载
+spaCy 语言模型（en_core_web_sm 等）,NLP,模型权重/语料,https://spacy.io/models,未下载
+NLTK 语料与模型,NLP,nltk.download 数据,https://www.nltk.org/data.html,未下载
+Hugging Face / Sentence-Transformers 权重,NLP / 深度学习,模型文件,https://huggingface.co/,未下载
+Graphviz 绘图引擎,统计可视化,Python graphviz 包不是引擎,https://graphviz.org/download/,未下载
+CmdStan,贝叶斯 / Prophet,C++ 工具链,https://mc-stan.org/cmdstanpy/,未下载
+PostgreSQL / MySQL / MongoDB / Redis 服务器,数据库,数据库引擎,各官方站点,未下载
+Microsoft Visual C++ Build Tools,需编译的扩展,编译器,https://visualstudio.microsoft.com/visual-cpp-build-tools/,未下载
+GTK3 运行库,WeasyPrint,Windows 系统库,GNOME/GTK Windows 构建,未下载
+PortAudio,PyAudio,音频系统库,http://www.portaudio.com/,未下载
+uvloop,Web,仅 Linux/macOS,PyPI,不纳入 Windows 库
+gunicorn,Web,非 Windows 首选 WSGI,PyPI,不纳入 Windows 库
+ta-lib 官方二进制,量化,PyPI 常无官方 win_amd64 wheel,https://ta-lib.org/,未从不明源下载非官方 wheel

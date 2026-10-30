@@ -1,0 +1,12 @@
+{
+  "environment": "06_bayesian_mc_py310",
+  "status": "downloaded",
+  "python": "310",
+  "direct_packages": "pip setuptools wheel packaging numpy scipy pandas matplotlib xarray pymc arviz emcee cmdstanpy cloudpickle tqdm",
+  "wheel_count": 45,
+  "total_bytes": 97366199,
+  "started_utc": "2026-10-30T04:27:34Z",
+  "finished_utc": "2026-10-30T04:27:39Z",
+  "notes": "static download only; Windows install not verified",
+  "error_tail": ""
+}

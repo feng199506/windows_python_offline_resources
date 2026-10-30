@@ -1,0 +1,165 @@
+{
+  "python": "3.12.10",
+  "arch": "amd64",
+  "installer": "runtime/python-3.12.10-amd64.exe",
+  "environments": [
+    {
+      "id": "01_base_scientific_py312",
+      "wheels": 127,
+      "bytes": 216706910
+    },
+    {
+      "id": "02_ml_stats_py312",
+      "wheels": 38,
+      "bytes": 264482952
+    },
+    {
+      "id": "03_signal_image_audio_py312",
+      "wheels": 70,
+      "bytes": 210334906
+    },
+    {
+      "id": "04_pytorch_cpu_py312",
+      "wheels": 17,
+      "bytes": 151503707
+    },
+    {
+      "id": "05_gpr_bo_pytorch_py312",
+      "wheels": 32,
+      "bytes": 203390315
+    },
+    {
+      "id": "06_bayesian_mc_py312",
+      "wheels": 42,
+      "bytes": 135565431
+    },
+    {
+      "id": "07_tensorflow_cpu_py312",
+      "wheels": 33,
+      "bytes": 407913774
+    },
+    {
+      "id": "07b_gpflow_tf_py312",
+      "wheels": 62,
+      "bytes": 922212806
+    },
+    {
+      "id": "08_rl_basic_py312",
+      "wheels": 39,
+      "bytes": 193924300
+    },
+    {
+      "id": "09_huggingface_llm_cpu_py312",
+      "wheels": 60,
+      "bytes": 209141382
+    },
+    {
+      "id": "10_onnx_api_app_py312",
+      "wheels": 77,
+      "bytes": 185288687
+    },
+    {
+      "id": "11_optimization_control_py312",
+      "wheels": 31,
+      "bytes": 147273371
+    },
+    {
+      "id": "12_scientific_extra_py312",
+      "wheels": 89,
+      "bytes": 318184915
+    },
+    {
+      "id": "13_stats_optimize_extra_py312",
+      "wheels": 68,
+      "bytes": 134150163
+    },
+    {
+      "id": "14_ml_extra_py312",
+      "wheels": 53,
+      "bytes": 155409522
+    },
+    {
+      "id": "15_dl_pytorch_extra_py312",
+      "wheels": 45,
+      "bytes": 169661856
+    },
+    {
+      "id": "16_timeseries_quant_py312",
+      "wheels": 77,
+      "bytes": 212686443
+    },
+    {
+      "id": "17_nlp_classic_py312",
+      "wheels": 67,
+      "bytes": 134279796
+    },
+    {
+      "id": "17b_nlp_sentence_transformers_py312",
+      "wheels": 44,
+      "bytes": 210047411
+    },
+    {
+      "id": "18_vision_extra_py312",
+      "wheels": 16,
+      "bytes": 73098833
+    },
+    {
+      "id": "19_av_extra_py312",
+      "wheels": 19,
+      "bytes": 83164902
+    },
+    {
+      "id": "20_web_api_extra_py312",
+      "wheels": 53,
+      "bytes": 17179358
+    },
+    {
+      "id": "21_database_py312",
+      "wheels": 36,
+      "bytes": 29681251
+    },
+    {
+      "id": "22_crawler_py312",
+      "wheels": 65,
+      "bytes": 31275398
+    },
+    {
+      "id": "22b_playwright_py312",
+      "wheels": 8,
+      "bytes": 42046552
+    },
+    {
+      "id": "23_office_pdf_py312",
+      "wheels": 26,
+      "bytes": 35717666
+    },
+    {
+      "id": "24_gui_tk_py312",
+      "wheels": 8,
+      "bytes": 10996913
+    },
+    {
+      "id": "24b_gui_pyqt6_py312",
+      "wheels": 7,
+      "bytes": 89570140
+    },
+    {
+      "id": "24c_gui_pyside6_py312",
+      "wheels": 10,
+      "bytes": 262061244
+    },
+    {
+      "id": "24d_gui_wx_py312",
+      "wheels": 6,
+      "bytes": 35096393
+    },
+    {
+      "id": "25_devtools_py312",
+      "wheels": 153,
+      "bytes": 102283610
+    }
+  ],
+  "env_count": 31,
+  "wheel_count": 1478,
+  "total_bytes": 5394330907
+}

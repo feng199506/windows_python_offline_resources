@@ -1,0 +1,18 @@
+{
+  "environment": "22b_playwright_py310",
+  "status": "downloaded",
+  "python": "310",
+  "direct_ok": [
+    "pip",
+    "setuptools",
+    "wheel",
+    "packaging",
+    "playwright"
+  ],
+  "failed": [],
+  "wheel_count": 8,
+  "total_bytes": 42045351,
+  "started_utc": "2026-10-30T04:55:27Z",
+  "finished_utc": "2026-10-30T04:55:30Z",
+  "notes": "expansion round; Windows install not verified"
+}

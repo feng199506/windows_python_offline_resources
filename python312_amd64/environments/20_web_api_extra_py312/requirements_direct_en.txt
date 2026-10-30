@@ -1,0 +1,19 @@
+# Direct dependencies for 20_web_api_extra_py312
+# Target: Windows 10/11 x86-64, CPython 3.12
+# Generated for offline wheel download. Not a historical project lockfile.
+
+pip
+setuptools
+wheel
+packaging
+flask[async]
+django
+waitress
+aiohttp
+celery[redis]
+redis
+graphene
+marshmallow
+httpx
+requests
+uvicorn

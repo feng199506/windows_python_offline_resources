@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>项目补依赖指南</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1200px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3;position:sticky;top:0}code{background:#f5f5f5;padding:0 3px}
+pre{background:#f5f5f5;padding:8px;overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}
+td.wide{max-width:420px;word-break:break-all}</style>
+</head><body>
+<div class="nav"><a href="index_cn.html">← 离线首页 index_cn.html</a> · <a href="project_dependency_supplement_guide_cn.md">Markdown 原文</a></div>
+<h1>项目补依赖指南</h1>
+<p>本库是 <strong>Windows 通用科研 Python 离线环境</strong>，不是已归档历史项目的精确复现。以后若要运行某一个 GitHub Release，按本页步骤补齐，<strong>不要直接升级现有基础环境</strong>。</p>
+<h2>原则</h2>
+<ol><li>只处理用户准备运行的那一个 Release，不要解包全部历史归档。</li><li>先对照基础环境，再建立项目专用 venv。</li><li>缺什么补什么：Python 包版本、系统库、权重、数据、外部服务。</li><li>不得把 GPU 包、另一 Python 版本、或 Linux wheel 混进已有基础环境。</li><li>Python 包装好不等于可以训练或推理。</li></ol>
+<h2>步骤</h2>
+<h3>1. 取单一 Release</h3>
+<p>只下载将要运行的源代码归档（zip/tar），记录 tag 或提交号。不要为了“调查依赖”而展开全部资料库。</p>
+<h3>2. 静态读取依赖配置</h3>
+<p>在展开的源码中查找，只读不执行：</p>
+<ul><li><code>requirements.txt</code>、<code>requirements-*.txt</code></li><li><code>pyproject.toml</code>、<code>setup.cfg</code>、<code>setup.py</code>（只读文本）</li><li><code>environment.yml</code>、Pipfile、poetry.lock、uv.lock</li><li>Dockerfile、README、CI 工作流中的 <code>pip install</code> 行</li></ul>
+<p>不要运行 <code>setup.py</code>、<code>pip install -e .</code> 或项目自带安装脚本。</p>
+<h3>3. 对照基础环境</h3>
+<p>按用途选择最接近的一组：</p>
+<table><thead><tr><th>项目类型</th><th>先对照</th></tr></thead><tbody><tr><td>Notebook / 数据处理 / 绘图</td><td><code>01_base_scientific_py310</code> 或 <code>01_base_scientific_py313</code></td></tr><tr><td>sklearn / 统计 / 提升树 / HMM</td><td><code>02_ml_stats_py310</code></td></tr><tr><td>图像音频信号</td><td><code>03_signal_image_audio_py310</code></td></tr><tr><td>PyTorch</td><td><code>04_pytorch_cpu_py310</code> 或 <code>04_pytorch_cpu_py313</code></td></tr><tr><td>GPyTorch / BoTorch</td><td><code>05_gpr_bo_pytorch_py310</code></td></tr><tr><td>PyMC / Stan / MCMC</td><td><code>06_bayesian_mc_py310</code></td></tr><tr><td>TensorFlow / Keras</td><td><code>07_tensorflow_cpu_py310</code> 或 <code>07_tensorflow_cpu_py313</code></td></tr><tr><td>GPflow</td><td><a href="project_specific/07b_gpflow_tf_py310/README_cn.html"><code>project_specific/07b_gpflow_tf_py310</code></a></td></tr><tr><td>强化学习（无大型仿真）</td><td><code>08_rl_basic_py310</code></td></tr><tr><td>Transformers 等（无权重）</td><td><code>09_huggingface_llm_cpu_py310</code></td></tr><tr><td>ONNX / FastAPI / Gradio / Streamlit</td><td><code>10_onnx_api_app_py310</code></td></tr><tr><td>CVXPY / CasADi / python-control</td><td><code>11_optimization_control_py310</code></td></tr></tbody></table>
+<p>对照 <code>requirements_lock_en.txt</code> 与 <code>wheel_manifest_cn.csv</code>：</p>
+<ul><li>版本一致：可直接从该组 wheelhouse 离线安装。</li><li>版本不同但存在 Windows wheel：在 <code>project_specific/&lt;项目编号&gt;/</code> <strong>新建</strong>锁定清单并下载缺失 wheel。</li><li>无 Windows wheel：记录到兼容性问题表，考虑历史 wheel、官方二进制、或 WSL2。不要改基础环境去“迁就”。</li></ul>
+<h3>4. 另建项目环境</h3>
+<pre><code>python.exe -m venv D:\venvs\project_X
+.\Scripts\python.exe -m pip install --no-index --find-links &lt;基础或项目 wheelhouse&gt; -r requirements_lock_en.txt</code></pre>
+<p>目录建议：</p>
+<pre><code>windows_python_offline_resources/project_specific/&lt;release_id&gt;/
+  requirements_direct_en.txt
+  requirements_lock_en.txt
+  wheelhouse/
+  README_cn.md</code></pre>
+<h3>5. 系统库、权重与数据</h3>
+<p>对照 <a href="external_dependencies_cn.html"><code>external_dependencies_cn.csv</code></a>：</p>
+<ul><li>VC++ 运行库、Git：本轮已提供安装程序。</li><li>FFmpeg、Graphviz、CmdStan、CUDA：按项目需要再取官方包。</li><li>模型权重与数据集：按该 Release 文档单独下载到项目数据目录，不要写入基础 wheelhouse。</li></ul>
+<h3>6. 验证</h3>
+<p>只有在目标 Windows 上运行项目自带的最小示例或本库 <code>check_environment_en.py</code> 之后，才能标记“安装验证通过”。本轮下载主机上的静态检查不能代替这一步。</p>
+</body></html>

@@ -1,0 +1,12 @@
+# Direct dependencies for 04_pytorch_cpu_py312
+# Target: Windows 10/11 x86-64, CPython 3.12
+# Generated for offline wheel download. Not a historical project lockfile.
+
+pip
+setuptools
+wheel
+packaging
+numpy
+torch
+torchvision
+torchaudio

@@ -1,0 +1,33 @@
+{
+  "environment": "09_huggingface_llm_cpu_py312",
+  "status": "downloaded",
+  "python": "312",
+  "direct_ok": [
+    "pip",
+    "setuptools",
+    "wheel",
+    "packaging",
+    "numpy",
+    "torch",
+    "transformers",
+    "datasets",
+    "tokenizers",
+    "accelerate",
+    "peft",
+    "trl",
+    "safetensors",
+    "huggingface_hub",
+    "sentencepiece",
+    "protobuf",
+    "regex",
+    "filelock",
+    "fsspec",
+    "tqdm",
+    "pyyaml"
+  ],
+  "failed": [],
+  "wheel_count": 59,
+  "total_bytes": 209116047,
+  "started_utc": "2026-10-30T05:00:34Z",
+  "finished_utc": "2026-10-30T05:00:55Z"
+}

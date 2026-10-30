@@ -1,0 +1,162 @@
+[
+  {
+    "environment": "01_base_scientific_py310",
+    "added": [
+      "exceptiongroup>=1",
+      "overrides>=5.0",
+      "tomli>=2"
+    ],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 2,
+    "wheel_count": 131,
+    "total_bytes": 218835584
+  },
+  {
+    "environment": "01_base_scientific_py313",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 127,
+    "total_bytes": 216559007
+  },
+  {
+    "environment": "02_ml_stats_py310",
+    "added": [
+      "colorama"
+    ],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 2,
+    "wheel_count": 38,
+    "total_bytes": 319920705
+  },
+  {
+    "environment": "03_signal_image_audio_py310",
+    "added": [
+      "async-timeout<6.0,>=4.0",
+      "colorama"
+    ],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 2,
+    "wheel_count": 74,
+    "total_bytes": 214608476
+  },
+  {
+    "environment": "04_pytorch_cpu_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 17,
+    "total_bytes": 150718463
+  },
+  {
+    "environment": "04_pytorch_cpu_py313",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 17,
+    "total_bytes": 151573871
+  },
+  {
+    "environment": "05_gpr_bo_pytorch_py310",
+    "added": [
+      "colorama"
+    ],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 2,
+    "wheel_count": 36,
+    "total_bytes": 207130042
+  },
+  {
+    "environment": "06_bayesian_mc_py310",
+    "added": [
+      "colorama"
+    ],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 2,
+    "wheel_count": 46,
+    "total_bytes": 97391534
+  },
+  {
+    "environment": "07_tensorflow_cpu_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 33,
+    "total_bytes": 407333782
+  },
+  {
+    "environment": "07_tensorflow_cpu_py313",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 33,
+    "total_bytes": 408154413
+  },
+  {
+    "environment": "08_rl_basic_py310",
+    "added": [
+      "colorama"
+    ],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 2,
+    "wheel_count": 40,
+    "total_bytes": 192760615
+  },
+  {
+    "environment": "09_huggingface_llm_cpu_py310",
+    "added": [
+      "async-timeout<6.0,>=4.0",
+      "colorama",
+      "exceptiongroup>=1.0.2",
+      "tomli>=1.1.0"
+    ],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 2,
+    "wheel_count": 64,
+    "total_bytes": 209120407
+  },
+  {
+    "environment": "10_onnx_api_app_py310",
+    "added": [
+      "colorama",
+      "exceptiongroup>=1.0.2",
+      "pyreadline3",
+      "tomli>=1.1.0"
+    ],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 2,
+    "wheel_count": 86,
+    "total_bytes": 190734896
+  },
+  {
+    "environment": "11_optimization_control_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 28,
+    "total_bytes": 146364906
+  },
+  {
+    "environment": "07b_gpflow_tf_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 53,
+    "total_bytes": 494770910
+  }
+]

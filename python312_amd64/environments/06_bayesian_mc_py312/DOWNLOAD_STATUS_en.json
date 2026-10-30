@@ -1,0 +1,27 @@
+{
+  "environment": "06_bayesian_mc_py312",
+  "status": "downloaded",
+  "python": "312",
+  "direct_ok": [
+    "pip",
+    "setuptools",
+    "wheel",
+    "packaging",
+    "numpy",
+    "scipy",
+    "pandas",
+    "matplotlib",
+    "xarray",
+    "pymc",
+    "arviz",
+    "emcee",
+    "cmdstanpy",
+    "cloudpickle",
+    "tqdm"
+  ],
+  "failed": [],
+  "wheel_count": 41,
+  "total_bytes": 135540096,
+  "started_utc": "2026-10-30T05:00:04Z",
+  "finished_utc": "2026-10-30T05:00:08Z"
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>Python 版本政策</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1200px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3;position:sticky;top:0}code{background:#f5f5f5;padding:0 3px}
+pre{background:#f5f5f5;padding:8px;overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}
+td.wide{max-width:420px;word-break:break-all}</style>
+</head><body>
+<div class="nav"><a href="../index_cn.html">← 离线首页 index_cn.html</a> · <a href="python_version_policy_cn.md">Markdown 原文</a></div>
+<h1>Python 版本政策</h1>
+<p>正式交付两棵互不依赖的 Windows x64 树：<strong>3.10.11</strong> 与 <strong>3.12.10</strong>。主机是 Linux，没有本机 Windows Python 可探测，因此按这两版分别下载，不猜测“本机 Windows 版本”，也不下载 3.14。</p>
+<h2>CPython 3.10.11（旧代码兼容）</h2>
+<ul><li>目标平台：Windows 10/11 x86-64。</li><li>安装程序：最后一次为 3.10 发布的官方 Windows x64 完整安装程序。</li><li>支持状态：PEP 619，安全支持已于 <strong>2026-10-01</strong> 结束。其后 3.10.x 仅为源码，无 Windows 安装程序。</li><li>目录：<a href="../python310_amd64/README_cn.html"><code>python310_amd64/</code></a>。</li><li>不要：把 3.10 当成所有新项目的统一环境；不要把 3.11+ 才支持的包静默混进 3.10 wheelhouse。</li></ul>
+<h2>CPython 3.12.10（仍受支持的第二套）</h2>
+<ul><li>选择原因：</li><li>官方仍提供 Windows x64 完整安装程序（3.12.11 起为无安装程序的源码安全包；3.12.10 是最后带 <code>.exe</code> 的 3.12）。</li><li>安全支持持续到 <strong>2028-10</strong>。</li><li>TensorFlow 2.21、PyTorch 2.11 CPU、主流科学计算包均提供 cp312 <code>win_amd64</code> wheel。</li><li>目录：<a href="../python312_amd64/README_cn.html"><code>python312_amd64/</code></a>。</li><li>不要与 3.10 包集合混装。</li></ul>
+<h2>遗留、不是正式第二树</h2>
+<ul><li><a href="../installers/python-3.13.17-amd64.exe"><code>installers/python-3.13.17-amd64.exe</code></a> 以及 <code>environments/*_py313/</code> 是早期试验残留，不纳入两棵正式树。</li><li>未下载 Python 3.14 / 3.15。</li></ul>
+<h2>需要更高版本的工具</h2>
+<p>若某工具没有对应 cp310 或 cp312 wheel：</p>
+<ul><li>记入 <a href="../compatibility_issues_cn.html"><code>compatibility_issues_cn.csv</code></a>，不要强装进已有 wheelhouse。</li><li>需要时在 <a href="../project_specific/README_cn.html"><code>project_specific/</code></a> 另建环境。</li></ul>
+</body></html>

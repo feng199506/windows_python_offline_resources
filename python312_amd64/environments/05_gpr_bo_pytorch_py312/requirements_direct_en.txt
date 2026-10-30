@@ -1,0 +1,15 @@
+# Direct dependencies for 05_gpr_bo_pytorch_py312
+# Target: Windows 10/11 x86-64, CPython 3.12
+# Generated for offline wheel download. Not a historical project lockfile.
+
+pip
+setuptools
+wheel
+packaging
+numpy
+scipy
+pandas
+torch
+linear_operator
+gpytorch
+botorch

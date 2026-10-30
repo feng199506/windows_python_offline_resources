@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>Windows 安装步骤（通用）</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1200px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3;position:sticky;top:0}code{background:#f5f5f5;padding:0 3px}
+pre{background:#f5f5f5;padding:8px;overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}
+td.wide{max-width:420px;word-break:break-all}</style>
+</head><body>
+<div class="nav"><a href="../index_cn.html">← 离线首页 index_cn.html</a> · <a href="windows_install_steps_cn.md">Markdown 原文</a></div>
+<h1>Windows 安装步骤（通用）</h1>
+<p>本轮只准备了安装程序和 wheel，<strong>没有</strong>在 Windows 上执行安装。下列步骤供日后在 Windows 10/11 x64 上使用。</p>
+<h2>0. 准备</h2>
+<ul><li>系统：Windows 10 或 11，64 位。</li><li>不要使用 32 位 Python，不要使用 embeddable 包代替本库中的完整安装程序。</li><li>管理员权限只用于安装 VC++ / 可选的“为所有用户安装 Python”。创建 venv 不需要管理员权限。</li><li>两棵树独立：拷 <a href="../python310_amd64/README_cn.html"><code>python310_amd64/</code></a> <strong>或</strong> <a href="../python312_amd64/README_cn.html"><code>python312_amd64/</code></a> 即可。</li></ul>
+<h2>1. 安装 Python</h2>
+<ul><li>3.10 树：<a href="../python310_amd64/runtime/python-3.10.11-amd64.exe"><code>python310_amd64/runtime/python-3.10.11-amd64.exe</code></a></li><li>3.12 树：<a href="../python312_amd64/runtime/python-3.12.10-amd64.exe"><code>python312_amd64/runtime/python-3.12.10-amd64.exe</code></a></li></ul>
+<p>库根 <a href="../installers/README_cn.html"><code>installers/</code></a> 里是同一文件的副本。</p>
+<p>建议：</p>
+<ul><li>使用完整安装程序（Customize installation → pip、venv、tcl/tk 按需）。</li><li>可勾选 “Add python.exe to PATH”，或记住安装路径后用全路径调用。</li><li>3.10 与 3.12 可并存，目录不要互相覆盖。</li><li>Python 3.10 已于 2026-10-01 结束安全支持，仅用于旧项目复现。</li></ul>
+<h2>2. 安装 VC++ 运行库</h2>
+<p>各树 <code>runtime/vc_redist.x64.exe</code>（或 <a href="../installers/vc_redist.x64.exe"><code>installers/vc_redist.x64.exe</code></a>）。</p>
+<p>多数科学计算 wheel 需要它。可先装再装 Python，顺序不严格。</p>
+<h2>3. 可选：Git</h2>
+<p><a href="../installers/Git-2.56.0.4-64-bit.exe"><code>installers/Git-2.56.0.4-64-bit.exe</code></a></p>
+<p>后续按补依赖指南获取单个 Release 时需要。</p>
+<h2>4. 选择一组环境并离线安装</h2>
+<p>Python 3.12 基础科学计算示例：</p>
+<pre><code>cd &lt;拷贝后的&gt;\python312_amd64\environments\01_base_scientific_py312
+powershell -ExecutionPolicy Bypass -File .\install_offline_en.ps1 -PythonExe &quot;C:\Python312\python.exe&quot;
+.\.venv\Scripts\python.exe .\check_environment_en.py</code></pre>
+<p>Python 3.10 则进入 <a href="../python310_amd64/environments/01_base_scientific_py310/README_cn.html"><code>python310_amd64\environments\01_base_scientific_py310</code></a>，解释器用 <code>C:\Python310\python.exe</code>。</p>
+<p>脚本行为：</p>
+<ul><li>用指定解释器新建 venv。</li><li><code>pip install --no-index --find-links wheelhouse</code> 安装 <code>requirements_lock_en.txt</code> 中的全部包。</li><li>失败立即停止，不会改去联网安装。</li><li>不修改系统 site-packages。</li></ul>
+<h2>5. 检查结果</h2>
+<p><code>check_environment_en.py</code> 会写出：</p>
+<ul><li><code>check_report_en.json</code></li><li><code>check_report_en.txt</code></li></ul>
+<p>只有该报告 <code>ok: true</code> 且确实运行于目标 Windows 时，才把该环境记为安装验证通过。</p>
+<h2>6. 不要做的事</h2>
+<ul><li>不要把 3.10 与 3.12 的 wheel 装进同一个 venv。</li><li>不要把 <code>onnxruntime</code> 与 <code>onnxruntime-gpu</code> 装在一起。</li><li>不要把 <code>opencv-python</code> 与 <code>opencv-python-headless</code> 装在一起。</li><li>不要把 CUDA torch 装进 CPU 环境。</li><li>不要把 07（TF 2.21）与 07b（TF 2.16 / GPflow）混装。</li><li>不要运行已下载研究项目里的任意 <code>install.sh</code> / <code>setup.py</code>。</li></ul>
+</body></html>

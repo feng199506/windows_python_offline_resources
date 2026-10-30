@@ -1,0 +1,6 @@
+environment: 15_dl_pytorch_extra_py312
+primary_index: https://download.pytorch.org/whl/cpu
+extra_index: https://pypi.org/simple
+torch from PyTorch CPU index; extras from PyPI.
+All wheels were downloaded with pip using --only-binary=:all: and Windows tags.
+Filenames are official upstream names and must not be renamed.

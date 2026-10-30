@@ -1,0 +1,73 @@
+Collecting pip (from -r /root/windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/requirements_direct_en.txt (line 5))
+  Using cached pip-26.2.2-py3-none-any.whl.metadata (4.6 kB)
+Collecting setuptools (from -r /root/windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/requirements_direct_en.txt (line 6))
+  Using cached setuptools-84.2.1-py3-none-any.whl.metadata (6.6 kB)
+Collecting wheel (from -r /root/windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/requirements_direct_en.txt (line 7))
+  Using cached wheel-0.48.0-py3-none-any.whl.metadata (2.3 kB)
+Collecting packaging (from -r /root/windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/requirements_direct_en.txt (line 8))
+  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting numpy (from -r /root/windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/requirements_direct_en.txt (line 9))
+  Using cached numpy-2.5.4-cp312-cp312-win_amd64.whl.metadata (6.6 kB)
+Collecting Pillow (from -r /root/windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/requirements_direct_en.txt (line 10))
+  Using cached pillow-13.0.0-cp312-cp312-win_amd64.whl.metadata (9.3 kB)
+Collecting pytesseract (from -r /root/windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/requirements_direct_en.txt (line 11))
+  Using cached pytesseract-0.3.13-py3-none-any.whl.metadata (11 kB)
+Collecting piexif (from -r /root/windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/requirements_direct_en.txt (line 12))
+  Using cached piexif-1.1.3-py2.py3-none-any.whl.metadata (3.7 kB)
+Collecting ImageHash (from -r /root/windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/requirements_direct_en.txt (line 13))
+  Using cached ImageHash-4.3.2-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting rawpy (from -r /root/windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/requirements_direct_en.txt (line 14))
+  Downloading rawpy-0.27.1-cp312-cp312-win_amd64.whl.metadata (10.0 kB)
+Collecting img2pdf (from -r /root/windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/requirements_direct_en.txt (line 15))
+  Using cached img2pdf-0.6.3-py3-none-any.whl.metadata (13 kB)
+Collecting imageio (from -r /root/windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/requirements_direct_en.txt (line 16))
+  Using cached imageio-2.38.1-py3-none-any.whl.metadata (9.7 kB)
+Collecting PyWavelets (from ImageHash->-r /root/windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/requirements_direct_en.txt (line 13))
+  Using cached pywavelets-1.10.0-cp312-cp312-win_amd64.whl.metadata (7.6 kB)
+Collecting scipy (from ImageHash->-r /root/windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/requirements_direct_en.txt (line 13))
+  Using cached scipy-1.18.1-cp312-cp312-win_amd64.whl.metadata (61 kB)
+Collecting pikepdf (from img2pdf->-r /root/windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/requirements_direct_en.txt (line 15))
+  Downloading pikepdf-10.17.0-cp312-cp312-win_amd64.whl.metadata (11 kB)
+Collecting lxml>=4.8 (from pikepdf->img2pdf->-r /root/windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/requirements_direct_en.txt (line 15))
+  Using cached lxml-6.1.3-cp312-cp312-win_amd64.whl.metadata (3.4 kB)
+Using cached pip-26.2.2-py3-none-any.whl (1.8 MB)
+Using cached setuptools-84.2.1-py3-none-any.whl (876 kB)
+Using cached wheel-0.48.0-py3-none-any.whl (33 kB)
+Using cached packaging-26.3-py3-none-any.whl (129 kB)
+Using cached numpy-2.5.4-cp312-cp312-win_amd64.whl (12.6 MB)
+Using cached pillow-13.0.0-cp312-cp312-win_amd64.whl (7.3 MB)
+Using cached pytesseract-0.3.13-py3-none-any.whl (14 kB)
+Using cached piexif-1.1.3-py2.py3-none-any.whl (20 kB)
+Using cached ImageHash-4.3.2-py2.py3-none-any.whl (296 kB)
+Downloading rawpy-0.27.1-cp312-cp312-win_amd64.whl (921 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 921.4/921.4 kB 25.2 MB/s  0:00:00
+
+Using cached img2pdf-0.6.3-py3-none-any.whl (49 kB)
+Using cached imageio-2.38.1-py3-none-any.whl (328 kB)
+Downloading pikepdf-10.17.0-cp312-cp312-win_amd64.whl (3.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.8/3.8 MB 59.5 MB/s  0:00:00
+
+Using cached lxml-6.1.3-cp312-cp312-win_amd64.whl (4.0 MB)
+Using cached pywavelets-1.10.0-cp312-cp312-win_amd64.whl (4.3 MB)
+Using cached scipy-1.18.1-cp312-cp312-win_amd64.whl (36.7 MB)
+Saved ./windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/wheelhouse/pip-26.2.2-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/wheelhouse/setuptools-84.2.1-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/wheelhouse/wheel-0.48.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/wheelhouse/packaging-26.3-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/wheelhouse/numpy-2.5.4-cp312-cp312-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/wheelhouse/pillow-13.0.0-cp312-cp312-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/wheelhouse/pytesseract-0.3.13-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/wheelhouse/piexif-1.1.3-py2.py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/wheelhouse/ImageHash-4.3.2-py2.py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/wheelhouse/rawpy-0.27.1-cp312-cp312-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/wheelhouse/img2pdf-0.6.3-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/wheelhouse/imageio-2.38.1-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/wheelhouse/pikepdf-10.17.0-cp312-cp312-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/wheelhouse/lxml-6.1.3-cp312-cp312-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/wheelhouse/pywavelets-1.10.0-cp312-cp312-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/wheelhouse/scipy-1.18.1-cp312-cp312-win_amd64.whl
+Successfully downloaded pip setuptools wheel packaging numpy Pillow pytesseract piexif ImageHash rawpy img2pdf imageio pikepdf lxml PyWavelets scipy
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 312 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated -r /root/windows_python_offline_resources/python312_amd64/environments/18_vision_extra_py312/requirements_direct_en.txt
+
+[exit 0]

@@ -1,0 +1,11 @@
+# Placeholder only. Do not mix these Linux packages into a Windows venv.
+# Official TensorFlow GPU on WSL2 uses Linux wheels, not win_amd64.
+# Fill versions only after reading https://www.tensorflow.org/install/pip
+# and after collecting NVIDIA driver info on the Windows host.
+#
+# tensorflow
+# nvidia-cuda-*  (as specified by the TensorFlow Linux GPU extra, if any)
+#
+# Download (inside WSL2, not from this Linux-to-Windows pipeline):
+#   python -m pip download --only-binary=:all: -d ./wheelhouse -r this_file
+# Do not use --platform win_amd64 here.

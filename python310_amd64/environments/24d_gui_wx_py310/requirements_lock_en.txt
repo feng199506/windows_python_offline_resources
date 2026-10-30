@@ -1,0 +1,11 @@
+# Locked from downloaded Windows wheels for 24d_gui_wx_py310
+# Host used pip download --platform win_amd64 --python-version 310 --implementation cp --only-binary=:all:
+# Do not mix with GPU or Linux wheels.
+
+numpy==2.2.6
+packaging==26.3
+pip==26.2.2
+setuptools==84.2.1
+typing-extensions==4.16.0
+wheel==0.48.0
+wxpython==4.3.2

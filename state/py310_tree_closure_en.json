@@ -1,0 +1,317 @@
+[
+  {
+    "environment": "01_base_scientific_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 131,
+    "total_bytes": 218835584
+  },
+  {
+    "environment": "02_ml_stats_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 38,
+    "total_bytes": 319920705
+  },
+  {
+    "environment": "03_signal_image_audio_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 74,
+    "total_bytes": 214608476
+  },
+  {
+    "environment": "04_pytorch_cpu_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 17,
+    "total_bytes": 150718463
+  },
+  {
+    "environment": "05_gpr_bo_pytorch_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 36,
+    "total_bytes": 207130042
+  },
+  {
+    "environment": "06_bayesian_mc_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 46,
+    "total_bytes": 97391534
+  },
+  {
+    "environment": "07_tensorflow_cpu_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 33,
+    "total_bytes": 407333782
+  },
+  {
+    "environment": "07b_gpflow_tf_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 53,
+    "total_bytes": 494770910
+  },
+  {
+    "environment": "08_rl_basic_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 40,
+    "total_bytes": 192760615
+  },
+  {
+    "environment": "09_huggingface_llm_cpu_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 64,
+    "total_bytes": 209120407
+  },
+  {
+    "environment": "10_onnx_api_app_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 86,
+    "total_bytes": 190734896
+  },
+  {
+    "environment": "11_optimization_control_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 28,
+    "total_bytes": 146364906
+  },
+  {
+    "environment": "12_scientific_extra_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 83,
+    "total_bytes": 314127037
+  },
+  {
+    "environment": "13_stats_optimize_extra_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 70,
+    "total_bytes": 137444838
+  },
+  {
+    "environment": "14_ml_extra_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 54,
+    "total_bytes": 159807647
+  },
+  {
+    "environment": "15_dl_pytorch_extra_py310",
+    "added": [
+      "lightning-utilities>=0.15.3",
+      "lightning-utilities>=0.15.3",
+      "lightning-utilities>=0.15.3",
+      "lightning-utilities>=0.15.3",
+      "lightning-utilities>=0.15.3",
+      "lightning-utilities>=0.15.3",
+      "lightning-utilities>=0.15.3"
+    ],
+    "still_missing": [
+      "lightning-utilities<2.0,>=0.10.0",
+      "lightning-utilities>=0.10.0",
+      "lightning-utilities>=0.15.3"
+    ],
+    "skipped_no_wheel": [],
+    "rounds": 7,
+    "wheel_count": 48,
+    "total_bytes": 168078587
+  },
+  {
+    "environment": "16_timeseries_quant_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 68,
+    "total_bytes": 184629074
+  },
+  {
+    "environment": "17_nlp_classic_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 68,
+    "total_bytes": 138383659
+  },
+  {
+    "environment": "17b_nlp_sentence_transformers_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 45,
+    "total_bytes": 214455646
+  },
+  {
+    "environment": "18_vision_extra_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 16,
+    "total_bytes": 77536097
+  },
+  {
+    "environment": "19_av_extra_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 19,
+    "total_bytes": 83471328
+  },
+  {
+    "environment": "20_web_api_extra_py310",
+    "added": [
+      "exceptiongroup>=1.3.0"
+    ],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 2,
+    "wheel_count": 56,
+    "total_bytes": 17135527
+  },
+  {
+    "environment": "21_database_py310",
+    "added": [
+      "async-timeout>=4.0.3",
+      "exceptiongroup>=1.0.2",
+      "tomli"
+    ],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 2,
+    "wheel_count": 39,
+    "total_bytes": 27244961
+  },
+  {
+    "environment": "22_crawler_py310",
+    "added": [
+      "async-timeout<6.0,>=4.0",
+      "backports-zstd>=1.3.0",
+      "exceptiongroup",
+      "tomli"
+    ],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 2,
+    "wheel_count": 68,
+    "total_bytes": 31315462
+  },
+  {
+    "environment": "22b_playwright_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 8,
+    "total_bytes": 42045351
+  },
+  {
+    "environment": "23_office_pdf_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 27,
+    "total_bytes": 34826710
+  },
+  {
+    "environment": "24_gui_tk_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 8,
+    "total_bytes": 10951634
+  },
+  {
+    "environment": "24b_gui_pyqt6_py310",
+    "added": [],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 1,
+    "wheel_count": 7,
+    "total_bytes": 89570860
+  },
+  {
+    "environment": "24c_gui_pyside6_py310",
+    "added": [
+      "tomli>=2.0.1"
+    ],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 2,
+    "wheel_count": 11,
+    "total_bytes": 262076009
+  },
+  {
+    "environment": "24d_gui_wx_py310",
+    "added": [
+      "typing-extensions"
+    ],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 2,
+    "wheel_count": 7,
+    "total_bytes": 35728893
+  },
+  {
+    "environment": "25_devtools_py310",
+    "added": [
+      "backports-asyncio-runner<2,>=1.1",
+      "backports.tarfile",
+      "backports-zstd>=1.0.0",
+      "exceptiongroup>=1",
+      "importlib_metadata>=4.11.4",
+      "pefile>=2022.5.30",
+      "pywin32-ctypes>=0.2.1",
+      "tomli>=2.4"
+    ],
+    "still_missing": [],
+    "skipped_no_wheel": [],
+    "rounds": 2,
+    "wheel_count": 156,
+    "total_bytes": 101824946
+  }
+]

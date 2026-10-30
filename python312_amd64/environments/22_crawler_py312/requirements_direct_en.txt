@@ -1,0 +1,17 @@
+# Direct dependencies for 22_crawler_py312
+# Target: Windows 10/11 x86-64, CPython 3.12
+# Generated for offline wheel download. Not a historical project lockfile.
+
+pip
+setuptools
+wheel
+packaging
+scrapy
+beautifulsoup4
+lxml
+selenium
+fake-useragent
+PySocks
+feedparser
+httpx
+requests

@@ -1,0 +1,12 @@
+{
+  "environment": "07_tensorflow_cpu_py313",
+  "status": "downloaded",
+  "python": "313",
+  "direct_packages": "pip setuptools wheel packaging numpy tensorflow-cpu==2.21.0 keras",
+  "wheel_count": 33,
+  "total_bytes": 408154413,
+  "started_utc": "2026-10-30T04:29:51Z",
+  "finished_utc": "2026-10-30T04:30:05Z",
+  "notes": "static download only; Windows install not verified",
+  "error_tail": ""
+}

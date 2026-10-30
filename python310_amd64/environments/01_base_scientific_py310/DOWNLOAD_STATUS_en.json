@@ -1,0 +1,12 @@
+{
+  "environment": "01_base_scientific_py310",
+  "status": "downloaded",
+  "python": "310",
+  "direct_packages": "pip setuptools wheel packaging numpy scipy pandas sympy matplotlib seaborn plotly jupyterlab ipykernel ipywidgets openpyxl pyarrow h5py netCDF4 xarray pytest pyyaml requests httpx tqdm joblib psutil pywin32 pywinpty colorama",
+  "wheel_count": 128,
+  "total_bytes": 218786247,
+  "started_utc": "2026-10-30T04:26:23Z",
+  "finished_utc": "2026-10-30T04:26:44Z",
+  "notes": "static download only; Windows install not verified",
+  "error_tail": ""
+}

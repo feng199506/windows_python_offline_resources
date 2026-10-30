@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>Windows 通用科研 Python 离线环境库</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1200px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3;position:sticky;top:0}code{background:#f5f5f5;padding:0 3px}
+pre{background:#f5f5f5;padding:8px;overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}
+td.wide{max-width:420px;word-break:break-all}</style>
+</head><body>
+<div class="nav"><a href="index_cn.html">← 离线首页 index_cn.html</a> · <a href="README_cn.md">Markdown 原文</a></div>
+<h1>Windows 通用科研 Python 离线环境库</h1>
+<p>路径：<code>/root/windows_python_offline_resources/</code></p>
+<p>这是按用途准备的 <strong>Windows 10/11 x86-64 离线基础环境</strong>，不是已归档研究项目的精确复现。<br>
+本轮只下载官方安装程序与 wheel，并做静态检查。 <strong>未在目标 Windows 上安装，因此不能标记为安装验证通过。</strong></p>
+<p>正式交付是两棵<strong>互不依赖</strong>的版本树：</p>
+<table><thead><tr><th>树</th><th>Python</th><th>安装程序</th><th>环境组</th><th>wheel 数</th><th>体积</th><th>说明</th></tr></thead><tbody><tr><td><a href="python310_amd64/README_cn.html"><code>python310_amd64/</code></a></td><td><strong>3.10.11</strong></td><td><code>runtime/python-3.10.11-amd64.exe</code></td><td>31</td><td>1504</td><td>4.64 GiB</td><td>旧代码兼容；3.10 已于 2026-10-01 EOL</td></tr><tr><td><a href="python312_amd64/README_cn.html"><code>python312_amd64/</code></a></td><td><strong>3.12.10</strong></td><td><code>runtime/python-3.12.10-amd64.exe</code></td><td>31</td><td>1478</td><td>5.02 GiB</td><td>仍受支持（至 2028-10）；最后带 Windows 安装程序的 3.12</td></tr></tbody></table>
+<p>每棵树自带 <code>runtime/</code>（Python + VC++）和完整 <a href="environments/"><code>environments/</code></a>。拷其中一棵到 Windows 即可，不必带另一棵。<br>
+<strong>不要</strong>把 3.10 与 3.12 的 wheel 装进同一个 venv。</p>
+<p><a href="environments/"><code>environments/</code></a> 根下仍留有早期 py310 副本和少量 py313 试验目录，<strong>不是</strong>第二套正式树。正式树只用上面两个目录。</p>
+<h2>依赖范围（请按 lock 安装，不要只装名单上的包）</h2>
+<p>每一组都包含：</p>
+<ol><li>该组的直接依赖（<code>requirements_direct_en.txt</code>）</li><li>pip 解析出的 <strong>全部传递依赖</strong></li><li>在 Linux 主机上按 Windows 环境标记补齐的包（例如 <code>colorama</code>、<code>pywin32</code>、<code>tomli</code>、<code>exceptiongroup</code>、<code>async-timeout</code>）</li></ol>
+<p>离线安装必须使用：</p>
+<pre><code>python.exe -m pip install --no-index --find-links .\wheelhouse -r .\requirements_lock_en.txt</code></pre>
+<p>不要只用 <code>requirements_direct_en.txt</code>，否则会缺传递依赖。<br>
+<code>wheelhouse/</code> 里是完整闭包；<code>.whl</code> 保持上游原始文件名。</p>
+<h2>安装程序（官方完整离线包）</h2>
+<p>目录：<a href="installers/README_cn.html"><code>installers/</code></a>（各树 <code>runtime/</code> 为硬链接副本）。明细见 <a href="installers/installer_inventory_cn.html"><code>installers/installer_inventory_cn.csv</code></a>。</p>
+<table><thead><tr><th>文件</th><th>版本 / 架构</th><th>大小</th><th>来源</th><th>校验</th></tr></thead><tbody><tr><td><code>python-3.10.11-amd64.exe</code></td><td>3.10.11 / x64</td><td>27.7 MiB</td><td>python.org FTP</td><td>SHA256 自算；页面仅公布 MD5</td></tr><tr><td><code>python-3.12.10-amd64.exe</code></td><td>3.12.10 / x64</td><td>25.7 MiB</td><td>python.org FTP</td><td>SHA256 <code>67b5635e80ea51072b87941312d00ec8927c4db9ba18938f7ad2d27b328b95fb</code>；MD5 与发布页一致</td></tr><tr><td><code>python-3.13.17-amd64.exe</code></td><td>3.13.17 / x64</td><td>28.6 MiB</td><td>python.org FTP</td><td><strong>遗留</strong>，不属于正式两棵树</td></tr><tr><td><code>vc_redist.x64.exe</code></td><td>VS 2015–2022 x64</td><td>24.4 MiB</td><td>aka.ms</td><td>Microsoft 签名</td></tr><tr><td><code>Git-2.56.0.4-64-bit.exe</code></td><td>Git for Windows</td><td>63.8 MiB</td><td>GitHub Release</td><td>SHA256 与 Release 一致</td></tr></tbody></table>
+<p>未使用 embeddable 包，未使用在线引导程序充当离线安装包。未下载 Python 3.14。</p>
+<h2>未下载的目标包（无 Windows wheel）</h2>
+<table><thead><tr><th>包</th><th>3.10</th><th>3.12</th><th>原因</th></tr></thead><tbody><tr><td>lime</td><td>缺</td><td>缺</td><td>无 win_amd64 / any wheel</td></tr><tr><td>ta</td><td>缺</td><td>缺</td><td>同上</td></tr><tr><td>jieba</td><td>缺</td><td>缺</td><td>同上</td></tr><tr><td>odfpy</td><td>缺</td><td>缺</td><td>同上</td></tr><tr><td>akshare</td><td>缺</td><td>已下</td><td>3.10 无兼容 wheel；3.12 有</td></tr><tr><td>tensorflow-io-gcs-filesystem</td><td>07b 已补</td><td>不需要</td><td>TF 2.16 仅对 Python&lt;3.12 声明该依赖</td></tr></tbody></table>
+<p>其余冲突、外部工具见 <a href="compatibility_issues_cn.html"><code>compatibility_issues_cn.csv</code></a>、<a href="external_dependencies_cn.html"><code>external_dependencies_cn.csv</code></a>。</p>
+<h2>静态检查 vs Windows 运行验证</h2>
+<p><strong>已做：</strong></p>
+<ul><li>官方安装程序下载；SHA256 / MD5；PE Authenticode 证书表存在。</li><li><code>pip download --platform win_amd64 --python-version 310|312 --implementation cp --only-binary=:all:</code>，含传递依赖。</li><li>按 METADATA <code>Requires-Dist</code> 做 Windows 标记闭包。</li><li>每个 <code>.whl</code> 可 zip 打开；平台标签仅为 <code>win_amd64</code> 或纯 Python <code>any</code>。</li><li>无 CUDA torch、无 onnxruntime-gpu。</li></ul>
+<p><strong>未做（因此未验证安装）：</strong></p>
+<ul><li>未在 Windows 上建 venv、未 <code>pip install</code>、未 <code>import</code>、未训练。</li><li>未跑 <code>check_environment_en.py</code>。</li></ul>
+<h2>Windows 安装步骤</h2>
+<ol><li>拷贝 <strong>一棵</strong> 树到目标机：<a href="python310_amd64/README_cn.html"><code>python310_amd64/</code></a> 或 <a href="python312_amd64/README_cn.html"><code>python312_amd64/</code></a>。</li><li>安装该树 <code>runtime/</code> 里的 Python 与 <code>vc_redist.x64.exe</code>（完整安装程序，不要用 embeddable）。</li><li>进入某一组，例如：</li></ol>
+<pre><code>cd D:\python312_amd64\environments\01_base_scientific_py312
+powershell -ExecutionPolicy Bypass -File .\install_offline_en.ps1 -PythonExe &quot;C:\Python312\python.exe&quot;
+.\.venv\Scripts\python.exe .\check_environment_en.py</code></pre>
+<p>脚本用指定解释器新建 venv，<code>--no-index --find-links</code> 安装 <strong>lock 中的全部包</strong>，失败不会改去联网。</p>
+<p>更细的步骤：<a href="guides/windows_install_steps_cn.html"><code>guides/windows_install_steps_cn.md</code></a>。版本政策：<a href="guides/python_version_policy_cn.html"><code>guides/python_version_policy_cn.md</code></a>。<br>
+3.10 树说明：<a href="python310_amd64/README_cn.html"><code>python310_amd64/README_cn.md</code></a>。3.12 树说明：<a href="python312_amd64/README_cn.html"><code>python312_amd64/README_cn.md</code></a>。</p>
+</body></html>

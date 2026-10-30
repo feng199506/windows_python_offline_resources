@@ -1,0 +1,17 @@
+{
+  "environment": "24c_gui_pyside6_py312",
+  "status": "downloaded",
+  "python": "312",
+  "direct_ok": [
+    "pip",
+    "setuptools",
+    "wheel",
+    "packaging",
+    "PySide6"
+  ],
+  "failed": [],
+  "wheel_count": 10,
+  "total_bytes": 262061244,
+  "started_utc": "2026-10-30T05:04:42Z",
+  "finished_utc": "2026-10-30T05:04:44Z"
+}

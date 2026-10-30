@@ -1,0 +1,12 @@
+{
+  "environment": "04_pytorch_cpu_py313",
+  "status": "downloaded",
+  "python": "313",
+  "direct_packages": "pip setuptools wheel packaging numpy torch torchvision torchaudio",
+  "wheel_count": 17,
+  "total_bytes": 151573871,
+  "started_utc": "2026-10-30T04:29:42Z",
+  "finished_utc": "2026-10-30T04:29:51Z",
+  "notes": "static download only; Windows install not verified",
+  "error_tail": ""
+}

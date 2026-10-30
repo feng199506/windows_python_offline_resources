@@ -1,0 +1,26 @@
+{
+  "environment": "22_crawler_py310",
+  "status": "downloaded",
+  "python": "310",
+  "direct_ok": [
+    "pip",
+    "setuptools",
+    "wheel",
+    "packaging",
+    "scrapy",
+    "beautifulsoup4",
+    "lxml",
+    "selenium",
+    "fake-useragent",
+    "PySocks",
+    "feedparser",
+    "httpx",
+    "requests"
+  ],
+  "failed": [],
+  "wheel_count": 64,
+  "total_bytes": 30947347,
+  "started_utc": "2026-10-30T04:55:18Z",
+  "finished_utc": "2026-10-30T04:55:27Z",
+  "notes": "expansion round; Windows install not verified"
+}

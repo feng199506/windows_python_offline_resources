@@ -1,0 +1,11 @@
+# Direct dependencies for 07_tensorflow_cpu_py312
+# Target: Windows 10/11 x86-64, CPython 3.12
+# Generated for offline wheel download. Not a historical project lockfile.
+
+pip
+setuptools
+wheel
+packaging
+numpy
+tensorflow-cpu==2.21.0
+keras

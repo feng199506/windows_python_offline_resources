@@ -1,0 +1,23 @@
+{
+  "environment": "05_gpr_bo_pytorch_py312",
+  "status": "downloaded",
+  "python": "312",
+  "direct_ok": [
+    "pip",
+    "setuptools",
+    "wheel",
+    "packaging",
+    "numpy",
+    "scipy",
+    "pandas",
+    "torch",
+    "linear_operator",
+    "gpytorch",
+    "botorch"
+  ],
+  "failed": [],
+  "wheel_count": 32,
+  "total_bytes": 203390315,
+  "started_utc": "2026-10-30T04:59:53Z",
+  "finished_utc": "2026-10-30T05:00:04Z"
+}

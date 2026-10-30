@@ -1,0 +1,12 @@
+{
+  "environment": "02_ml_stats_py310",
+  "status": "downloaded",
+  "python": "310",
+  "direct_packages": "pip setuptools wheel packaging numpy scipy pandas matplotlib scikit-learn statsmodels xgboost lightgbm catboost hmmlearn joblib threadpoolctl tqdm pyyaml wrapt==2.5.2",
+  "wheel_count": 37,
+  "total_bytes": 319895370,
+  "started_utc": "2026-10-30T04:32:41Z",
+  "finished_utc": "2026-10-30T04:32:45Z",
+  "notes": "static download only; Windows install not verified",
+  "error_tail": ""
+}

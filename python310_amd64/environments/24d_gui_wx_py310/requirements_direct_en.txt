@@ -1,0 +1,9 @@
+# Direct dependencies for 24d_gui_wx_py310
+# Target: Windows 10/11 x86-64, CPython 3.10
+# Generated for offline wheel download. Not a historical project lockfile.
+
+pip
+setuptools
+wheel
+packaging
+wxPython

@@ -1,0 +1,12 @@
+{
+  "environment": "11_optimization_control_py310",
+  "status": "downloaded",
+  "python": "310",
+  "direct_packages": "pip setuptools wheel packaging numpy scipy cvxpy osqp clarabel scs control casadi",
+  "wheel_count": 28,
+  "total_bytes": 146364906,
+  "started_utc": "2026-10-30T04:28:42Z",
+  "finished_utc": "2026-10-30T04:28:46Z",
+  "notes": "static download only; Windows install not verified",
+  "error_tail": ""
+}

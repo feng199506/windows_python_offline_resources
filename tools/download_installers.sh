@@ -89,6 +89,17 @@ known = [
         "notes": "Last 3.10 release that published Windows/macOS binary installers. Later 3.10.x are source-only. Python 3.10 reached end of life on 2026-10-01.",
     },
     {
+        "file": "python-3.12.10-amd64.exe",
+        "product": "CPython 3.12.10 Windows x64 full installer",
+        "version": "3.12.10",
+        "arch": "x86-64",
+        "source": "https://www.python.org/ftp/python/3.12.10/python-3.12.10-amd64.exe",
+        "official_page": "https://www.python.org/downloads/release/python-31210/",
+        "official_md5": "5eddb0b6f12c852725de071ae681dde4",
+        "official_sha256": "",
+        "notes": "Last 3.12 release that published Windows/macOS binary installers. Later 3.12.x are source-only security fixes. Security support until 2028-10.",
+    },
+    {
         "file": "python-3.13.17-amd64.exe",
         "product": "CPython 3.13.17 Windows x64 full installer",
         "version": "3.13.17",

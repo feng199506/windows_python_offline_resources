@@ -1,0 +1,11 @@
+# Locked from downloaded Windows wheels for 24b_gui_pyqt6_py310
+# Host used pip download --platform win_amd64 --python-version 310 --implementation cp --only-binary=:all:
+# Do not mix with GPU or Linux wheels.
+
+packaging==26.3
+pip==26.2.2
+pyqt6==6.12.0
+pyqt6-qt6==6.12.0
+pyqt6-sip==13.13.0
+setuptools==84.2.1
+wheel==0.48.0

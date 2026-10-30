@@ -1,0 +1,476 @@
+Collecting pip (from -r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 5))
+  Using cached pip-26.2.2-py3-none-any.whl.metadata (4.6 kB)
+Collecting setuptools (from -r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 6))
+  Using cached setuptools-84.2.1-py3-none-any.whl.metadata (6.6 kB)
+Collecting wheel (from -r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 7))
+  Using cached wheel-0.48.0-py3-none-any.whl.metadata (2.3 kB)
+Collecting packaging (from -r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 8))
+  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting numpy (from -r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 9))
+  Using cached numpy-2.2.6-cp310-cp310-win_amd64.whl.metadata (60 kB)
+Collecting onnx (from -r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 10))
+  Downloading onnx-1.23.2-cp310-cp310-win_amd64.whl.metadata (8.7 kB)
+Collecting onnxruntime (from -r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 11))
+  Downloading onnxruntime-1.23.2-cp310-cp310-win_amd64.whl.metadata (5.3 kB)
+Collecting fastapi (from -r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 12))
+  Downloading fastapi-0.162.0-py3-none-any.whl.metadata (26 kB)
+Collecting uvicorn (from -r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 13))
+  Downloading uvicorn-0.54.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting pydantic (from -r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 14))
+  Using cached pydantic-2.14.2-py3-none-any.whl.metadata (137 kB)
+Collecting python-multipart (from -r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 15))
+  Downloading python_multipart-0.0.32-py3-none-any.whl.metadata (2.1 kB)
+Collecting starlette (from -r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 16))
+  Downloading starlette-1.7.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting gradio (from -r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Downloading gradio-6.31.0-py3-none-any.whl.metadata (16 kB)
+Collecting streamlit (from -r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 18))
+  Downloading streamlit-1.65.0-py3-none-any.whl.metadata (10 kB)
+Collecting protobuf>=6.31.1 (from onnx->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 10))
+  Using cached protobuf-7.36.2-cp310-abi3-win_amd64.whl.metadata (595 bytes)
+Collecting typing_extensions>=4.7.1 (from onnx->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 10))
+  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting ml_dtypes>=0.5.4 (from onnx->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 10))
+  Using cached ml_dtypes-0.6.0-cp310-cp310-win_amd64.whl.metadata (8.8 kB)
+Collecting coloredlogs (from onnxruntime->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 11))
+  Downloading coloredlogs-15.0.1-py2.py3-none-any.whl.metadata (12 kB)
+Collecting flatbuffers (from onnxruntime->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 11))
+  Using cached flatbuffers-25.12.19-py2.py3-none-any.whl.metadata (1.0 kB)
+Collecting sympy (from onnxruntime->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 11))
+  Using cached sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+Collecting typing-inspection>=0.4.2 (from fastapi->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 12))
+  Using cached typing_inspection-0.4.4-py3-none-any.whl.metadata (2.6 kB)
+Collecting annotated-doc>=0.0.2 (from fastapi->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 12))
+  Using cached annotated_doc-0.0.5-py3-none-any.whl.metadata (6.5 kB)
+Collecting opentelemetry-api>=1.44.0 (from fastapi->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 12))
+  Downloading opentelemetry_api-1.45.2-py3-none-any.whl.metadata (1.4 kB)
+Collecting click>=7.0 (from uvicorn->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 13))
+  Using cached click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting h11>=0.8 (from uvicorn->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 13))
+  Using cached h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting annotated-types>=0.6.0 (from pydantic->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 14))
+  Using cached annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.50.2 (from pydantic->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 14))
+  Using cached pydantic_core-2.50.2-cp310-cp310-win_amd64.whl.metadata (6.7 kB)
+Collecting anyio<5,>=4.0.0 (from starlette->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 16))
+  Using cached anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+Collecting idna>=2.8 (from anyio<5,>=4.0.0->starlette->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 16))
+  Using cached idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+INFO: pip is looking at multiple versions of gradio to determine which version is compatible with other requirements. This could take a while.
+Collecting gradio (from -r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Downloading gradio-6.30.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-6.29.1-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-6.29.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-6.28.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-6.27.0-py3-none-any.whl.metadata (17 kB)
+  Downloading gradio-6.26.0-py3-none-any.whl.metadata (17 kB)
+  Downloading gradio-6.25.0-py3-none-any.whl.metadata (17 kB)
+INFO: pip is still looking at multiple versions of gradio to determine which version is compatible with other requirements. This could take a while.
+  Downloading gradio-6.24.0-py3-none-any.whl.metadata (17 kB)
+  Downloading gradio-6.23.1-py3-none-any.whl.metadata (17 kB)
+  Downloading gradio-6.22.0-py3-none-any.whl.metadata (17 kB)
+  Downloading gradio-6.21.0-py3-none-any.whl.metadata (17 kB)
+  Downloading gradio-6.20.0-py3-none-any.whl.metadata (17 kB)
+INFO: This is taking longer than usual. You might need to provide the dependency resolver with stricter constraints to reduce runtime. See https://pip.pypa.io/warnings/backtracking for guidance. If you want to abort this run, press Ctrl + C.
+  Downloading gradio-6.19.0-py3-none-any.whl.metadata (17 kB)
+  Downloading gradio-6.18.0-py3-none-any.whl.metadata (17 kB)
+  Downloading gradio-6.17.3-py3-none-any.whl.metadata (17 kB)
+  Downloading gradio-6.16.0-py3-none-any.whl.metadata (17 kB)
+  Downloading gradio-6.15.2-py3-none-any.whl.metadata (17 kB)
+  Downloading gradio-6.15.1-py3-none-any.whl.metadata (17 kB)
+  Downloading gradio-6.15.0-py3-none-any.whl.metadata (17 kB)
+  Downloading gradio-6.14.0-py3-none-any.whl.metadata (17 kB)
+  Downloading gradio-6.13.0-py3-none-any.whl.metadata (17 kB)
+  Downloading gradio-6.12.0-py3-none-any.whl.metadata (17 kB)
+  Downloading gradio-6.11.0-py3-none-any.whl.metadata (17 kB)
+Collecting aiofiles<25.0,>=22.0 (from gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Downloading aiofiles-24.1.0-py3-none-any.whl.metadata (10 kB)
+Collecting gradio (from -r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Downloading gradio-6.10.0-py3-none-any.whl.metadata (17 kB)
+  Downloading gradio-6.9.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-6.8.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-6.7.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-6.6.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-6.5.1-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-6.5.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-6.4.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-6.3.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-6.2.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-6.1.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-6.0.2-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-6.0.1-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-6.0.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.50.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.49.1-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.49.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.48.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.47.2-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.47.1-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.47.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.46.1-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.46.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.45.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.44.1-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.44.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.43.1-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.43.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.42.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.41.1-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.41.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.40.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.39.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.38.2-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.38.1-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.38.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.37.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.36.2-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.35.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.34.2-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.34.1-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.34.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.33.2-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.33.1-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.33.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.32.1-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.32.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.31.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.30.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.29.1-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.29.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.28.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.27.1-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.27.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.26.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.25.2-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.25.1-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.25.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.24.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.23.3-py3-none-any.whl.metadata (16 kB)
+Collecting aiofiles<24.0,>=22.0 (from gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Downloading aiofiles-23.2.1-py3-none-any.whl.metadata (9.7 kB)
+Collecting gradio (from -r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Downloading gradio-5.23.2-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.23.1-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.23.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.22.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.21.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.20.1-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.20.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.19.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.18.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.17.1-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.17.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.16.2-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.16.1-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.16.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.15.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.14.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.13.2-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.13.1-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.13.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.12.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.11.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.10.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.9.1-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.9.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.8.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.7.1-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.7.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.6.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.5.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.4.0-py3-none-any.whl.metadata (16 kB)
+  Downloading gradio-5.3.0-py3-none-any.whl.metadata (15 kB)
+Collecting ffmpy (from gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Downloading ffmpy-1.0.0-py3-none-any.whl.metadata (3.0 kB)
+Collecting gradio-client==1.4.2 (from gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Downloading gradio_client-1.4.2-py3-none-any.whl.metadata (7.1 kB)
+Collecting httpx>=0.24.1 (from gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Using cached httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+Collecting huggingface-hub>=0.25.1 (from gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Using cached huggingface_hub-2.4.0-py3-none-any.whl.metadata (16 kB)
+Collecting jinja2<4.0 (from gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Using cached jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting markupsafe~=2.0 (from gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Downloading MarkupSafe-2.1.5-cp310-cp310-win_amd64.whl.metadata (3.1 kB)
+Collecting orjson~=3.0 (from gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Downloading orjson-3.13.0-cp310-cp310-win_amd64.whl.metadata (43 kB)
+Collecting pandas<3.0,>=1.0 (from gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Using cached pandas-2.3.3-cp310-cp310-win_amd64.whl.metadata (19 kB)
+Collecting pillow<11.0,>=8.0 (from gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Downloading pillow-10.4.0-cp310-cp310-win_amd64.whl.metadata (9.3 kB)
+Collecting pydub (from gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Downloading pydub-0.25.1-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting pyyaml<7.0,>=5.0 (from gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Using cached pyyaml-6.0.3-cp310-cp310-win_amd64.whl.metadata (2.4 kB)
+Collecting ruff>=0.2.2 (from gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Downloading ruff-0.17.3-py3-none-win_amd64.whl.metadata (21 kB)
+Collecting semantic-version~=2.0 (from gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Downloading semantic_version-2.10.0-py2.py3-none-any.whl.metadata (9.7 kB)
+Collecting starlette (from -r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 16))
+  Downloading starlette-0.52.1-py3-none-any.whl.metadata (6.3 kB)
+Collecting tomlkit==0.12.0 (from gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Downloading tomlkit-0.12.0-py3-none-any.whl.metadata (2.7 kB)
+Collecting typer<1.0,>=0.12 (from gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Using cached typer-0.27.3-py3-none-any.whl.metadata (16 kB)
+Collecting fsspec (from gradio-client==1.4.2->gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Using cached fsspec-2026.9.0-py3-none-any.whl.metadata (10 kB)
+Collecting websockets<13.0,>=10.0 (from gradio-client==1.4.2->gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Downloading websockets-12.0-cp310-cp310-win_amd64.whl.metadata (6.8 kB)
+Collecting python-dateutil>=2.8.2 (from pandas<3.0,>=1.0->gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Using cached python_dateutil-3.0.0-py2.py3-none-any.whl.metadata (8.2 kB)
+Collecting pytz>=2020.1 (from pandas<3.0,>=1.0->gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Using cached pytz-2026.6-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzdata>=2022.7 (from pandas<3.0,>=1.0->gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Using cached tzdata-2026.6-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting shellingham>=1.3.0 (from typer<1.0,>=0.12->gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Using cached shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
+Collecting rich>=13.8.0 (from typer<1.0,>=0.12->gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Using cached rich-15.0.0-py3-none-any.whl.metadata (18 kB)
+Collecting altair!=5.4.0,!=5.4.1,<7,>=5.0.0 (from streamlit->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 18))
+  Downloading altair-6.2.2-py3-none-any.whl.metadata (11 kB)
+Collecting pydeck<1,>=0.8.0b4 (from streamlit->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 18))
+  Downloading pydeck-0.9.3-py2.py3-none-any.whl.metadata (4.2 kB)
+Collecting pyarrow!=25.0.0,<26,>=7.0 (from streamlit->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 18))
+  Using cached pyarrow-25.0.1-cp310-cp310-win_amd64.whl.metadata (3.0 kB)
+Collecting requests<3,>=2.27 (from streamlit->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 18))
+  Using cached requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+Collecting toml<2,>=0.10.1 (from streamlit->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 18))
+  Downloading toml-0.10.2-py2.py3-none-any.whl.metadata (7.1 kB)
+Collecting httptools<1,>=0.6.3 (from streamlit->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 18))
+  Downloading httptools-0.9.0-cp310-cp310-win_amd64.whl.metadata (3.7 kB)
+Collecting itsdangerous<3,>=2.1.2 (from streamlit->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 18))
+  Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting watchdog<7,>=2.1.5 (from streamlit->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 18))
+  Downloading watchdog-6.0.0-py3-none-win_amd64.whl.metadata (44 kB)
+Collecting jsonschema>=3.0 (from altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 18))
+  Using cached jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
+Collecting narwhals>=2.4.0 (from altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 18))
+  Using cached narwhals-2.28.0-py3-none-any.whl.metadata (15 kB)
+Collecting charset_normalizer<4,>=2 (from requests<3,>=2.27->streamlit->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 18))
+  Using cached charset_normalizer-3.5.2-cp310-cp310-win_amd64.whl.metadata (47 kB)
+Collecting urllib3<3,>=1.26 (from requests<3,>=2.27->streamlit->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 18))
+  Using cached urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+Collecting certifi>=2023.5.7 (from requests<3,>=2.27->streamlit->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 18))
+  Using cached certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+Collecting httpcore==1.* (from httpx>=0.24.1->gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Using cached httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+Collecting filelock>=3.10.0 (from huggingface-hub>=0.25.1->gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Using cached filelock-4.1.0-py3-none-any.whl.metadata (2.0 kB)
+Collecting hf-xet<2.0.0,>=1.6.0 (from huggingface-hub>=0.25.1->gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Using cached hf_xet-1.7.1-cp38-abi3-win_amd64.whl.metadata (4.9 kB)
+Collecting httpx2<3,>=2.0.0 (from huggingface-hub>=0.25.1->gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Using cached httpx2-2.14.0-py3-none-any.whl.metadata (10 kB)
+Collecting tqdm>=4.42.1 (from huggingface-hub>=0.25.1->gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Using cached tqdm-4.70.1-py3-none-any.whl.metadata (57 kB)
+Collecting httpcore2==2.14.0 (from httpx2<3,>=2.0.0->huggingface-hub>=0.25.1->gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Using cached httpcore2-2.14.0-py3-none-any.whl.metadata (27 kB)
+Collecting truststore>=0.10 (from httpx2<3,>=2.0.0->huggingface-hub>=0.25.1->gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Using cached truststore-0.10.5-py3-none-any.whl.metadata (4.5 kB)
+Collecting attrs>=22.2.0 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 18))
+  Using cached attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 18))
+  Using cached jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 18))
+  Using cached referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting rpds-py>=0.25.0 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 18))
+  Using cached rpds_py-0.30.0-cp310-cp310-win_amd64.whl.metadata (4.2 kB)
+INFO: pip is looking at multiple versions of ml-dtypes to determine which version is compatible with other requirements. This could take a while.
+Collecting ml_dtypes>=0.5.4 (from onnx->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 10))
+  Using cached ml_dtypes-0.5.4-cp310-cp310-win_amd64.whl.metadata (9.2 kB)
+Collecting six>=1.6 (from python-dateutil>=2.8.2->pandas<3.0,>=1.0->gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=13.8.0->typer<1.0,>=0.12->gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Using cached markdown_it_py-4.2.0-py3-none-any.whl.metadata (7.4 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=13.8.0->typer<1.0,>=0.12->gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Using cached pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=13.8.0->typer<1.0,>=0.12->gradio->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 17))
+  Using cached mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Collecting humanfriendly>=9.1 (from coloredlogs->onnxruntime->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 11))
+  Downloading humanfriendly-10.0-py2.py3-none-any.whl.metadata (9.2 kB)
+Collecting mpmath<1.4,>=1.1.0 (from sympy->onnxruntime->-r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt (line 11))
+  Using cached mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+Using cached pip-26.2.2-py3-none-any.whl (1.8 MB)
+Using cached setuptools-84.2.1-py3-none-any.whl (876 kB)
+Using cached wheel-0.48.0-py3-none-any.whl (33 kB)
+Using cached packaging-26.3-py3-none-any.whl (129 kB)
+Using cached numpy-2.2.6-cp310-cp310-win_amd64.whl (12.9 MB)
+Downloading onnx-1.23.2-cp310-cp310-win_amd64.whl (7.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.9/7.9 MB 69.0 MB/s  0:00:00
+
+Downloading onnxruntime-1.23.2-cp310-cp310-win_amd64.whl (13.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.5/13.5 MB 71.9 MB/s  0:00:00
+
+Downloading fastapi-0.162.0-py3-none-any.whl (148 kB)
+Downloading uvicorn-0.54.0-py3-none-any.whl (87 kB)
+Using cached pydantic-2.14.2-py3-none-any.whl (490 kB)
+Using cached pydantic_core-2.50.2-cp310-cp310-win_amd64.whl (2.2 MB)
+Downloading python_multipart-0.0.32-py3-none-any.whl (30 kB)
+Using cached anyio-4.15.1-py3-none-any.whl (132 kB)
+Downloading gradio-5.3.0-py3-none-any.whl (56.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.7/56.7 MB 69.5 MB/s  0:00:00
+
+Downloading gradio_client-1.4.2-py3-none-any.whl (319 kB)
+Downloading tomlkit-0.12.0-py3-none-any.whl (37 kB)
+Downloading starlette-0.52.1-py3-none-any.whl (74 kB)
+Downloading aiofiles-23.2.1-py3-none-any.whl (15 kB)
+Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+Downloading MarkupSafe-2.1.5-cp310-cp310-win_amd64.whl (17 kB)
+Downloading orjson-3.13.0-cp310-cp310-win_amd64.whl (121 kB)
+Using cached pandas-2.3.3-cp310-cp310-win_amd64.whl (11.3 MB)
+Downloading pillow-10.4.0-cp310-cp310-win_amd64.whl (2.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.6/2.6 MB 46.4 MB/s  0:00:00
+
+Using cached pyyaml-6.0.3-cp310-cp310-win_amd64.whl (158 kB)
+Downloading semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)
+Using cached typer-0.27.3-py3-none-any.whl (123 kB)
+Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Downloading websockets-12.0-cp310-cp310-win_amd64.whl (124 kB)
+Downloading streamlit-1.65.0-py3-none-any.whl (10.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.3/10.3 MB 65.8 MB/s  0:00:00
+
+Downloading altair-6.2.2-py3-none-any.whl (797 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 797.6/797.6 kB 27.5 MB/s  0:00:00
+
+Using cached click-8.5.0-py3-none-any.whl (125 kB)
+Downloading httptools-0.9.0-cp310-cp310-win_amd64.whl (92 kB)
+Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Using cached protobuf-7.36.2-cp310-abi3-win_amd64.whl (456 kB)
+Using cached pyarrow-25.0.1-cp310-cp310-win_amd64.whl (27.8 MB)
+Downloading pydeck-0.9.3-py2.py3-none-any.whl (11.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.4/11.4 MB 55.5 MB/s  0:00:00
+
+Using cached requests-2.34.2-py3-none-any.whl (73 kB)
+Using cached charset_normalizer-3.5.2-cp310-cp310-win_amd64.whl (215 kB)
+Using cached idna-3.20-py3-none-any.whl (69 kB)
+Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Using cached urllib3-2.8.0-py3-none-any.whl (135 kB)
+Downloading watchdog-6.0.0-py3-none-win_amd64.whl (79 kB)
+Using cached annotated_doc-0.0.5-py3-none-any.whl (5.3 kB)
+Using cached annotated_types-0.8.0-py3-none-any.whl (13 kB)
+Using cached certifi-2026.10.23-py3-none-any.whl (135 kB)
+Using cached h11-0.16.0-py3-none-any.whl (37 kB)
+Using cached httpx-0.28.1-py3-none-any.whl (73 kB)
+Using cached httpcore-1.0.9-py3-none-any.whl (78 kB)
+Using cached huggingface_hub-2.4.0-py3-none-any.whl (857 kB)
+Using cached hf_xet-1.7.1-cp38-abi3-win_amd64.whl (3.8 MB)
+Using cached httpx2-2.14.0-py3-none-any.whl (96 kB)
+Using cached httpcore2-2.14.0-py3-none-any.whl (84 kB)
+Using cached filelock-4.1.0-py3-none-any.whl (133 kB)
+Using cached fsspec-2026.9.0-py3-none-any.whl (221 kB)
+Using cached jsonschema-4.26.0-py3-none-any.whl (90 kB)
+Using cached attrs-26.1.0-py3-none-any.whl (67 kB)
+Using cached jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+Using cached ml_dtypes-0.5.4-cp310-cp310-win_amd64.whl (210 kB)
+Using cached narwhals-2.28.0-py3-none-any.whl (490 kB)
+Downloading opentelemetry_api-1.45.2-py3-none-any.whl (60 kB)
+Using cached python_dateutil-3.0.0-py2.py3-none-any.whl (94 kB)
+Using cached pytz-2026.6-py2.py3-none-any.whl (506 kB)
+Using cached referencing-0.37.0-py3-none-any.whl (26 kB)
+Using cached rich-15.0.0-py3-none-any.whl (310 kB)
+Using cached pygments-2.21.0-py3-none-any.whl (1.3 MB)
+Using cached markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+Using cached mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Using cached rpds_py-0.30.0-cp310-cp310-win_amd64.whl (235 kB)
+Downloading ruff-0.17.3-py3-none-win_amd64.whl (10.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.3/10.3 MB 61.8 MB/s  0:00:00
+
+Using cached shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Using cached tqdm-4.70.1-py3-none-any.whl (80 kB)
+Using cached truststore-0.10.5-py3-none-any.whl (19 kB)
+Using cached typing_inspection-0.4.4-py3-none-any.whl (14 kB)
+Using cached tzdata-2026.6-py2.py3-none-any.whl (348 kB)
+Downloading coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+Downloading humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+Downloading ffmpy-1.0.0-py3-none-any.whl (5.6 kB)
+Using cached flatbuffers-25.12.19-py2.py3-none-any.whl (26 kB)
+Downloading pydub-0.25.1-py2.py3-none-any.whl (32 kB)
+Using cached sympy-1.14.0-py3-none-any.whl (6.3 MB)
+Using cached mpmath-1.3.0-py3-none-any.whl (536 kB)
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/pip-26.2.2-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/setuptools-84.2.1-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/wheel-0.48.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/packaging-26.3-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/numpy-2.2.6-cp310-cp310-win_amd64.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/onnx-1.23.2-cp310-cp310-win_amd64.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/onnxruntime-1.23.2-cp310-cp310-win_amd64.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/fastapi-0.162.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/uvicorn-0.54.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/pydantic-2.14.2-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/pydantic_core-2.50.2-cp310-cp310-win_amd64.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/python_multipart-0.0.32-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/anyio-4.15.1-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/gradio-5.3.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/gradio_client-1.4.2-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/tomlkit-0.12.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/starlette-0.52.1-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/aiofiles-23.2.1-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/jinja2-3.1.6-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/MarkupSafe-2.1.5-cp310-cp310-win_amd64.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/orjson-3.13.0-cp310-cp310-win_amd64.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/pandas-2.3.3-cp310-cp310-win_amd64.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/pillow-10.4.0-cp310-cp310-win_amd64.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/pyyaml-6.0.3-cp310-cp310-win_amd64.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/semantic_version-2.10.0-py2.py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/typer-0.27.3-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/typing_extensions-4.16.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/websockets-12.0-cp310-cp310-win_amd64.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/streamlit-1.65.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/altair-6.2.2-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/click-8.5.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/httptools-0.9.0-cp310-cp310-win_amd64.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/itsdangerous-2.2.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/protobuf-7.36.2-cp310-abi3-win_amd64.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/pyarrow-25.0.1-cp310-cp310-win_amd64.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/pydeck-0.9.3-py2.py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/requests-2.34.2-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/charset_normalizer-3.5.2-cp310-cp310-win_amd64.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/idna-3.20-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/toml-0.10.2-py2.py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/urllib3-2.8.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/watchdog-6.0.0-py3-none-win_amd64.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/annotated_doc-0.0.5-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/annotated_types-0.8.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/certifi-2026.10.23-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/h11-0.16.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/httpx-0.28.1-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/httpcore-1.0.9-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/huggingface_hub-2.4.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/hf_xet-1.7.1-cp38-abi3-win_amd64.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/httpx2-2.14.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/httpcore2-2.14.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/filelock-4.1.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/fsspec-2026.9.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/jsonschema-4.26.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/attrs-26.1.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/jsonschema_specifications-2025.9.1-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/ml_dtypes-0.5.4-cp310-cp310-win_amd64.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/narwhals-2.28.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/opentelemetry_api-1.45.2-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/python_dateutil-3.0.0-py2.py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/pytz-2026.6-py2.py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/referencing-0.37.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/rich-15.0.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/pygments-2.21.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/markdown_it_py-4.2.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/mdurl-0.1.2-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/rpds_py-0.30.0-cp310-cp310-win_amd64.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/ruff-0.17.3-py3-none-win_amd64.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/shellingham-1.5.4-py2.py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/six-1.17.0-py2.py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/tqdm-4.70.1-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/truststore-0.10.5-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/typing_inspection-0.4.4-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/tzdata-2026.6-py2.py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/coloredlogs-15.0.1-py2.py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/humanfriendly-10.0-py2.py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/ffmpy-1.0.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/flatbuffers-25.12.19-py2.py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/pydub-0.25.1-py2.py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/sympy-1.14.0-py3-none-any.whl
+Saved ./environments/10_onnx_api_app_py310/wheelhouse/mpmath-1.3.0-py3-none-any.whl
+Successfully downloaded pip setuptools wheel packaging numpy onnx onnxruntime fastapi uvicorn pydantic pydantic-core python-multipart anyio gradio gradio-client tomlkit starlette aiofiles jinja2 markupsafe orjson pandas pillow pyyaml semantic-version typer typing_extensions websockets streamlit altair click httptools itsdangerous protobuf pyarrow pydeck requests charset_normalizer idna toml urllib3 watchdog annotated-doc annotated-types certifi h11 httpx httpcore huggingface-hub hf-xet httpx2 httpcore2 filelock fsspec jsonschema attrs jsonschema-specifications ml_dtypes narwhals opentelemetry-api python-dateutil pytz referencing rich pygments markdown-it-py mdurl rpds-py ruff shellingham six tqdm truststore typing-inspection tzdata coloredlogs humanfriendly ffmpy flatbuffers pydub sympy mpmath
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 310 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated -r /root/windows_python_offline_resources/environments/10_onnx_api_app_py310/requirements_direct_en.txt
+
+[exit 0]

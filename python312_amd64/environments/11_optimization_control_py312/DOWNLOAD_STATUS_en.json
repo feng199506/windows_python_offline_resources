@@ -1,0 +1,24 @@
+{
+  "environment": "11_optimization_control_py312",
+  "status": "downloaded",
+  "python": "312",
+  "direct_ok": [
+    "pip",
+    "setuptools",
+    "wheel",
+    "packaging",
+    "numpy",
+    "scipy",
+    "cvxpy",
+    "osqp",
+    "clarabel",
+    "scs",
+    "control",
+    "casadi"
+  ],
+  "failed": [],
+  "wheel_count": 31,
+  "total_bytes": 147273371,
+  "started_utc": "2026-10-30T05:01:03Z",
+  "finished_utc": "2026-10-30T05:01:10Z"
+}

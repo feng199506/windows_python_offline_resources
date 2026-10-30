@@ -1,0 +1,26 @@
+﻿environment,item,issue_type,detail,workaround,blocks_offline_windows
+all_py310,CPython 3.10,support_eol,Python 3.10 已于 2026-10-01 结束安全支持。3.10.11 是最后带 Windows 安装程序的版本。仅用于旧项目复现，不是新项目统一环境。,第二套正式树使用 python312_amd64（3.12.10）；不要把 3.11+ 专用包混进 py310 wheelhouse。,no
+07b_gpflow_tf_py310,GPflow 与 TF 2.21,version_conflict,GPflow 2.11.2 要求 numpy<2，且 tensorflow-probability[tf] 会拉 tf-keras；未钉死时解析出 TF 2.18 元包与 TF 2.16 intel 本体并存。,已拆到 project_specific/07b_gpflow_tf_py310，锁定 tensorflow/tensorflow-intel 2.16.2 + tfp 0.24.0 + tf-keras 2.16.0 + numpy 1.26.4。不要与 07_tensorflow_cpu_py310（TF 2.21、numpy 2.2）混装。,no
+07b_gpflow_tf_py310,tensorflow-io-gcs-filesystem,cross_platform_marker,tensorflow-intel 2.16.2 对 Python<3.12 声明需要该包；仅用 --platform 解析时未自动拉下。,已按 Windows cp310 另行下载 0.31.0 win_amd64 wheel 并写入该环境。,no
+02_ml_stats_py310,wrapt 2.6.0.dev1,unstable_dep,首次解析把 wrapt 锁到开发版。,已钉 wrapt==2.5.2 稳定 wheel。,no
+02_ml_stats_py310,xgboost,oldest_available_wheel,在 py310 + only-binary + win_amd64 条件下解析到 xgboost 2.0.3（py3-none-win_amd64）。更新的 3.x 可能没有该目标的 wheel。,保持 2.0.3；若项目需要 xgboost 3.x，另建 py313 项目环境并核 wheel。,no
+03_signal_image_audio_py310,opencv-python-headless,version_policy,未钉死时解析到 OpenCV 5.0.0.93 abi3。通用科研代码仍大量假设 4.x API。,已改钉 4.10.0.84。不要与 opencv-python / opencv-contrib-python 混装。,no
+06_bayesian_mc_py310,CmdStan,external_toolchain,cmdstanpy 1.3.0 只是 Python 封装。Stan 编译器与 C++ 工具链不在 wheelhouse。,见 external_dependencies_cn.csv；需要时另装官方 CmdStan 或改用 WSL2。无 CmdStan 时仍可使用 PyMC/emcee/ArviZ 的部分功能。,partial
+06_bayesian_mc_py310,PyTensor,optional_compiler,PyMC 5.25.1 依赖 pytensor 2.31.7。复杂自定义算子在 Windows 上可能需要 MSVC。,基础采样若只用已有 wheel 后端，可先试 CPU 环境；编译失败则用 Build Tools 或 WSL2。,no
+gpu_optional,CUDA/cuDNN/驱动,hardware_unknown,目标 Windows 显卡与驱动未知。,只提供采集脚本和待选方案，不下载多套 CUDA 大包。见 gpu_optional/。,yes_for_gpu
+gpu_optional,TensorFlow native Windows GPU,official_dropped,TF 2.10 是最后支持原生 Windows GPU 的发行版；2.11+ 官方要求 WSL2 或 CPU。,CPU 用 07_tensorflow_cpu_*；GPU 用 wsl2_optional 或历史 TF≤2.10 独立目录（本轮不下载）。,yes_for_tf_gpu_native
+wsl2_optional,Linux-only wheels,platform,无 win_amd64 或仅 manylinux 的组件不能放入 Windows wheelhouse。,见 wsl2_optional/README_cn.md。,yes_on_native_windows
+08_rl_basic_py310,MuJoCo/Atari/大型仿真,out_of_scope,通用 RL 基础环境刻意不含仿真器二进制、ROM 或大规模物理引擎。,需要时按单个 Release 另取官方包；注意版权。,yes_for_those_envs
+09_huggingface_llm_cpu_py310,模型权重与数据集,not_included,仅有库。transformers 5.20.2 等不能代替权重。,按模型卡另下到项目目录；不要写入基础 wheelhouse。,yes_for_inference_until_weights
+10_onnx_api_app_py310,onnxruntime-gpu,conflict_policy,CPU 包 onnxruntime 1.23.2。GPU 变体不得混装。,GPU 待硬件报告后单建 gpu_optional 环境。,no
+catboost/graphviz,Graphviz 可执行文件,external_binary,02 环境含 Python 包 graphviz 0.21（catboost 依赖）。这不是 Graphviz 绘图引擎。,需要出图时另装 Graphviz 官方 Windows 程序。,partial
+11_optimization_control_py310,商业求解器,not_included,已含 cvxpy、osqp、clarabel、scs、casadi、control。无 Gurobi/MOSEK/CPLEX 许可证包。,有许可证时按厂商文档另装，不要改本环境。,no
+all,历史研究项目,not_a_reproduction,本库不是已归档 GitHub Release 的精确复现。未读取各项目 requirements。,按 project_dependency_supplement_guide_cn.md 对单个 Release 另建项目环境。,n/a
+all,Windows 安装验证,not_run,本轮只在 Linux 上下载并用 zip/METADATA/平台标签做静态检查。未在 Windows 上创建 venv 或 import。,在目标机运行各环境 install_offline_en.ps1 与 check_environment_en.py 后才能标记验证通过。,yes_until_target_run
+py310_envs,Windows/Python 版本门控依赖,cross_platform_marker,在 Linux 主机上普通 pip download 会按主机 Python 3.14 丢掉 python_version<"3.11" 与 sys_platform=="win32" 的依赖。,已用 METADATA 闭包补下 colorama、tomli、exceptiongroup、async-timeout、overrides、pyreadline3 等；各组 lock 现为完整传递依赖。,no
+py313_leftover,不是正式第二树,scope,environments/*_py313 与 python-3.13.17 安装程序是早期试验残留。正式第二树是 python312_amd64。,使用 python312_amd64；不要把 py313 当作已交付的第二套。,no
+14_ml_extra,lime,no_windows_wheel,lime 在 PyPI 上没有 win_amd64 / py3-none-any wheel。3.10 与 3.12 均未下载。,需要解释时在有编译器的环境从 sdist 自建，或换 SHAP 等已打包替代。,yes_for_lime
+16_timeseries_quant,ta / akshare,no_windows_wheel,ta 在 3.10 与 3.12 均无 Windows wheel。akshare 在 3.10 无兼容 wheel，3.12 已下载。,量化环境其余包可用；这两个包不能冒充为已离线完成。,partial
+17_nlp_classic,jieba,no_windows_wheel,jieba 无 Windows wheel（仅 sdist）。3.10 与 3.12 均未下载。,中文分词需另寻有 wheel 的替代或自备 sdist。,yes_for_jieba
+23_office_pdf,odfpy,no_windows_wheel,odfpy 无 Windows wheel。3.10 与 3.12 均未下载。,ODF 读写不可用；docx/xlsx/pdf 包已在该组。,partial
+07b_gpflow_tf_py312,tensorflow-io-gcs-filesystem,not_required_on_312,从 3.10 规格拷来的额外依赖；TF 2.16 仅对 Python<3.12 声明需要。3.12 无对应 Windows wheel。,3.12 的 07b 不包含该包，也不需要。,no

@@ -1,0 +1,23 @@
+# Direct dependencies for 02_ml_stats_py310
+# Target: Windows 10/11 x86-64, CPython 3.10
+# Generated for offline wheel download. Not a historical project lockfile.
+
+pip
+setuptools
+wheel
+packaging
+numpy
+scipy
+pandas
+matplotlib
+scikit-learn
+statsmodels
+xgboost
+lightgbm
+catboost
+hmmlearn
+joblib
+threadpoolctl
+tqdm
+pyyaml
+wrapt==2.5.2

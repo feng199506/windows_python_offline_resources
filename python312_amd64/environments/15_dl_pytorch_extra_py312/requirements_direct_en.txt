@@ -1,0 +1,16 @@
+# Direct dependencies for 15_dl_pytorch_extra_py312
+# Target: Windows 10/11 x86-64, CPython 3.12
+# Generated for offline wheel download. Not a historical project lockfile.
+
+pip
+setuptools
+wheel
+packaging
+numpy
+torch
+torchvision
+lightning
+torchmetrics
+einops
+timm
+kornia

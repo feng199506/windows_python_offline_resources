@@ -1,0 +1,250 @@
+Collecting pip (from -r /root/windows_python_offline_resources/environments/23_office_pdf_py310/requirements_direct_en.txt (line 5))
+  Using cached pip-26.2.2-py3-none-any.whl.metadata (4.6 kB)
+Collecting setuptools (from -r /root/windows_python_offline_resources/environments/23_office_pdf_py310/requirements_direct_en.txt (line 6))
+  Using cached setuptools-84.2.1-py3-none-any.whl.metadata (6.6 kB)
+Collecting wheel (from -r /root/windows_python_offline_resources/environments/23_office_pdf_py310/requirements_direct_en.txt (line 7))
+  Using cached wheel-0.48.0-py3-none-any.whl.metadata (2.3 kB)
+Collecting packaging (from -r /root/windows_python_offline_resources/environments/23_office_pdf_py310/requirements_direct_en.txt (line 8))
+  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting python-docx (from -r /root/windows_python_offline_resources/environments/23_office_pdf_py310/requirements_direct_en.txt (line 9))
+  Downloading python_docx-1.2.0-py3-none-any.whl.metadata (2.0 kB)
+Collecting python-pptx (from -r /root/windows_python_offline_resources/environments/23_office_pdf_py310/requirements_direct_en.txt (line 10))
+  Downloading python_pptx-1.0.2-py3-none-any.whl.metadata (2.5 kB)
+Collecting xlsxwriter (from -r /root/windows_python_offline_resources/environments/23_office_pdf_py310/requirements_direct_en.txt (line 11))
+  Downloading xlsxwriter-3.3.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting xlrd (from -r /root/windows_python_offline_resources/environments/23_office_pdf_py310/requirements_direct_en.txt (line 12))
+  Using cached xlrd-2.0.2-py2.py3-none-any.whl.metadata (3.5 kB)
+ERROR: Could not find a version that satisfies the requirement odfpy (from versions: none)
+ERROR: No matching distribution found for odfpy
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 310 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated -r /root/windows_python_offline_resources/environments/23_office_pdf_py310/requirements_direct_en.txt
+
+[exit 1]
+Collecting pip
+  Using cached pip-26.2.2-py3-none-any.whl.metadata (4.6 kB)
+Using cached pip-26.2.2-py3-none-any.whl (1.8 MB)
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/pip-26.2.2-py3-none-any.whl
+Successfully downloaded pip
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 310 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated pip
+
+[exit 0]
+Collecting setuptools
+  Using cached setuptools-84.2.1-py3-none-any.whl.metadata (6.6 kB)
+Using cached setuptools-84.2.1-py3-none-any.whl (876 kB)
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/setuptools-84.2.1-py3-none-any.whl
+Successfully downloaded setuptools
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 310 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated setuptools
+
+[exit 0]
+Collecting wheel
+  Using cached wheel-0.48.0-py3-none-any.whl.metadata (2.3 kB)
+Collecting packaging>=24.0 (from wheel)
+  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Using cached wheel-0.48.0-py3-none-any.whl (33 kB)
+Using cached packaging-26.3-py3-none-any.whl (129 kB)
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/wheel-0.48.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/packaging-26.3-py3-none-any.whl
+Successfully downloaded wheel packaging
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 310 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated wheel
+
+[exit 0]
+Collecting packaging
+  File was already downloaded /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/packaging-26.3-py3-none-any.whl
+Successfully downloaded packaging
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 310 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated packaging
+
+[exit 0]
+Collecting python-docx
+  Using cached python_docx-1.2.0-py3-none-any.whl.metadata (2.0 kB)
+Collecting lxml>=3.1.0 (from python-docx)
+  Using cached lxml-6.1.3-cp310-cp310-win_amd64.whl.metadata (3.4 kB)
+Collecting typing_extensions>=4.9.0 (from python-docx)
+  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Downloading python_docx-1.2.0-py3-none-any.whl (252 kB)
+Using cached lxml-6.1.3-cp310-cp310-win_amd64.whl (4.0 MB)
+Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/python_docx-1.2.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/lxml-6.1.3-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/typing_extensions-4.16.0-py3-none-any.whl
+Successfully downloaded python-docx lxml typing_extensions
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 310 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated python-docx
+
+[exit 0]
+Collecting python-pptx
+  Using cached python_pptx-1.0.2-py3-none-any.whl.metadata (2.5 kB)
+Collecting Pillow>=3.3.2 (from python-pptx)
+  Using cached pillow-12.3.0-cp310-cp310-win_amd64.whl.metadata (9.3 kB)
+Collecting XlsxWriter>=0.5.7 (from python-pptx)
+  Using cached xlsxwriter-3.3.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting lxml>=3.1.0 (from python-pptx)
+  File was already downloaded /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/lxml-6.1.3-cp310-cp310-win_amd64.whl
+Collecting typing-extensions>=4.9.0 (from python-pptx)
+  File was already downloaded /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/typing_extensions-4.16.0-py3-none-any.whl
+Downloading python_pptx-1.0.2-py3-none-any.whl (472 kB)
+Using cached pillow-12.3.0-cp310-cp310-win_amd64.whl (7.2 MB)
+Downloading xlsxwriter-3.3.1-py3-none-any.whl (180 kB)
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/python_pptx-1.0.2-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/pillow-12.3.0-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/xlsxwriter-3.3.1-py3-none-any.whl
+Successfully downloaded python-pptx lxml Pillow typing-extensions XlsxWriter
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 310 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated python-pptx
+
+[exit 0]
+Collecting xlsxwriter
+  File was already downloaded /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/xlsxwriter-3.3.1-py3-none-any.whl
+Successfully downloaded xlsxwriter
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 310 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated xlsxwriter
+
+[exit 0]
+Collecting xlrd
+  Using cached xlrd-2.0.2-py2.py3-none-any.whl.metadata (3.5 kB)
+Downloading xlrd-2.0.2-py2.py3-none-any.whl (96 kB)
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/xlrd-2.0.2-py2.py3-none-any.whl
+Successfully downloaded xlrd
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 310 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated xlrd
+
+[exit 0]
+ERROR: Could not find a version that satisfies the requirement odfpy (from versions: none)
+ERROR: No matching distribution found for odfpy
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 310 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated odfpy
+
+[exit 1]
+Collecting reportlab
+  Downloading reportlab-5.1.0-py3-none-any.whl.metadata (1.6 kB)
+Collecting pillow>=9.0.0 (from reportlab)
+  File was already downloaded /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/pillow-12.3.0-cp310-cp310-win_amd64.whl
+Collecting charset-normalizer (from reportlab)
+  Using cached charset_normalizer-3.5.2-cp310-cp310-win_amd64.whl.metadata (47 kB)
+Downloading reportlab-5.1.0-py3-none-any.whl (2.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 12.6 MB/s  0:00:00
+
+Using cached charset_normalizer-3.5.2-cp310-cp310-win_amd64.whl (215 kB)
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/reportlab-5.1.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/charset_normalizer-3.5.2-cp310-cp310-win_amd64.whl
+Successfully downloaded reportlab pillow charset-normalizer
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 310 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated reportlab
+
+[exit 0]
+Collecting pypdf
+  Downloading pypdf-6.21.4-py3-none-any.whl.metadata (7.6 kB)
+Downloading pypdf-6.21.4-py3-none-any.whl (410 kB)
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/pypdf-6.21.4-py3-none-any.whl
+Successfully downloaded pypdf
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 310 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated pypdf
+
+[exit 0]
+Collecting pdfminer.six
+  Downloading pdfminer_six-20260107-py3-none-any.whl.metadata (4.3 kB)
+Collecting charset-normalizer>=2.0.0 (from pdfminer.six)
+  File was already downloaded /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/charset_normalizer-3.5.2-cp310-cp310-win_amd64.whl
+Collecting cryptography>=36.0.0 (from pdfminer.six)
+  Using cached cryptography-50.0.2-cp39-abi3-win_amd64.whl.metadata (4.4 kB)
+Collecting cffi>=2.0.0 (from cryptography>=36.0.0->pdfminer.six)
+  Using cached cffi-2.1.1-cp310-cp310-win_amd64.whl.metadata (2.6 kB)
+Collecting pycparser (from cffi>=2.0.0->cryptography>=36.0.0->pdfminer.six)
+  Using cached pycparser-3.11-py3-none-any.whl.metadata (8.2 kB)
+Downloading pdfminer_six-20260107-py3-none-any.whl (6.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 29.1 MB/s  0:00:00
+
+Using cached cryptography-50.0.2-cp39-abi3-win_amd64.whl (3.9 MB)
+Using cached cffi-2.1.1-cp310-cp310-win_amd64.whl (185 kB)
+Using cached pycparser-3.11-py3-none-any.whl (51 kB)
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/pdfminer_six-20260107-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/cryptography-50.0.2-cp39-abi3-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/cffi-2.1.1-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/pycparser-3.11-py3-none-any.whl
+Successfully downloaded pdfminer.six charset-normalizer cryptography cffi pycparser
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 310 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated pdfminer.six
+
+[exit 0]
+Collecting pdfplumber
+  Downloading pdfplumber-0.11.10-py3-none-any.whl.metadata (43 kB)
+Collecting pdfminer.six==20260107 (from pdfplumber)
+  File was already downloaded /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/pdfminer_six-20260107-py3-none-any.whl
+Collecting Pillow>=12.2.0 (from pdfplumber)
+  File was already downloaded /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/pillow-12.3.0-cp310-cp310-win_amd64.whl
+Collecting pypdfium2>=5.9.0 (from pdfplumber)
+  Downloading pypdfium2-5.14.0-py3-none-win_amd64.whl.metadata (63 kB)
+Collecting charset-normalizer>=2.0.0 (from pdfminer.six==20260107->pdfplumber)
+  File was already downloaded /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/charset_normalizer-3.5.2-cp310-cp310-win_amd64.whl
+Collecting cryptography>=36.0.0 (from pdfminer.six==20260107->pdfplumber)
+  File was already downloaded /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/cryptography-50.0.2-cp39-abi3-win_amd64.whl
+Collecting cffi>=2.0.0 (from cryptography>=36.0.0->pdfminer.six==20260107->pdfplumber)
+  File was already downloaded /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/cffi-2.1.1-cp310-cp310-win_amd64.whl
+Collecting pycparser (from cffi>=2.0.0->cryptography>=36.0.0->pdfminer.six==20260107->pdfplumber)
+  File was already downloaded /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/pycparser-3.11-py3-none-any.whl
+Downloading pdfplumber-0.11.10-py3-none-any.whl (60 kB)
+Downloading pypdfium2-5.14.0-py3-none-win_amd64.whl (3.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.9/3.9 MB 48.6 MB/s  0:00:00
+
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/pdfplumber-0.11.10-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/pypdfium2-5.14.0-py3-none-win_amd64.whl
+Successfully downloaded pdfplumber pdfminer.six charset-normalizer cryptography cffi Pillow pypdfium2 pycparser
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 310 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated pdfplumber
+
+[exit 0]
+Collecting fpdf2
+  Downloading fpdf2-2.8.9-py3-none-any.whl.metadata (88 kB)
+Collecting defusedxml (from fpdf2)
+  Using cached defusedxml-0.7.1-py2.py3-none-any.whl.metadata (32 kB)
+Collecting Pillow!=9.2.*,>=8.3.2 (from fpdf2)
+  File was already downloaded /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/pillow-12.3.0-cp310-cp310-win_amd64.whl
+Collecting fonttools>=4.34.0 (from fpdf2)
+  Using cached fonttools-4.65.0-cp310-cp310-win_amd64.whl.metadata (127 kB)
+Downloading fpdf2-2.8.9-py3-none-any.whl (341 kB)
+Using cached fonttools-4.65.0-cp310-cp310-win_amd64.whl (1.6 MB)
+Using cached defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/fpdf2-2.8.9-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/fonttools-4.65.0-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/defusedxml-0.7.1-py2.py3-none-any.whl
+Successfully downloaded fpdf2 fonttools Pillow defusedxml
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 310 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated fpdf2
+
+[exit 0]
+Collecting mammoth
+  Downloading mammoth-1.13.0-py2.py3-none-any.whl.metadata (26 kB)
+Collecting cobble<0.2,>=0.1.3 (from mammoth)
+  Downloading cobble-0.1.4-py3-none-any.whl.metadata (2.7 kB)
+Downloading mammoth-1.13.0-py2.py3-none-any.whl (55 kB)
+Downloading cobble-0.1.4-py3-none-any.whl (4.0 kB)
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/mammoth-1.13.0-py2.py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/cobble-0.1.4-py3-none-any.whl
+Successfully downloaded mammoth cobble
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 310 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated mammoth
+
+[exit 0]
+Collecting openpyxl
+  Using cached openpyxl-3.1.5-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting et-xmlfile (from openpyxl)
+  Using cached et_xmlfile-2.0.0-py3-none-any.whl.metadata (2.7 kB)
+Using cached openpyxl-3.1.5-py2.py3-none-any.whl (250 kB)
+Using cached et_xmlfile-2.0.0-py3-none-any.whl (18 kB)
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/openpyxl-3.1.5-py2.py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/et_xmlfile-2.0.0-py3-none-any.whl
+Successfully downloaded openpyxl et-xmlfile
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 310 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated openpyxl
+
+[exit 0]
+Collecting Pillow
+  File was already downloaded /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse/pillow-12.3.0-cp310-cp310-win_amd64.whl
+Successfully downloaded Pillow
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 310 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/environments/23_office_pdf_py310/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated Pillow
+
+[exit 0]

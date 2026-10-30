@@ -1,0 +1,19 @@
+{
+  "environment": "07_tensorflow_cpu_py312",
+  "status": "downloaded",
+  "python": "312",
+  "direct_ok": [
+    "pip",
+    "setuptools",
+    "wheel",
+    "packaging",
+    "numpy",
+    "tensorflow-cpu==2.21.0",
+    "keras"
+  ],
+  "failed": [],
+  "wheel_count": 33,
+  "total_bytes": 407913774,
+  "started_utc": "2026-10-30T05:00:08Z",
+  "finished_utc": "2026-10-30T05:00:23Z"
+}

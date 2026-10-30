@@ -1,0 +1,302 @@
+﻿变更类型,原相对路径,发布包内相对路径,说明
+CSV 加 BOM,compatibility_issues_cn.csv,compatibility_issues_cn.csv,UTF-8 加 BOM，Windows Excel 直接双击打开中文不乱码；内容不变
+离线化新增,,compatibility_issues_cn.html,compatibility_issues_cn.csv 的 HTML 表格视图
+CSV 加 BOM,external_dependencies_cn.csv,external_dependencies_cn.csv,UTF-8 加 BOM，Windows Excel 直接双击打开中文不乱码；内容不变
+离线化新增,,external_dependencies_cn.html,external_dependencies_cn.csv 的 HTML 表格视图
+CSV 加 BOM,non_wheel_resources_cn.csv,non_wheel_resources_cn.csv,UTF-8 加 BOM，Windows Excel 直接双击打开中文不乱码；内容不变
+离线化新增,,non_wheel_resources_cn.html,non_wheel_resources_cn.csv 的 HTML 表格视图
+离线化新增,,package_inventory_cn.html,package_inventory_cn.csv 的 HTML 表格视图
+CSV 加 BOM,progress_cn.csv,progress_cn.csv,UTF-8 加 BOM，Windows Excel 直接双击打开中文不乱码；内容不变
+离线化新增,,progress_cn.html,progress_cn.csv 的 HTML 表格视图
+离线化新增,,environments/01_base_scientific_py313/wheel_manifest_cn.html,environments/01_base_scientific_py313/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,environments/04_pytorch_cpu_py313/wheel_manifest_cn.html,environments/04_pytorch_cpu_py313/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,environments/07_tensorflow_cpu_py313/wheel_manifest_cn.html,environments/07_tensorflow_cpu_py313/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,installers/installer_inventory_cn.html,installers/installer_inventory_cn.csv 的 HTML 表格视图
+离线化新增,,project_specific/07b_gpflow_tf_py310/wheel_manifest_cn.html,project_specific/07b_gpflow_tf_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/01_base_scientific_py310/wheel_manifest_cn.html,python310_amd64/environments/01_base_scientific_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/02_ml_stats_py310/wheel_manifest_cn.html,python310_amd64/environments/02_ml_stats_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/03_signal_image_audio_py310/wheel_manifest_cn.html,python310_amd64/environments/03_signal_image_audio_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/04_pytorch_cpu_py310/wheel_manifest_cn.html,python310_amd64/environments/04_pytorch_cpu_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/05_gpr_bo_pytorch_py310/wheel_manifest_cn.html,python310_amd64/environments/05_gpr_bo_pytorch_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/06_bayesian_mc_py310/wheel_manifest_cn.html,python310_amd64/environments/06_bayesian_mc_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/07_tensorflow_cpu_py310/wheel_manifest_cn.html,python310_amd64/environments/07_tensorflow_cpu_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/07b_gpflow_tf_py310/wheel_manifest_cn.html,python310_amd64/environments/07b_gpflow_tf_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/08_rl_basic_py310/wheel_manifest_cn.html,python310_amd64/environments/08_rl_basic_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/09_huggingface_llm_cpu_py310/wheel_manifest_cn.html,python310_amd64/environments/09_huggingface_llm_cpu_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/10_onnx_api_app_py310/wheel_manifest_cn.html,python310_amd64/environments/10_onnx_api_app_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/11_optimization_control_py310/wheel_manifest_cn.html,python310_amd64/environments/11_optimization_control_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/12_scientific_extra_py310/wheel_manifest_cn.html,python310_amd64/environments/12_scientific_extra_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/13_stats_optimize_extra_py310/wheel_manifest_cn.html,python310_amd64/environments/13_stats_optimize_extra_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/14_ml_extra_py310/wheel_manifest_cn.html,python310_amd64/environments/14_ml_extra_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/15_dl_pytorch_extra_py310/wheel_manifest_cn.html,python310_amd64/environments/15_dl_pytorch_extra_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/16_timeseries_quant_py310/wheel_manifest_cn.html,python310_amd64/environments/16_timeseries_quant_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/17_nlp_classic_py310/wheel_manifest_cn.html,python310_amd64/environments/17_nlp_classic_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/17b_nlp_sentence_transformers_py310/wheel_manifest_cn.html,python310_amd64/environments/17b_nlp_sentence_transformers_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/18_vision_extra_py310/wheel_manifest_cn.html,python310_amd64/environments/18_vision_extra_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/19_av_extra_py310/wheel_manifest_cn.html,python310_amd64/environments/19_av_extra_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/20_web_api_extra_py310/wheel_manifest_cn.html,python310_amd64/environments/20_web_api_extra_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/21_database_py310/wheel_manifest_cn.html,python310_amd64/environments/21_database_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/22_crawler_py310/wheel_manifest_cn.html,python310_amd64/environments/22_crawler_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/22b_playwright_py310/wheel_manifest_cn.html,python310_amd64/environments/22b_playwright_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/23_office_pdf_py310/wheel_manifest_cn.html,python310_amd64/environments/23_office_pdf_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/24_gui_tk_py310/wheel_manifest_cn.html,python310_amd64/environments/24_gui_tk_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/24b_gui_pyqt6_py310/wheel_manifest_cn.html,python310_amd64/environments/24b_gui_pyqt6_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/24c_gui_pyside6_py310/wheel_manifest_cn.html,python310_amd64/environments/24c_gui_pyside6_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/24d_gui_wx_py310/wheel_manifest_cn.html,python310_amd64/environments/24d_gui_wx_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python310_amd64/environments/25_devtools_py310/wheel_manifest_cn.html,python310_amd64/environments/25_devtools_py310/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/01_base_scientific_py312/wheel_manifest_cn.html,python312_amd64/environments/01_base_scientific_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/02_ml_stats_py312/wheel_manifest_cn.html,python312_amd64/environments/02_ml_stats_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/03_signal_image_audio_py312/wheel_manifest_cn.html,python312_amd64/environments/03_signal_image_audio_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/04_pytorch_cpu_py312/wheel_manifest_cn.html,python312_amd64/environments/04_pytorch_cpu_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/05_gpr_bo_pytorch_py312/wheel_manifest_cn.html,python312_amd64/environments/05_gpr_bo_pytorch_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/06_bayesian_mc_py312/wheel_manifest_cn.html,python312_amd64/environments/06_bayesian_mc_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/07_tensorflow_cpu_py312/wheel_manifest_cn.html,python312_amd64/environments/07_tensorflow_cpu_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/07b_gpflow_tf_py312/wheel_manifest_cn.html,python312_amd64/environments/07b_gpflow_tf_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/08_rl_basic_py312/wheel_manifest_cn.html,python312_amd64/environments/08_rl_basic_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/09_huggingface_llm_cpu_py312/wheel_manifest_cn.html,python312_amd64/environments/09_huggingface_llm_cpu_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/10_onnx_api_app_py312/wheel_manifest_cn.html,python312_amd64/environments/10_onnx_api_app_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/11_optimization_control_py312/wheel_manifest_cn.html,python312_amd64/environments/11_optimization_control_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/12_scientific_extra_py312/wheel_manifest_cn.html,python312_amd64/environments/12_scientific_extra_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/13_stats_optimize_extra_py312/wheel_manifest_cn.html,python312_amd64/environments/13_stats_optimize_extra_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/14_ml_extra_py312/wheel_manifest_cn.html,python312_amd64/environments/14_ml_extra_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/15_dl_pytorch_extra_py312/wheel_manifest_cn.html,python312_amd64/environments/15_dl_pytorch_extra_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/16_timeseries_quant_py312/wheel_manifest_cn.html,python312_amd64/environments/16_timeseries_quant_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/17_nlp_classic_py312/wheel_manifest_cn.html,python312_amd64/environments/17_nlp_classic_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/17b_nlp_sentence_transformers_py312/wheel_manifest_cn.html,python312_amd64/environments/17b_nlp_sentence_transformers_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/18_vision_extra_py312/wheel_manifest_cn.html,python312_amd64/environments/18_vision_extra_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/19_av_extra_py312/wheel_manifest_cn.html,python312_amd64/environments/19_av_extra_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/20_web_api_extra_py312/wheel_manifest_cn.html,python312_amd64/environments/20_web_api_extra_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/21_database_py312/wheel_manifest_cn.html,python312_amd64/environments/21_database_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/22_crawler_py312/wheel_manifest_cn.html,python312_amd64/environments/22_crawler_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/22b_playwright_py312/wheel_manifest_cn.html,python312_amd64/environments/22b_playwright_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/23_office_pdf_py312/wheel_manifest_cn.html,python312_amd64/environments/23_office_pdf_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/24_gui_tk_py312/wheel_manifest_cn.html,python312_amd64/environments/24_gui_tk_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/24b_gui_pyqt6_py312/wheel_manifest_cn.html,python312_amd64/environments/24b_gui_pyqt6_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/24c_gui_pyside6_py312/wheel_manifest_cn.html,python312_amd64/environments/24c_gui_pyside6_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/24d_gui_wx_py312/wheel_manifest_cn.html,python312_amd64/environments/24d_gui_wx_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,python312_amd64/environments/25_devtools_py312/wheel_manifest_cn.html,python312_amd64/environments/25_devtools_py312/wheel_manifest_cn.csv 的 HTML 表格视图
+离线化新增,,state/dependency_closure_cn.html,state/dependency_closure_cn.csv 的 HTML 表格视图
+离线化改内容,README_cn.md,README_cn.md,14 处行内代码路径改为可点击的相对链接
+离线化新增,,README_cn.html,README_cn.md 的 HTML 版本
+离线化改内容,environments_overview_cn.md,environments_overview_cn.md,8 处行内代码路径改为可点击的相对链接
+离线化新增,,environments_overview_cn.html,environments_overview_cn.md 的 HTML 版本
+离线化改内容,project_dependency_supplement_guide_cn.md,project_dependency_supplement_guide_cn.md,2 处行内代码路径改为可点击的相对链接
+离线化新增,,project_dependency_supplement_guide_cn.html,project_dependency_supplement_guide_cn.md 的 HTML 版本
+修正命令,environments/01_base_scientific_py313/README_cn.md,environments/01_base_scientific_py313/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,environments/01_base_scientific_py313/README_cn.md,environments/01_base_scientific_py313/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,environments/01_base_scientific_py313/README_cn.html,environments/01_base_scientific_py313/README_cn.md 的 HTML 版本
+修正命令,environments/04_pytorch_cpu_py313/README_cn.md,environments/04_pytorch_cpu_py313/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,environments/04_pytorch_cpu_py313/README_cn.md,environments/04_pytorch_cpu_py313/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,environments/04_pytorch_cpu_py313/README_cn.html,environments/04_pytorch_cpu_py313/README_cn.md 的 HTML 版本
+修正命令,environments/07_tensorflow_cpu_py313/README_cn.md,environments/07_tensorflow_cpu_py313/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,environments/07_tensorflow_cpu_py313/README_cn.md,environments/07_tensorflow_cpu_py313/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,environments/07_tensorflow_cpu_py313/README_cn.html,environments/07_tensorflow_cpu_py313/README_cn.md 的 HTML 版本
+离线化改内容,gpu_optional/README_cn.md,gpu_optional/README_cn.md,2 处行内代码路径改为可点击的相对链接
+离线化新增,,gpu_optional/README_cn.html,gpu_optional/README_cn.md 的 HTML 版本
+离线化改内容,gpu_optional/pytorch_cuda_candidates_cn.md,gpu_optional/pytorch_cuda_candidates_cn.md,2 处行内代码路径改为可点击的相对链接
+离线化新增,,gpu_optional/pytorch_cuda_candidates_cn.html,gpu_optional/pytorch_cuda_candidates_cn.md 的 HTML 版本
+离线化改内容,guides/python_version_policy_cn.md,guides/python_version_policy_cn.md,5 处行内代码路径改为可点击的相对链接
+离线化新增,,guides/python_version_policy_cn.html,guides/python_version_policy_cn.md 的 HTML 版本
+离线化改内容,guides/windows_install_steps_cn.md,guides/windows_install_steps_cn.md,8 处行内代码路径改为可点击的相对链接
+离线化新增,,guides/windows_install_steps_cn.html,guides/windows_install_steps_cn.md 的 HTML 版本
+离线化改内容,installers/README_cn.md,installers/README_cn.md,3 处行内代码路径改为可点击的相对链接
+离线化新增,,installers/README_cn.html,installers/README_cn.md 的 HTML 版本
+离线化改内容,project_specific/README_cn.md,project_specific/README_cn.md,2 处行内代码路径改为可点击的相对链接
+离线化新增,,project_specific/README_cn.html,project_specific/README_cn.md 的 HTML 版本
+修正命令,project_specific/07b_gpflow_tf_py310/README_cn.md,project_specific/07b_gpflow_tf_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,project_specific/07b_gpflow_tf_py310/README_cn.md,project_specific/07b_gpflow_tf_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,project_specific/07b_gpflow_tf_py310/README_cn.html,project_specific/07b_gpflow_tf_py310/README_cn.md 的 HTML 版本
+离线化改内容,python310_amd64/README_cn.md,python310_amd64/README_cn.md,34 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/README_cn.html,python310_amd64/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/01_base_scientific_py310/README_cn.md,python310_amd64/environments/01_base_scientific_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/01_base_scientific_py310/README_cn.md,python310_amd64/environments/01_base_scientific_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/01_base_scientific_py310/README_cn.html,python310_amd64/environments/01_base_scientific_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/02_ml_stats_py310/README_cn.md,python310_amd64/environments/02_ml_stats_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/02_ml_stats_py310/README_cn.md,python310_amd64/environments/02_ml_stats_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/02_ml_stats_py310/README_cn.html,python310_amd64/environments/02_ml_stats_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/03_signal_image_audio_py310/README_cn.md,python310_amd64/environments/03_signal_image_audio_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/03_signal_image_audio_py310/README_cn.md,python310_amd64/environments/03_signal_image_audio_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/03_signal_image_audio_py310/README_cn.html,python310_amd64/environments/03_signal_image_audio_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/04_pytorch_cpu_py310/README_cn.md,python310_amd64/environments/04_pytorch_cpu_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/04_pytorch_cpu_py310/README_cn.md,python310_amd64/environments/04_pytorch_cpu_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/04_pytorch_cpu_py310/README_cn.html,python310_amd64/environments/04_pytorch_cpu_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/05_gpr_bo_pytorch_py310/README_cn.md,python310_amd64/environments/05_gpr_bo_pytorch_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/05_gpr_bo_pytorch_py310/README_cn.md,python310_amd64/environments/05_gpr_bo_pytorch_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/05_gpr_bo_pytorch_py310/README_cn.html,python310_amd64/environments/05_gpr_bo_pytorch_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/06_bayesian_mc_py310/README_cn.md,python310_amd64/environments/06_bayesian_mc_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/06_bayesian_mc_py310/README_cn.md,python310_amd64/environments/06_bayesian_mc_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/06_bayesian_mc_py310/README_cn.html,python310_amd64/environments/06_bayesian_mc_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/07_tensorflow_cpu_py310/README_cn.md,python310_amd64/environments/07_tensorflow_cpu_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/07_tensorflow_cpu_py310/README_cn.md,python310_amd64/environments/07_tensorflow_cpu_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/07_tensorflow_cpu_py310/README_cn.html,python310_amd64/environments/07_tensorflow_cpu_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/07b_gpflow_tf_py310/README_cn.md,python310_amd64/environments/07b_gpflow_tf_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/07b_gpflow_tf_py310/README_cn.md,python310_amd64/environments/07b_gpflow_tf_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/07b_gpflow_tf_py310/README_cn.html,python310_amd64/environments/07b_gpflow_tf_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/08_rl_basic_py310/README_cn.md,python310_amd64/environments/08_rl_basic_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/08_rl_basic_py310/README_cn.md,python310_amd64/environments/08_rl_basic_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/08_rl_basic_py310/README_cn.html,python310_amd64/environments/08_rl_basic_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/09_huggingface_llm_cpu_py310/README_cn.md,python310_amd64/environments/09_huggingface_llm_cpu_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/09_huggingface_llm_cpu_py310/README_cn.md,python310_amd64/environments/09_huggingface_llm_cpu_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/09_huggingface_llm_cpu_py310/README_cn.html,python310_amd64/environments/09_huggingface_llm_cpu_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/10_onnx_api_app_py310/README_cn.md,python310_amd64/environments/10_onnx_api_app_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/10_onnx_api_app_py310/README_cn.md,python310_amd64/environments/10_onnx_api_app_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/10_onnx_api_app_py310/README_cn.html,python310_amd64/environments/10_onnx_api_app_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/11_optimization_control_py310/README_cn.md,python310_amd64/environments/11_optimization_control_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/11_optimization_control_py310/README_cn.md,python310_amd64/environments/11_optimization_control_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/11_optimization_control_py310/README_cn.html,python310_amd64/environments/11_optimization_control_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/12_scientific_extra_py310/README_cn.md,python310_amd64/environments/12_scientific_extra_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/12_scientific_extra_py310/README_cn.md,python310_amd64/environments/12_scientific_extra_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/12_scientific_extra_py310/README_cn.html,python310_amd64/environments/12_scientific_extra_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/13_stats_optimize_extra_py310/README_cn.md,python310_amd64/environments/13_stats_optimize_extra_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/13_stats_optimize_extra_py310/README_cn.md,python310_amd64/environments/13_stats_optimize_extra_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/13_stats_optimize_extra_py310/README_cn.html,python310_amd64/environments/13_stats_optimize_extra_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/14_ml_extra_py310/README_cn.md,python310_amd64/environments/14_ml_extra_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/14_ml_extra_py310/README_cn.md,python310_amd64/environments/14_ml_extra_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/14_ml_extra_py310/README_cn.html,python310_amd64/environments/14_ml_extra_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/15_dl_pytorch_extra_py310/README_cn.md,python310_amd64/environments/15_dl_pytorch_extra_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/15_dl_pytorch_extra_py310/README_cn.md,python310_amd64/environments/15_dl_pytorch_extra_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/15_dl_pytorch_extra_py310/README_cn.html,python310_amd64/environments/15_dl_pytorch_extra_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/16_timeseries_quant_py310/README_cn.md,python310_amd64/environments/16_timeseries_quant_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/16_timeseries_quant_py310/README_cn.md,python310_amd64/environments/16_timeseries_quant_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/16_timeseries_quant_py310/README_cn.html,python310_amd64/environments/16_timeseries_quant_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/17_nlp_classic_py310/README_cn.md,python310_amd64/environments/17_nlp_classic_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/17_nlp_classic_py310/README_cn.md,python310_amd64/environments/17_nlp_classic_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/17_nlp_classic_py310/README_cn.html,python310_amd64/environments/17_nlp_classic_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/17b_nlp_sentence_transformers_py310/README_cn.md,python310_amd64/environments/17b_nlp_sentence_transformers_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/17b_nlp_sentence_transformers_py310/README_cn.md,python310_amd64/environments/17b_nlp_sentence_transformers_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/17b_nlp_sentence_transformers_py310/README_cn.html,python310_amd64/environments/17b_nlp_sentence_transformers_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/18_vision_extra_py310/README_cn.md,python310_amd64/environments/18_vision_extra_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/18_vision_extra_py310/README_cn.md,python310_amd64/environments/18_vision_extra_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/18_vision_extra_py310/README_cn.html,python310_amd64/environments/18_vision_extra_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/19_av_extra_py310/README_cn.md,python310_amd64/environments/19_av_extra_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/19_av_extra_py310/README_cn.md,python310_amd64/environments/19_av_extra_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/19_av_extra_py310/README_cn.html,python310_amd64/environments/19_av_extra_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/20_web_api_extra_py310/README_cn.md,python310_amd64/environments/20_web_api_extra_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/20_web_api_extra_py310/README_cn.md,python310_amd64/environments/20_web_api_extra_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/20_web_api_extra_py310/README_cn.html,python310_amd64/environments/20_web_api_extra_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/21_database_py310/README_cn.md,python310_amd64/environments/21_database_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/21_database_py310/README_cn.md,python310_amd64/environments/21_database_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/21_database_py310/README_cn.html,python310_amd64/environments/21_database_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/22_crawler_py310/README_cn.md,python310_amd64/environments/22_crawler_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/22_crawler_py310/README_cn.md,python310_amd64/environments/22_crawler_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/22_crawler_py310/README_cn.html,python310_amd64/environments/22_crawler_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/22b_playwright_py310/README_cn.md,python310_amd64/environments/22b_playwright_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/22b_playwright_py310/README_cn.md,python310_amd64/environments/22b_playwright_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/22b_playwright_py310/README_cn.html,python310_amd64/environments/22b_playwright_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/23_office_pdf_py310/README_cn.md,python310_amd64/environments/23_office_pdf_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/23_office_pdf_py310/README_cn.md,python310_amd64/environments/23_office_pdf_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/23_office_pdf_py310/README_cn.html,python310_amd64/environments/23_office_pdf_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/24_gui_tk_py310/README_cn.md,python310_amd64/environments/24_gui_tk_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/24_gui_tk_py310/README_cn.md,python310_amd64/environments/24_gui_tk_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/24_gui_tk_py310/README_cn.html,python310_amd64/environments/24_gui_tk_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/24b_gui_pyqt6_py310/README_cn.md,python310_amd64/environments/24b_gui_pyqt6_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/24b_gui_pyqt6_py310/README_cn.md,python310_amd64/environments/24b_gui_pyqt6_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/24b_gui_pyqt6_py310/README_cn.html,python310_amd64/environments/24b_gui_pyqt6_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/24c_gui_pyside6_py310/README_cn.md,python310_amd64/environments/24c_gui_pyside6_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/24c_gui_pyside6_py310/README_cn.md,python310_amd64/environments/24c_gui_pyside6_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/24c_gui_pyside6_py310/README_cn.html,python310_amd64/environments/24c_gui_pyside6_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/24d_gui_wx_py310/README_cn.md,python310_amd64/environments/24d_gui_wx_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/24d_gui_wx_py310/README_cn.md,python310_amd64/environments/24d_gui_wx_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/24d_gui_wx_py310/README_cn.html,python310_amd64/environments/24d_gui_wx_py310/README_cn.md 的 HTML 版本
+修正命令,python310_amd64/environments/25_devtools_py310/README_cn.md,python310_amd64/environments/25_devtools_py310/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python310_amd64/environments/25_devtools_py310/README_cn.md,python310_amd64/environments/25_devtools_py310/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python310_amd64/environments/25_devtools_py310/README_cn.html,python310_amd64/environments/25_devtools_py310/README_cn.md 的 HTML 版本
+离线化改内容,python312_amd64/README_cn.md,python312_amd64/README_cn.md,35 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/README_cn.html,python312_amd64/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/01_base_scientific_py312/README_cn.md,python312_amd64/environments/01_base_scientific_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/01_base_scientific_py312/README_cn.md,python312_amd64/environments/01_base_scientific_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/01_base_scientific_py312/README_cn.html,python312_amd64/environments/01_base_scientific_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/02_ml_stats_py312/README_cn.md,python312_amd64/environments/02_ml_stats_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/02_ml_stats_py312/README_cn.md,python312_amd64/environments/02_ml_stats_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/02_ml_stats_py312/README_cn.html,python312_amd64/environments/02_ml_stats_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/03_signal_image_audio_py312/README_cn.md,python312_amd64/environments/03_signal_image_audio_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/03_signal_image_audio_py312/README_cn.md,python312_amd64/environments/03_signal_image_audio_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/03_signal_image_audio_py312/README_cn.html,python312_amd64/environments/03_signal_image_audio_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/04_pytorch_cpu_py312/README_cn.md,python312_amd64/environments/04_pytorch_cpu_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/04_pytorch_cpu_py312/README_cn.md,python312_amd64/environments/04_pytorch_cpu_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/04_pytorch_cpu_py312/README_cn.html,python312_amd64/environments/04_pytorch_cpu_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/05_gpr_bo_pytorch_py312/README_cn.md,python312_amd64/environments/05_gpr_bo_pytorch_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/05_gpr_bo_pytorch_py312/README_cn.md,python312_amd64/environments/05_gpr_bo_pytorch_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/05_gpr_bo_pytorch_py312/README_cn.html,python312_amd64/environments/05_gpr_bo_pytorch_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/06_bayesian_mc_py312/README_cn.md,python312_amd64/environments/06_bayesian_mc_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/06_bayesian_mc_py312/README_cn.md,python312_amd64/environments/06_bayesian_mc_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/06_bayesian_mc_py312/README_cn.html,python312_amd64/environments/06_bayesian_mc_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/07_tensorflow_cpu_py312/README_cn.md,python312_amd64/environments/07_tensorflow_cpu_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/07_tensorflow_cpu_py312/README_cn.md,python312_amd64/environments/07_tensorflow_cpu_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/07_tensorflow_cpu_py312/README_cn.html,python312_amd64/environments/07_tensorflow_cpu_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/07b_gpflow_tf_py312/README_cn.md,python312_amd64/environments/07b_gpflow_tf_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/07b_gpflow_tf_py312/README_cn.md,python312_amd64/environments/07b_gpflow_tf_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/07b_gpflow_tf_py312/README_cn.html,python312_amd64/environments/07b_gpflow_tf_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/08_rl_basic_py312/README_cn.md,python312_amd64/environments/08_rl_basic_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/08_rl_basic_py312/README_cn.md,python312_amd64/environments/08_rl_basic_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/08_rl_basic_py312/README_cn.html,python312_amd64/environments/08_rl_basic_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/09_huggingface_llm_cpu_py312/README_cn.md,python312_amd64/environments/09_huggingface_llm_cpu_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/09_huggingface_llm_cpu_py312/README_cn.md,python312_amd64/environments/09_huggingface_llm_cpu_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/09_huggingface_llm_cpu_py312/README_cn.html,python312_amd64/environments/09_huggingface_llm_cpu_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/10_onnx_api_app_py312/README_cn.md,python312_amd64/environments/10_onnx_api_app_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/10_onnx_api_app_py312/README_cn.md,python312_amd64/environments/10_onnx_api_app_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/10_onnx_api_app_py312/README_cn.html,python312_amd64/environments/10_onnx_api_app_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/11_optimization_control_py312/README_cn.md,python312_amd64/environments/11_optimization_control_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/11_optimization_control_py312/README_cn.md,python312_amd64/environments/11_optimization_control_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/11_optimization_control_py312/README_cn.html,python312_amd64/environments/11_optimization_control_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/12_scientific_extra_py312/README_cn.md,python312_amd64/environments/12_scientific_extra_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/12_scientific_extra_py312/README_cn.md,python312_amd64/environments/12_scientific_extra_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/12_scientific_extra_py312/README_cn.html,python312_amd64/environments/12_scientific_extra_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/13_stats_optimize_extra_py312/README_cn.md,python312_amd64/environments/13_stats_optimize_extra_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/13_stats_optimize_extra_py312/README_cn.md,python312_amd64/environments/13_stats_optimize_extra_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/13_stats_optimize_extra_py312/README_cn.html,python312_amd64/environments/13_stats_optimize_extra_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/14_ml_extra_py312/README_cn.md,python312_amd64/environments/14_ml_extra_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/14_ml_extra_py312/README_cn.md,python312_amd64/environments/14_ml_extra_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/14_ml_extra_py312/README_cn.html,python312_amd64/environments/14_ml_extra_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/15_dl_pytorch_extra_py312/README_cn.md,python312_amd64/environments/15_dl_pytorch_extra_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/15_dl_pytorch_extra_py312/README_cn.md,python312_amd64/environments/15_dl_pytorch_extra_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/15_dl_pytorch_extra_py312/README_cn.html,python312_amd64/environments/15_dl_pytorch_extra_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/16_timeseries_quant_py312/README_cn.md,python312_amd64/environments/16_timeseries_quant_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/16_timeseries_quant_py312/README_cn.md,python312_amd64/environments/16_timeseries_quant_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/16_timeseries_quant_py312/README_cn.html,python312_amd64/environments/16_timeseries_quant_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/17_nlp_classic_py312/README_cn.md,python312_amd64/environments/17_nlp_classic_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/17_nlp_classic_py312/README_cn.md,python312_amd64/environments/17_nlp_classic_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/17_nlp_classic_py312/README_cn.html,python312_amd64/environments/17_nlp_classic_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/17b_nlp_sentence_transformers_py312/README_cn.md,python312_amd64/environments/17b_nlp_sentence_transformers_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/17b_nlp_sentence_transformers_py312/README_cn.md,python312_amd64/environments/17b_nlp_sentence_transformers_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/17b_nlp_sentence_transformers_py312/README_cn.html,python312_amd64/environments/17b_nlp_sentence_transformers_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/18_vision_extra_py312/README_cn.md,python312_amd64/environments/18_vision_extra_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/18_vision_extra_py312/README_cn.md,python312_amd64/environments/18_vision_extra_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/18_vision_extra_py312/README_cn.html,python312_amd64/environments/18_vision_extra_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/19_av_extra_py312/README_cn.md,python312_amd64/environments/19_av_extra_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/19_av_extra_py312/README_cn.md,python312_amd64/environments/19_av_extra_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/19_av_extra_py312/README_cn.html,python312_amd64/environments/19_av_extra_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/20_web_api_extra_py312/README_cn.md,python312_amd64/environments/20_web_api_extra_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/20_web_api_extra_py312/README_cn.md,python312_amd64/environments/20_web_api_extra_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/20_web_api_extra_py312/README_cn.html,python312_amd64/environments/20_web_api_extra_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/21_database_py312/README_cn.md,python312_amd64/environments/21_database_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/21_database_py312/README_cn.md,python312_amd64/environments/21_database_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/21_database_py312/README_cn.html,python312_amd64/environments/21_database_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/22_crawler_py312/README_cn.md,python312_amd64/environments/22_crawler_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/22_crawler_py312/README_cn.md,python312_amd64/environments/22_crawler_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/22_crawler_py312/README_cn.html,python312_amd64/environments/22_crawler_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/22b_playwright_py312/README_cn.md,python312_amd64/environments/22b_playwright_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/22b_playwright_py312/README_cn.md,python312_amd64/environments/22b_playwright_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/22b_playwright_py312/README_cn.html,python312_amd64/environments/22b_playwright_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/23_office_pdf_py312/README_cn.md,python312_amd64/environments/23_office_pdf_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/23_office_pdf_py312/README_cn.md,python312_amd64/environments/23_office_pdf_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/23_office_pdf_py312/README_cn.html,python312_amd64/environments/23_office_pdf_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/24_gui_tk_py312/README_cn.md,python312_amd64/environments/24_gui_tk_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/24_gui_tk_py312/README_cn.md,python312_amd64/environments/24_gui_tk_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/24_gui_tk_py312/README_cn.html,python312_amd64/environments/24_gui_tk_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/24b_gui_pyqt6_py312/README_cn.md,python312_amd64/environments/24b_gui_pyqt6_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/24b_gui_pyqt6_py312/README_cn.md,python312_amd64/environments/24b_gui_pyqt6_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/24b_gui_pyqt6_py312/README_cn.html,python312_amd64/environments/24b_gui_pyqt6_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/24c_gui_pyside6_py312/README_cn.md,python312_amd64/environments/24c_gui_pyside6_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/24c_gui_pyside6_py312/README_cn.md,python312_amd64/environments/24c_gui_pyside6_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/24c_gui_pyside6_py312/README_cn.html,python312_amd64/environments/24c_gui_pyside6_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/24d_gui_wx_py312/README_cn.md,python312_amd64/environments/24d_gui_wx_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/24d_gui_wx_py312/README_cn.md,python312_amd64/environments/24d_gui_wx_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/24d_gui_wx_py312/README_cn.html,python312_amd64/environments/24d_gui_wx_py312/README_cn.md 的 HTML 版本
+修正命令,python312_amd64/environments/25_devtools_py312/README_cn.md,python312_amd64/environments/25_devtools_py312/README_cn.md,1 处 `.\ .venv\Scripts\python.exe` 多余空格（PowerShell 会把它拆成两个参数而报错）改为 `.\.venv\Scripts\python.exe`
+离线化改内容,python312_amd64/environments/25_devtools_py312/README_cn.md,python312_amd64/environments/25_devtools_py312/README_cn.md,9 处行内代码路径改为可点击的相对链接
+离线化新增,,python312_amd64/environments/25_devtools_py312/README_cn.html,python312_amd64/environments/25_devtools_py312/README_cn.md 的 HTML 版本
+离线化改内容,wsl2_optional/README_cn.md,wsl2_optional/README_cn.md,2 处行内代码路径改为可点击的相对链接
+离线化新增,,wsl2_optional/README_cn.html,wsl2_optional/README_cn.md 的 HTML 版本
+离线化新增,,wsl2_optional/linux_only_candidates_cn.html,wsl2_optional/linux_only_candidates_cn.md 的 HTML 版本
+离线化新增,,index_cn.html,离线首页：说明文档、两棵树的每个环境组、安装程序和登记表的本地链接

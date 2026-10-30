@@ -1,0 +1,16 @@
+# Direct dependencies for 17_nlp_classic_py312
+# Target: Windows 10/11 x86-64, CPython 3.12
+# Generated for offline wheel download. Not a historical project lockfile.
+
+pip
+setuptools
+wheel
+packaging
+numpy
+nltk
+spacy
+gensim
+textblob
+wordcloud
+regex
+lxml

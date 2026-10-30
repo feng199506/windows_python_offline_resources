@@ -1,0 +1,18 @@
+{
+  "environment": "24d_gui_wx_py310",
+  "status": "downloaded",
+  "python": "310",
+  "direct_ok": [
+    "pip",
+    "setuptools",
+    "wheel",
+    "packaging",
+    "wxPython"
+  ],
+  "failed": [],
+  "wheel_count": 6,
+  "total_bytes": 35683322,
+  "started_utc": "2026-10-30T04:56:19Z",
+  "finished_utc": "2026-10-30T04:56:22Z",
+  "notes": "expansion round; Windows install not verified"
+}

@@ -1,0 +1,16 @@
+﻿environment,status,python,title_cn,framework,wheel_count,total_bytes,total_mib,windows_install_verified,notes
+01_base_scientific_py310,downloaded_static_checked,310,基础科学计算与 Notebook,numpy/scipy/pandas/jupyter,131,218835584,208.7,no,direct+transitive Windows wheels; static check only
+02_ml_stats_py310,downloaded_static_checked,310,传统机器学习、统计、时间序列及 EM,scikit-learn/statsmodels/xgboost/lightgbm/catboost/hmmlearn,38,319920705,305.1,no,direct+transitive Windows wheels; static check only
+03_signal_image_audio_py310,downloaded_static_checked,310,信号处理、音频及图像处理,opencv-headless/scikit-image/librosa/mne,74,214608476,204.7,no,direct+transitive Windows wheels; static check only
+04_pytorch_cpu_py310,downloaded_static_checked,310,PyTorch CPU,torch/torchvision/torchaudio CPU,17,150718463,143.7,no,direct+transitive Windows wheels; static check only
+05_gpr_bo_pytorch_py310,downloaded_static_checked,310,GPR 与贝叶斯优化（PyTorch 路线）,gpytorch/botorch/linear_operator + torch CPU,36,207130042,197.5,no,direct+transitive Windows wheels; static check only
+06_bayesian_mc_py310,downloaded_static_checked,310,贝叶斯计算与 Monte Carlo,pymc/arviz/emcee/cmdstanpy,46,97391534,92.9,no,direct+transitive Windows wheels; static check only
+07_tensorflow_cpu_py310,downloaded_static_checked,310,TensorFlow CPU / Keras,tensorflow-cpu 2.21 / keras,33,407333782,388.5,no,direct+transitive Windows wheels; static check only
+08_rl_basic_py310,downloaded_static_checked,310,强化学习基础,gymnasium/stable-baselines3/tensorboard + torch CPU,40,192760615,183.8,no,direct+transitive Windows wheels; static check only
+09_huggingface_llm_cpu_py310,downloaded_static_checked,310,Hugging Face 与大模型基础（CPU，不含权重）,transformers/peft/trl + torch CPU,64,209120407,199.4,no,direct+transitive Windows wheels; static check only
+10_onnx_api_app_py310,downloaded_static_checked,310,ONNX CPU 推理、API 与简单应用界面,onnx/onnxruntime/fastapi/gradio/streamlit,86,190734896,181.9,no,direct+transitive Windows wheels; static check only
+11_optimization_control_py310,downloaded_static_checked,310,优化与控制计算,cvxpy/osqp/clarabel/control/casadi,28,146364906,139.6,no,direct+transitive Windows wheels; static check only
+07b_gpflow_tf_py310,downloaded_static_checked,310,GPflow 专用（TensorFlow 路线）,gpflow 2.11 + tensorflow-intel 2.16.2 + tfp 0.24,53,494770910,471.9,no,direct+transitive Windows wheels; static check only
+01_base_scientific_py313,downloaded_static_checked,313,基础科学计算与 Notebook（Python 3.13 新项目）,numpy/scipy/pandas/jupyter on CPython 3.13,127,216559007,206.5,no,direct+transitive Windows wheels; static check only
+04_pytorch_cpu_py313,downloaded_static_checked,313,PyTorch CPU（Python 3.13 新项目）,torch/torchvision/torchaudio CPU on 3.13,17,151573871,144.6,no,direct+transitive Windows wheels; static check only
+07_tensorflow_cpu_py313,downloaded_static_checked,313,TensorFlow CPU（Python 3.13 新项目）,tensorflow-cpu 2.21 on 3.13,33,408154413,389.2,no,direct+transitive Windows wheels; static check only

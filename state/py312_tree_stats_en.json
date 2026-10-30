@@ -1,0 +1,386 @@
+{
+  "stats": {
+    "python": "3.12.10",
+    "arch": "amd64",
+    "installer": "runtime/python-3.12.10-amd64.exe",
+    "environments": [
+      {
+        "id": "01_base_scientific_py312",
+        "wheels": 127,
+        "bytes": 216706910
+      },
+      {
+        "id": "02_ml_stats_py312",
+        "wheels": 38,
+        "bytes": 264482952
+      },
+      {
+        "id": "03_signal_image_audio_py312",
+        "wheels": 70,
+        "bytes": 210334906
+      },
+      {
+        "id": "04_pytorch_cpu_py312",
+        "wheels": 17,
+        "bytes": 151503707
+      },
+      {
+        "id": "05_gpr_bo_pytorch_py312",
+        "wheels": 32,
+        "bytes": 203390315
+      },
+      {
+        "id": "06_bayesian_mc_py312",
+        "wheels": 42,
+        "bytes": 135565431
+      },
+      {
+        "id": "07_tensorflow_cpu_py312",
+        "wheels": 33,
+        "bytes": 407913774
+      },
+      {
+        "id": "07b_gpflow_tf_py312",
+        "wheels": 62,
+        "bytes": 922212806
+      },
+      {
+        "id": "08_rl_basic_py312",
+        "wheels": 39,
+        "bytes": 193924300
+      },
+      {
+        "id": "09_huggingface_llm_cpu_py312",
+        "wheels": 60,
+        "bytes": 209141382
+      },
+      {
+        "id": "10_onnx_api_app_py312",
+        "wheels": 77,
+        "bytes": 185288687
+      },
+      {
+        "id": "11_optimization_control_py312",
+        "wheels": 31,
+        "bytes": 147273371
+      },
+      {
+        "id": "12_scientific_extra_py312",
+        "wheels": 89,
+        "bytes": 318184915
+      },
+      {
+        "id": "13_stats_optimize_extra_py312",
+        "wheels": 68,
+        "bytes": 134150163
+      },
+      {
+        "id": "14_ml_extra_py312",
+        "wheels": 53,
+        "bytes": 155409522
+      },
+      {
+        "id": "15_dl_pytorch_extra_py312",
+        "wheels": 45,
+        "bytes": 169661856
+      },
+      {
+        "id": "16_timeseries_quant_py312",
+        "wheels": 77,
+        "bytes": 212686443
+      },
+      {
+        "id": "17_nlp_classic_py312",
+        "wheels": 67,
+        "bytes": 134279796
+      },
+      {
+        "id": "17b_nlp_sentence_transformers_py312",
+        "wheels": 44,
+        "bytes": 210047411
+      },
+      {
+        "id": "18_vision_extra_py312",
+        "wheels": 16,
+        "bytes": 73098833
+      },
+      {
+        "id": "19_av_extra_py312",
+        "wheels": 19,
+        "bytes": 83164902
+      },
+      {
+        "id": "20_web_api_extra_py312",
+        "wheels": 53,
+        "bytes": 17179358
+      },
+      {
+        "id": "21_database_py312",
+        "wheels": 36,
+        "bytes": 29681251
+      },
+      {
+        "id": "22_crawler_py312",
+        "wheels": 65,
+        "bytes": 31275398
+      },
+      {
+        "id": "22b_playwright_py312",
+        "wheels": 8,
+        "bytes": 42046552
+      },
+      {
+        "id": "23_office_pdf_py312",
+        "wheels": 26,
+        "bytes": 35717666
+      },
+      {
+        "id": "24_gui_tk_py312",
+        "wheels": 8,
+        "bytes": 10996913
+      },
+      {
+        "id": "24b_gui_pyqt6_py312",
+        "wheels": 7,
+        "bytes": 89570140
+      },
+      {
+        "id": "24c_gui_pyside6_py312",
+        "wheels": 10,
+        "bytes": 262061244
+      },
+      {
+        "id": "24d_gui_wx_py312",
+        "wheels": 6,
+        "bytes": 35096393
+      },
+      {
+        "id": "25_devtools_py312",
+        "wheels": 153,
+        "bytes": 102283610
+      }
+    ],
+    "env_count": 31,
+    "wheel_count": 1478,
+    "total_bytes": 5394330907
+  },
+  "envs": [
+    {
+      "id": "01_base_scientific_py312",
+      "title_cn": "\u57fa\u7840\u79d1\u5b66\u8ba1\u7b97\u4e0e Notebook",
+      "framework": "numpy/scipy/pandas/jupyter",
+      "wheels": 127,
+      "bytes": 216706910
+    },
+    {
+      "id": "02_ml_stats_py312",
+      "title_cn": "\u4f20\u7edf\u673a\u5668\u5b66\u4e60\u3001\u7edf\u8ba1\u3001\u65f6\u95f4\u5e8f\u5217\u53ca EM",
+      "framework": "scikit-learn/statsmodels/xgboost/lightgbm/catboost/hmmlearn",
+      "wheels": 38,
+      "bytes": 264482952
+    },
+    {
+      "id": "03_signal_image_audio_py312",
+      "title_cn": "\u4fe1\u53f7\u5904\u7406\u3001\u97f3\u9891\u53ca\u56fe\u50cf\u5904\u7406",
+      "framework": "opencv-headless/scikit-image/librosa/mne",
+      "wheels": 70,
+      "bytes": 210334906
+    },
+    {
+      "id": "04_pytorch_cpu_py312",
+      "title_cn": "PyTorch CPU",
+      "framework": "torch/torchvision/torchaudio CPU",
+      "wheels": 17,
+      "bytes": 151503707
+    },
+    {
+      "id": "05_gpr_bo_pytorch_py312",
+      "title_cn": "GPR \u4e0e\u8d1d\u53f6\u65af\u4f18\u5316\uff08PyTorch \u8def\u7ebf\uff09",
+      "framework": "gpytorch/botorch/linear_operator + torch CPU",
+      "wheels": 32,
+      "bytes": 203390315
+    },
+    {
+      "id": "06_bayesian_mc_py312",
+      "title_cn": "\u8d1d\u53f6\u65af\u8ba1\u7b97\u4e0e Monte Carlo",
+      "framework": "pymc/arviz/emcee/cmdstanpy",
+      "wheels": 42,
+      "bytes": 135565431
+    },
+    {
+      "id": "07_tensorflow_cpu_py312",
+      "title_cn": "TensorFlow CPU / Keras",
+      "framework": "tensorflow-cpu 2.21 / keras",
+      "wheels": 33,
+      "bytes": 407913774
+    },
+    {
+      "id": "08_rl_basic_py312",
+      "title_cn": "\u5f3a\u5316\u5b66\u4e60\u57fa\u7840",
+      "framework": "gymnasium/stable-baselines3/tensorboard + torch CPU",
+      "wheels": 39,
+      "bytes": 193924300
+    },
+    {
+      "id": "09_huggingface_llm_cpu_py312",
+      "title_cn": "Hugging Face \u4e0e\u5927\u6a21\u578b\u57fa\u7840\uff08CPU\uff0c\u4e0d\u542b\u6743\u91cd\uff09",
+      "framework": "transformers/peft/trl + torch CPU",
+      "wheels": 60,
+      "bytes": 209141382
+    },
+    {
+      "id": "10_onnx_api_app_py312",
+      "title_cn": "ONNX CPU \u63a8\u7406\u3001API \u4e0e\u7b80\u5355\u5e94\u7528\u754c\u9762",
+      "framework": "onnx/onnxruntime/fastapi/gradio/streamlit",
+      "wheels": 77,
+      "bytes": 185288687
+    },
+    {
+      "id": "11_optimization_control_py312",
+      "title_cn": "\u4f18\u5316\u4e0e\u63a7\u5236\u8ba1\u7b97",
+      "framework": "cvxpy/osqp/clarabel/control/casadi",
+      "wheels": 31,
+      "bytes": 147273371
+    },
+    {
+      "id": "07b_gpflow_tf_py312",
+      "title_cn": "GPflow \u4e13\u7528\uff08TensorFlow \u8def\u7ebf\uff09",
+      "framework": "gpflow 2.11 + tensorflow-intel 2.16.2 + tfp 0.24",
+      "wheels": 62,
+      "bytes": 922212806
+    },
+    {
+      "id": "12_scientific_extra_py312",
+      "title_cn": "\u79d1\u5b66\u8ba1\u7b97\u6269\u5c55",
+      "framework": "numba/dask/polars/geopandas/zarr",
+      "wheels": 89,
+      "bytes": 318184915
+    },
+    {
+      "id": "13_stats_optimize_extra_py312",
+      "title_cn": "\u7edf\u8ba1\u4e0e\u4f18\u5316\u6269\u5c55",
+      "framework": "pingouin/lifelines/optuna/cvxopt/pymoo",
+      "wheels": 68,
+      "bytes": 134150163
+    },
+    {
+      "id": "14_ml_extra_py312",
+      "title_cn": "\u4f20\u7edf\u673a\u5668\u5b66\u4e60\u6269\u5c55",
+      "framework": "imbalanced-learn/shap/umap/hdbscan",
+      "wheels": 53,
+      "bytes": 155409522
+    },
+    {
+      "id": "15_dl_pytorch_extra_py312",
+      "title_cn": "\u6df1\u5ea6\u5b66\u4e60\u6269\u5c55\uff08PyTorch CPU\uff09",
+      "framework": "lightning/timm/kornia + torch CPU",
+      "wheels": 45,
+      "bytes": 169661856
+    },
+    {
+      "id": "16_timeseries_quant_py312",
+      "title_cn": "\u65f6\u95f4\u5e8f\u5217\u4e0e\u91cf\u5316",
+      "framework": "pmdarima/prophet/tsfresh/yfinance/backtrader",
+      "wheels": 77,
+      "bytes": 212686443
+    },
+    {
+      "id": "17_nlp_classic_py312",
+      "title_cn": "NLP \u7ecf\u5178\u5de5\u5177\uff08\u65e0\u6743\u91cd\u3001\u65e0 PyTorch\uff09",
+      "framework": "nltk/spacy/gensim/jieba",
+      "wheels": 67,
+      "bytes": 134279796
+    },
+    {
+      "id": "17b_nlp_sentence_transformers_py312",
+      "title_cn": "NLP Sentence-Transformers\uff08CPU\uff0c\u4e0d\u542b\u6743\u91cd\uff09",
+      "framework": "sentence-transformers + torch CPU",
+      "wheels": 44,
+      "bytes": 210047411
+    },
+    {
+      "id": "18_vision_extra_py312",
+      "title_cn": "\u8ba1\u7b97\u673a\u89c6\u89c9\u6269\u5c55",
+      "framework": "pytesseract/rawpy/imageHash",
+      "wheels": 16,
+      "bytes": 73098833
+    },
+    {
+      "id": "19_av_extra_py312",
+      "title_cn": "\u97f3\u89c6\u9891\u6269\u5c55",
+      "framework": "av/moviepy/pydub/mutagen",
+      "wheels": 19,
+      "bytes": 83164902
+    },
+    {
+      "id": "20_web_api_extra_py312",
+      "title_cn": "Web / API \u6269\u5c55",
+      "framework": "flask/django/aiohttp/celery",
+      "wheels": 53,
+      "bytes": 17179358
+    },
+    {
+      "id": "21_database_py312",
+      "title_cn": "\u6570\u636e\u5e93",
+      "framework": "sqlalchemy/psycopg/duckdb/pymongo",
+      "wheels": 36,
+      "bytes": 29681251
+    },
+    {
+      "id": "22_crawler_py312",
+      "title_cn": "\u722c\u866b\u4e0e Selenium",
+      "framework": "scrapy/selenium/bs4/lxml",
+      "wheels": 65,
+      "bytes": 31275398
+    },
+    {
+      "id": "22b_playwright_py312",
+      "title_cn": "Playwright Python \u5305",
+      "framework": "playwright",
+      "wheels": 8,
+      "bytes": 42046552
+    },
+    {
+      "id": "23_office_pdf_py312",
+      "title_cn": "Office / PDF",
+      "framework": "python-docx/pypdf/reportlab/pdfplumber",
+      "wheels": 26,
+      "bytes": 35717666
+    },
+    {
+      "id": "24_gui_tk_py312",
+      "title_cn": "\u684c\u9762 GUI\uff08Tk \u8def\u7ebf\uff09",
+      "framework": "customtkinter/ttkbootstrap",
+      "wheels": 8,
+      "bytes": 10996913
+    },
+    {
+      "id": "24b_gui_pyqt6_py312",
+      "title_cn": "\u684c\u9762 GUI\uff08PyQt6\uff09",
+      "framework": "PyQt6",
+      "wheels": 7,
+      "bytes": 89570140
+    },
+    {
+      "id": "24c_gui_pyside6_py312",
+      "title_cn": "\u684c\u9762 GUI\uff08PySide6\uff09",
+      "framework": "PySide6",
+      "wheels": 10,
+      "bytes": 262061244
+    },
+    {
+      "id": "24d_gui_wx_py312",
+      "title_cn": "\u684c\u9762 GUI\uff08wxPython\uff09",
+      "framework": "wxPython",
+      "wheels": 6,
+      "bytes": 35096393
+    },
+    {
+      "id": "25_devtools_py312",
+      "title_cn": "\u5f00\u53d1\u6d4b\u8bd5\u4e0e\u6253\u5305\u5de5\u5177",
+      "framework": "pytest/ruff/mypy/pyinstaller/sphinx",
+      "wheels": 153,
+      "bytes": 102283610
+    }
+  ]
+}

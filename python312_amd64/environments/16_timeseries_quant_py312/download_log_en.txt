@@ -1,0 +1,647 @@
+Collecting pip (from -r /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/requirements_direct_en.txt (line 5))
+  Using cached pip-26.2.2-py3-none-any.whl.metadata (4.6 kB)
+Collecting setuptools (from -r /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/requirements_direct_en.txt (line 6))
+  Using cached setuptools-84.2.1-py3-none-any.whl.metadata (6.6 kB)
+Collecting wheel (from -r /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/requirements_direct_en.txt (line 7))
+  Using cached wheel-0.48.0-py3-none-any.whl.metadata (2.3 kB)
+Collecting packaging (from -r /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/requirements_direct_en.txt (line 8))
+  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting numpy (from -r /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/requirements_direct_en.txt (line 9))
+  Using cached numpy-2.5.4-cp312-cp312-win_amd64.whl.metadata (6.6 kB)
+Collecting pandas (from -r /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/requirements_direct_en.txt (line 10))
+  Using cached pandas-3.1.0-cp312-cp312-win_amd64.whl.metadata (18 kB)
+Collecting scipy (from -r /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/requirements_direct_en.txt (line 11))
+  Using cached scipy-1.18.1-cp312-cp312-win_amd64.whl.metadata (61 kB)
+Collecting statsmodels (from -r /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/requirements_direct_en.txt (line 12))
+  Using cached statsmodels-0.15.0-cp312-cp312-win_amd64.whl.metadata (9.6 kB)
+Collecting scikit-learn (from -r /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/requirements_direct_en.txt (line 13))
+  Using cached scikit_learn-1.9.1-cp312-cp312-win_amd64.whl.metadata (9.3 kB)
+Collecting pmdarima (from -r /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/requirements_direct_en.txt (line 14))
+  Downloading pmdarima-2.1.1-cp312-cp312-win_amd64.whl.metadata (8.5 kB)
+Collecting prophet (from -r /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/requirements_direct_en.txt (line 15))
+  Using cached prophet-1.5.0-py3-none-win_amd64.whl.metadata (3.7 kB)
+Collecting tsfresh (from -r /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/requirements_direct_en.txt (line 16))
+  Using cached tsfresh-0.21.2-py2.py3-none-any.whl.metadata (2.6 kB)
+Collecting yfinance (from -r /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/requirements_direct_en.txt (line 17))
+  Using cached yfinance-1.7.0-py3-none-any.whl.metadata (6.7 kB)
+Collecting akshare (from -r /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/requirements_direct_en.txt (line 18))
+  Downloading akshare-1.20.8-py3-none-any.whl.metadata (14 kB)
+Collecting exchange-calendars (from -r /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/requirements_direct_en.txt (line 19))
+  Using cached exchange_calendars-4.13.2-py3-none-any.whl.metadata (26 kB)
+Collecting backtrader (from -r /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/requirements_direct_en.txt (line 20))
+  Using cached backtrader-1.9.78.123-py2.py3-none-any.whl.metadata (6.8 kB)
+ERROR: Could not find a version that satisfies the requirement ta (from versions: none)
+ERROR: No matching distribution found for ta
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 312 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated -r /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/requirements_direct_en.txt
+
+[exit 1]
+Collecting pip
+  Using cached pip-26.2.2-py3-none-any.whl.metadata (4.6 kB)
+Using cached pip-26.2.2-py3-none-any.whl (1.8 MB)
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/pip-26.2.2-py3-none-any.whl
+Successfully downloaded pip
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 312 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated pip
+
+[exit 0]
+Collecting setuptools
+  Using cached setuptools-84.2.1-py3-none-any.whl.metadata (6.6 kB)
+Using cached setuptools-84.2.1-py3-none-any.whl (876 kB)
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/setuptools-84.2.1-py3-none-any.whl
+Successfully downloaded setuptools
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 312 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated setuptools
+
+[exit 0]
+Collecting wheel
+  Using cached wheel-0.48.0-py3-none-any.whl.metadata (2.3 kB)
+Collecting packaging>=24.0 (from wheel)
+  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Using cached wheel-0.48.0-py3-none-any.whl (33 kB)
+Using cached packaging-26.3-py3-none-any.whl (129 kB)
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/wheel-0.48.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/packaging-26.3-py3-none-any.whl
+Successfully downloaded wheel packaging
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 312 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated wheel
+
+[exit 0]
+Collecting packaging
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/packaging-26.3-py3-none-any.whl
+Successfully downloaded packaging
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 312 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated packaging
+
+[exit 0]
+Collecting numpy
+  Using cached numpy-2.5.4-cp312-cp312-win_amd64.whl.metadata (6.6 kB)
+Using cached numpy-2.5.4-cp312-cp312-win_amd64.whl (12.6 MB)
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/numpy-2.5.4-cp312-cp312-win_amd64.whl
+Successfully downloaded numpy
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 312 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated numpy
+
+[exit 0]
+Collecting pandas
+  Using cached pandas-3.1.0-cp312-cp312-win_amd64.whl.metadata (18 kB)
+Collecting numpy>=2.3.3 (from pandas)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/numpy-2.5.4-cp312-cp312-win_amd64.whl
+Collecting python-dateutil>=2.9.0 (from pandas)
+  Using cached python_dateutil-3.0.0-py2.py3-none-any.whl.metadata (8.2 kB)
+Collecting six>=1.6 (from python-dateutil>=2.9.0->pandas)
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting tzdata (from python-dateutil>=2.9.0->pandas)
+  Using cached tzdata-2026.6-py2.py3-none-any.whl.metadata (1.4 kB)
+Using cached pandas-3.1.0-cp312-cp312-win_amd64.whl (10.7 MB)
+Using cached python_dateutil-3.0.0-py2.py3-none-any.whl (94 kB)
+Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Using cached tzdata-2026.6-py2.py3-none-any.whl (348 kB)
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/pandas-3.1.0-cp312-cp312-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/python_dateutil-3.0.0-py2.py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/six-1.17.0-py2.py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/tzdata-2026.6-py2.py3-none-any.whl
+Successfully downloaded pandas numpy python-dateutil six tzdata
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 312 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated pandas
+
+[exit 0]
+Collecting scipy
+  Using cached scipy-1.18.1-cp312-cp312-win_amd64.whl.metadata (61 kB)
+Collecting numpy<2.8,>=2.0.0 (from scipy)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/numpy-2.5.4-cp312-cp312-win_amd64.whl
+Using cached scipy-1.18.1-cp312-cp312-win_amd64.whl (36.7 MB)
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/scipy-1.18.1-cp312-cp312-win_amd64.whl
+Successfully downloaded scipy numpy
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 312 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated scipy
+
+[exit 0]
+Collecting statsmodels
+  Using cached statsmodels-0.15.0-cp312-cp312-win_amd64.whl.metadata (9.6 kB)
+Collecting numpy<3,>=1.23.5 (from statsmodels)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/numpy-2.5.4-cp312-cp312-win_amd64.whl
+Collecting scipy!=1.9.2,>=1.8 (from statsmodels)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/scipy-1.18.1-cp312-cp312-win_amd64.whl
+Collecting pandas!=2.1.0,>=1.4 (from statsmodels)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/pandas-3.1.0-cp312-cp312-win_amd64.whl
+Collecting patsy>=0.5.6 (from statsmodels)
+  Using cached patsy-1.0.3-py2.py3-none-any.whl.metadata (3.7 kB)
+Collecting packaging>=21.3 (from statsmodels)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/packaging-26.3-py3-none-any.whl
+Collecting formulaic>=1.1.0 (from statsmodels)
+  Using cached formulaic-1.2.2-py3-none-any.whl.metadata (7.0 kB)
+Collecting interface-meta>=1.2.0 (from formulaic>=1.1.0->statsmodels)
+  Using cached interface_meta-2.0.1-py3-none-any.whl.metadata (6.4 kB)
+Collecting narwhals>=1.17 (from formulaic>=1.1.0->statsmodels)
+  Using cached narwhals-2.28.0-py3-none-any.whl.metadata (15 kB)
+Collecting typing-extensions>=4.2.0 (from formulaic>=1.1.0->statsmodels)
+  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting wrapt>=1.17.0rc1 (from formulaic>=1.1.0->statsmodels)
+  Using cached wrapt-2.6.0.dev1-cp312-cp312-win_amd64.whl.metadata (7.8 kB)
+Collecting python-dateutil>=2.9.0 (from pandas!=2.1.0,>=1.4->statsmodels)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/python_dateutil-3.0.0-py2.py3-none-any.whl
+Collecting six>=1.6 (from python-dateutil>=2.9.0->pandas!=2.1.0,>=1.4->statsmodels)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/six-1.17.0-py2.py3-none-any.whl
+Collecting tzdata (from python-dateutil>=2.9.0->pandas!=2.1.0,>=1.4->statsmodels)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/tzdata-2026.6-py2.py3-none-any.whl
+Using cached statsmodels-0.15.0-cp312-cp312-win_amd64.whl (11.3 MB)
+Using cached formulaic-1.2.2-py3-none-any.whl (118 kB)
+Using cached interface_meta-2.0.1-py3-none-any.whl (15 kB)
+Using cached narwhals-2.28.0-py3-none-any.whl (490 kB)
+Using cached patsy-1.0.3-py2.py3-none-any.whl (233 kB)
+Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Using cached wrapt-2.6.0.dev1-cp312-cp312-win_amd64.whl (106 kB)
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/statsmodels-0.15.0-cp312-cp312-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/formulaic-1.2.2-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/interface_meta-2.0.1-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/narwhals-2.28.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/patsy-1.0.3-py2.py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/typing_extensions-4.16.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/wrapt-2.6.0.dev1-cp312-cp312-win_amd64.whl
+Successfully downloaded statsmodels numpy formulaic interface-meta narwhals packaging pandas patsy python-dateutil scipy six typing-extensions wrapt tzdata
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 312 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated statsmodels
+
+[exit 0]
+Collecting scikit-learn
+  Using cached scikit_learn-1.9.1-cp312-cp312-win_amd64.whl.metadata (9.3 kB)
+Collecting numpy>=1.24.1 (from scikit-learn)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/numpy-2.5.4-cp312-cp312-win_amd64.whl
+Collecting scipy>=1.10.0 (from scikit-learn)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/scipy-1.18.1-cp312-cp312-win_amd64.whl
+Collecting joblib>=1.4.0 (from scikit-learn)
+  Using cached joblib-1.6.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting narwhals>=2.0.1 (from scikit-learn)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/narwhals-2.28.0-py3-none-any.whl
+Collecting threadpoolctl>=3.5.0 (from scikit-learn)
+  Using cached threadpoolctl-3.7.0-py3-none-any.whl.metadata (24 kB)
+Collecting cloudpickle>=3.0 (from joblib>=1.4.0->scikit-learn)
+  Using cached cloudpickle-3.1.2-py3-none-any.whl.metadata (7.1 kB)
+Using cached scikit_learn-1.9.1-cp312-cp312-win_amd64.whl (8.3 MB)
+Using cached joblib-1.6.0-py3-none-any.whl (306 kB)
+Using cached cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+Using cached threadpoolctl-3.7.0-py3-none-any.whl (26 kB)
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/scikit_learn-1.9.1-cp312-cp312-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/joblib-1.6.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/cloudpickle-3.1.2-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/threadpoolctl-3.7.0-py3-none-any.whl
+Successfully downloaded scikit-learn joblib cloudpickle narwhals numpy scipy threadpoolctl
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 312 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated scikit-learn
+
+[exit 0]
+Collecting pmdarima
+  Using cached pmdarima-2.1.1-cp312-cp312-win_amd64.whl.metadata (8.5 kB)
+Collecting joblib>=0.11 (from pmdarima)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/joblib-1.6.0-py3-none-any.whl
+Collecting Cython!=0.29.18,!=0.29.31,>=0.29 (from pmdarima)
+  Downloading cython-3.3.0-cp312-cp312-win_amd64.whl.metadata (28 kB)
+Collecting numpy>=1.21.6 (from pmdarima)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/numpy-2.5.4-cp312-cp312-win_amd64.whl
+Collecting pandas>=0.19 (from pmdarima)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/pandas-3.1.0-cp312-cp312-win_amd64.whl
+Collecting scikit-learn>=0.22 (from pmdarima)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/scikit_learn-1.9.1-cp312-cp312-win_amd64.whl
+Collecting scipy>=1.13.0 (from pmdarima)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/scipy-1.18.1-cp312-cp312-win_amd64.whl
+Collecting statsmodels>=0.14.5 (from pmdarima)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/statsmodels-0.15.0-cp312-cp312-win_amd64.whl
+Collecting urllib3 (from pmdarima)
+  Using cached urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+Collecting setuptools!=50.0.0,>=42 (from pmdarima)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/setuptools-84.2.1-py3-none-any.whl
+Collecting packaging>=17.1 (from pmdarima)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/packaging-26.3-py3-none-any.whl
+Collecting cloudpickle>=3.0 (from joblib>=0.11->pmdarima)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/cloudpickle-3.1.2-py3-none-any.whl
+Collecting python-dateutil>=2.9.0 (from pandas>=0.19->pmdarima)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/python_dateutil-3.0.0-py2.py3-none-any.whl
+Collecting six>=1.6 (from python-dateutil>=2.9.0->pandas>=0.19->pmdarima)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/six-1.17.0-py2.py3-none-any.whl
+Collecting tzdata (from python-dateutil>=2.9.0->pandas>=0.19->pmdarima)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/tzdata-2026.6-py2.py3-none-any.whl
+Collecting narwhals>=2.0.1 (from scikit-learn>=0.22->pmdarima)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/narwhals-2.28.0-py3-none-any.whl
+Collecting threadpoolctl>=3.5.0 (from scikit-learn>=0.22->pmdarima)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/threadpoolctl-3.7.0-py3-none-any.whl
+Collecting patsy>=0.5.6 (from statsmodels>=0.14.5->pmdarima)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/patsy-1.0.3-py2.py3-none-any.whl
+Collecting formulaic>=1.1.0 (from statsmodels>=0.14.5->pmdarima)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/formulaic-1.2.2-py3-none-any.whl
+Collecting interface-meta>=1.2.0 (from formulaic>=1.1.0->statsmodels>=0.14.5->pmdarima)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/interface_meta-2.0.1-py3-none-any.whl
+Collecting typing-extensions>=4.2.0 (from formulaic>=1.1.0->statsmodels>=0.14.5->pmdarima)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/typing_extensions-4.16.0-py3-none-any.whl
+Collecting wrapt>=1.17.0rc1 (from formulaic>=1.1.0->statsmodels>=0.14.5->pmdarima)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/wrapt-2.6.0.dev1-cp312-cp312-win_amd64.whl
+Downloading pmdarima-2.1.1-cp312-cp312-win_amd64.whl (715 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 715.6/715.6 kB 11.8 MB/s  0:00:00
+
+Downloading cython-3.3.0-cp312-cp312-win_amd64.whl (2.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.9/2.9 MB 22.8 MB/s  0:00:00
+
+Using cached urllib3-2.8.0-py3-none-any.whl (135 kB)
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/pmdarima-2.1.1-cp312-cp312-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/cython-3.3.0-cp312-cp312-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/urllib3-2.8.0-py3-none-any.whl
+Successfully downloaded pmdarima Cython joblib cloudpickle numpy packaging pandas python-dateutil scikit-learn narwhals scipy setuptools six statsmodels formulaic interface-meta patsy threadpoolctl typing-extensions wrapt tzdata urllib3
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 312 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated pmdarima
+
+[exit 0]
+Collecting prophet
+  Using cached prophet-1.5.0-py3-none-win_amd64.whl.metadata (3.7 kB)
+Collecting cmdstanpy>=1.0.4 (from prophet)
+  Using cached cmdstanpy-1.3.0-py3-none-any.whl.metadata (4.2 kB)
+Collecting numpy>=1.21.6 (from prophet)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/numpy-2.5.4-cp312-cp312-win_amd64.whl
+Collecting matplotlib>=3.5.3 (from prophet)
+  Using cached matplotlib-3.11.2-cp312-cp312-win_amd64.whl.metadata (80 kB)
+Collecting pandas>=1.3.5 (from prophet)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/pandas-3.1.0-cp312-cp312-win_amd64.whl
+Collecting holidays<1,>=0.25 (from prophet)
+  Using cached holidays-0.107-py3-none-any.whl.metadata (56 kB)
+Collecting tqdm>=4.63.2 (from prophet)
+  Using cached tqdm-4.70.1-py3-none-any.whl.metadata (57 kB)
+Collecting python-dateutil<3,>=2.9.0.post0 (from holidays<1,>=0.25->prophet)
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting six>=1.5 (from python-dateutil<3,>=2.9.0.post0->holidays<1,>=0.25->prophet)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/six-1.17.0-py2.py3-none-any.whl
+Collecting stanio<2.0.0,>=0.4.0 (from cmdstanpy>=1.0.4->prophet)
+  Using cached stanio-0.5.1-py3-none-any.whl.metadata (1.6 kB)
+Collecting contourpy>=1.0.1 (from matplotlib>=3.5.3->prophet)
+  Using cached contourpy-1.4.0-cp312-cp312-win_amd64.whl.metadata (3.8 kB)
+Collecting cycler>=0.10 (from matplotlib>=3.5.3->prophet)
+  Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.28.2 (from matplotlib>=3.5.3->prophet)
+  Using cached fonttools-4.68.0-cp312-cp312-win_amd64.whl.metadata (142 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib>=3.5.3->prophet)
+  Using cached kiwisolver-1.5.1-cp312-cp312-win_amd64.whl.metadata (5.2 kB)
+Collecting packaging>=20.0 (from matplotlib>=3.5.3->prophet)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/packaging-26.3-py3-none-any.whl
+Collecting pillow>=9 (from matplotlib>=3.5.3->prophet)
+  Using cached pillow-13.0.0-cp312-cp312-win_amd64.whl.metadata (9.3 kB)
+Collecting pyparsing>=3 (from matplotlib>=3.5.3->prophet)
+  Using cached pyparsing-3.3.3-py3-none-any.whl.metadata (5.9 kB)
+Using cached prophet-1.5.0-py3-none-win_amd64.whl (12.1 MB)
+Using cached holidays-0.107-py3-none-any.whl (1.7 MB)
+Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Using cached cmdstanpy-1.3.0-py3-none-any.whl (99 kB)
+Using cached stanio-0.5.1-py3-none-any.whl (8.1 kB)
+Using cached matplotlib-3.11.2-cp312-cp312-win_amd64.whl (9.3 MB)
+Using cached contourpy-1.4.0-cp312-cp312-win_amd64.whl (234 kB)
+Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Using cached fonttools-4.68.0-cp312-cp312-win_amd64.whl (2.5 MB)
+Using cached kiwisolver-1.5.1-cp312-cp312-win_amd64.whl (70 kB)
+Using cached pillow-13.0.0-cp312-cp312-win_amd64.whl (7.3 MB)
+Using cached pyparsing-3.3.3-py3-none-any.whl (126 kB)
+Using cached tqdm-4.70.1-py3-none-any.whl (80 kB)
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/prophet-1.5.0-py3-none-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/holidays-0.107-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/python_dateutil-2.9.0.post0-py2.py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/cmdstanpy-1.3.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/stanio-0.5.1-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/matplotlib-3.11.2-cp312-cp312-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/contourpy-1.4.0-cp312-cp312-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/cycler-0.12.1-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/fonttools-4.68.0-cp312-cp312-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/kiwisolver-1.5.1-cp312-cp312-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/pillow-13.0.0-cp312-cp312-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/pyparsing-3.3.3-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/tqdm-4.70.1-py3-none-any.whl
+Successfully downloaded prophet holidays python-dateutil cmdstanpy stanio matplotlib contourpy cycler fonttools kiwisolver numpy packaging pandas pillow pyparsing six tqdm
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 312 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated prophet
+
+[exit 0]
+Collecting tsfresh
+  Using cached tsfresh-0.21.2-py2.py3-none-any.whl.metadata (2.6 kB)
+Collecting requests>=2.9.1 (from tsfresh)
+  Using cached requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+Collecting numpy>=1.15.1 (from tsfresh)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/numpy-2.5.4-cp312-cp312-win_amd64.whl
+Collecting pandas>=0.25.0 (from tsfresh)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/pandas-3.1.0-cp312-cp312-win_amd64.whl
+Collecting statsmodels>=0.13 (from tsfresh)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/statsmodels-0.15.0-cp312-cp312-win_amd64.whl
+Collecting patsy>=0.4.1 (from tsfresh)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/patsy-1.0.3-py2.py3-none-any.whl
+Collecting pywavelets (from tsfresh)
+  Using cached pywavelets-1.10.0-cp312-cp312-win_amd64.whl.metadata (7.6 kB)
+Collecting scikit-learn>=0.22.0 (from tsfresh)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/scikit_learn-1.9.1-cp312-cp312-win_amd64.whl
+Collecting tqdm>=4.10.0 (from tsfresh)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/tqdm-4.70.1-py3-none-any.whl
+Collecting stumpy>=1.11.1 (from tsfresh)
+  Using cached stumpy-1.14.1-py3-none-any.whl.metadata (28 kB)
+Collecting cloudpickle (from tsfresh)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/cloudpickle-3.1.2-py3-none-any.whl
+Collecting scipy>=1.14.0 (from tsfresh)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/scipy-1.18.1-cp312-cp312-win_amd64.whl
+Collecting python-dateutil>=2.9.0 (from pandas>=0.25.0->tsfresh)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/python_dateutil-3.0.0-py2.py3-none-any.whl
+Collecting packaging (from patsy>=0.4.1->tsfresh)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/packaging-26.3-py3-none-any.whl
+Collecting six>=1.6 (from python-dateutil>=2.9.0->pandas>=0.25.0->tsfresh)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/six-1.17.0-py2.py3-none-any.whl
+Collecting tzdata (from python-dateutil>=2.9.0->pandas>=0.25.0->tsfresh)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/tzdata-2026.6-py2.py3-none-any.whl
+Collecting charset_normalizer<4,>=2 (from requests>=2.9.1->tsfresh)
+  Using cached charset_normalizer-3.5.2-cp312-cp312-win_amd64.whl.metadata (47 kB)
+Collecting idna<4,>=2.5 (from requests>=2.9.1->tsfresh)
+  Using cached idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+Collecting urllib3<3,>=1.26 (from requests>=2.9.1->tsfresh)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/urllib3-2.8.0-py3-none-any.whl
+Collecting certifi>=2023.5.7 (from requests>=2.9.1->tsfresh)
+  Using cached certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+Collecting joblib>=1.4.0 (from scikit-learn>=0.22.0->tsfresh)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/joblib-1.6.0-py3-none-any.whl
+Collecting narwhals>=2.0.1 (from scikit-learn>=0.22.0->tsfresh)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/narwhals-2.28.0-py3-none-any.whl
+Collecting threadpoolctl>=3.5.0 (from scikit-learn>=0.22.0->tsfresh)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/threadpoolctl-3.7.0-py3-none-any.whl
+Collecting formulaic>=1.1.0 (from statsmodels>=0.13->tsfresh)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/formulaic-1.2.2-py3-none-any.whl
+Collecting interface-meta>=1.2.0 (from formulaic>=1.1.0->statsmodels>=0.13->tsfresh)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/interface_meta-2.0.1-py3-none-any.whl
+Collecting typing-extensions>=4.2.0 (from formulaic>=1.1.0->statsmodels>=0.13->tsfresh)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/typing_extensions-4.16.0-py3-none-any.whl
+Collecting wrapt>=1.17.0rc1 (from formulaic>=1.1.0->statsmodels>=0.13->tsfresh)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/wrapt-2.6.0.dev1-cp312-cp312-win_amd64.whl
+Collecting numba>=0.61.2 (from stumpy>=1.11.1->tsfresh)
+  Using cached numba-0.68.1-cp312-cp312-win_amd64.whl.metadata (2.9 kB)
+Collecting llvmlite<0.51,>=0.50.0dev0 (from numba>=0.61.2->stumpy>=1.11.1->tsfresh)
+  Using cached llvmlite-0.50.0-cp312-cp312-win_amd64.whl.metadata (5.2 kB)
+Using cached tsfresh-0.21.2-py2.py3-none-any.whl (97 kB)
+Using cached requests-2.34.2-py3-none-any.whl (73 kB)
+Using cached charset_normalizer-3.5.2-cp312-cp312-win_amd64.whl (207 kB)
+Using cached idna-3.20-py3-none-any.whl (69 kB)
+Using cached certifi-2026.10.23-py3-none-any.whl (135 kB)
+Using cached stumpy-1.14.1-py3-none-any.whl (183 kB)
+Using cached numba-0.68.1-cp312-cp312-win_amd64.whl (2.8 MB)
+Using cached llvmlite-0.50.0-cp312-cp312-win_amd64.whl (41.9 MB)
+Using cached pywavelets-1.10.0-cp312-cp312-win_amd64.whl (4.3 MB)
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/tsfresh-0.21.2-py2.py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/requests-2.34.2-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/charset_normalizer-3.5.2-cp312-cp312-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/idna-3.20-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/certifi-2026.10.23-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/stumpy-1.14.1-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/numba-0.68.1-cp312-cp312-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/llvmlite-0.50.0-cp312-cp312-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/pywavelets-1.10.0-cp312-cp312-win_amd64.whl
+Successfully downloaded tsfresh numpy pandas patsy python-dateutil requests charset_normalizer idna urllib3 certifi scikit-learn joblib cloudpickle narwhals scipy six statsmodels formulaic interface-meta packaging stumpy numba llvmlite threadpoolctl tqdm typing-extensions wrapt pywavelets tzdata
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 312 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated tsfresh
+
+[exit 0]
+Collecting yfinance
+  Using cached yfinance-1.7.0-py3-none-any.whl.metadata (6.7 kB)
+Collecting beautifulsoup4>=4.11.1 (from yfinance)
+  Using cached beautifulsoup4-4.15.0-py3-none-any.whl.metadata (3.8 kB)
+Collecting curl_cffi>=0.15 (from yfinance)
+  Using cached curl_cffi-0.17.0-cp310-abi3-win_amd64.whl.metadata (19 kB)
+Collecting lxml>=4.9.0 (from yfinance)
+  Downloading lxml-6.1.3-cp312-cp312-win_amd64.whl.metadata (3.4 kB)
+Collecting multitasking>=0.0.7 (from yfinance)
+  Using cached multitasking-0.0.13-py3-none-any.whl.metadata (16 kB)
+Collecting numpy>=1.16.5 (from yfinance)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/numpy-2.5.4-cp312-cp312-win_amd64.whl
+Collecting pandas>=1.3.0 (from yfinance)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/pandas-3.1.0-cp312-cp312-win_amd64.whl
+Collecting peewee>=3.16.2 (from yfinance)
+  Using cached peewee-4.5.3-py3-none-any.whl.metadata (10 kB)
+Collecting platformdirs>=2.0.0 (from yfinance)
+  Using cached platformdirs-4.14.0-py3-none-any.whl.metadata (5.4 kB)
+Collecting protobuf>=3.19.0 (from yfinance)
+  Using cached protobuf-7.36.2-cp310-abi3-win_amd64.whl.metadata (595 bytes)
+Collecting pytz>=2022.5 (from yfinance)
+  Using cached pytz-2026.6-py2.py3-none-any.whl.metadata (22 kB)
+Collecting requests>=2.31 (from yfinance)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/requests-2.34.2-py3-none-any.whl
+Collecting websockets>=13.0 (from yfinance)
+  Downloading websockets-17.3-cp312-cp312-win_amd64.whl.metadata (6.5 kB)
+Collecting soupsieve>=1.6.1 (from beautifulsoup4>=4.11.1->yfinance)
+  Using cached soupsieve-3.0.4-py3-none-any.whl.metadata (4.4 kB)
+Collecting typing-extensions>=4.0.0 (from beautifulsoup4>=4.11.1->yfinance)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/typing_extensions-4.16.0-py3-none-any.whl
+Collecting cffi>=2.1.1 (from curl_cffi>=0.15->yfinance)
+  Using cached cffi-2.1.1-cp312-cp312-win_amd64.whl.metadata (2.6 kB)
+Collecting certifi>=2026.10.19 (from curl_cffi>=0.15->yfinance)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/certifi-2026.10.23-py3-none-any.whl
+Collecting pycparser (from cffi>=2.1.1->curl_cffi>=0.15->yfinance)
+  Using cached pycparser-3.12-py3-none-any.whl.metadata (9.7 kB)
+Collecting python-dateutil>=2.9.0 (from pandas>=1.3.0->yfinance)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/python_dateutil-3.0.0-py2.py3-none-any.whl
+Collecting six>=1.6 (from python-dateutil>=2.9.0->pandas>=1.3.0->yfinance)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/six-1.17.0-py2.py3-none-any.whl
+Collecting tzdata (from python-dateutil>=2.9.0->pandas>=1.3.0->yfinance)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/tzdata-2026.6-py2.py3-none-any.whl
+Collecting charset_normalizer<4,>=2 (from requests>=2.31->yfinance)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/charset_normalizer-3.5.2-cp312-cp312-win_amd64.whl
+Collecting idna<4,>=2.5 (from requests>=2.31->yfinance)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/idna-3.20-py3-none-any.whl
+Collecting urllib3<3,>=1.26 (from requests>=2.31->yfinance)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/urllib3-2.8.0-py3-none-any.whl
+Using cached yfinance-1.7.0-py3-none-any.whl (149 kB)
+Using cached beautifulsoup4-4.15.0-py3-none-any.whl (109 kB)
+Using cached curl_cffi-0.17.0-cp310-abi3-win_amd64.whl (2.1 MB)
+Using cached cffi-2.1.1-cp312-cp312-win_amd64.whl (185 kB)
+Downloading lxml-6.1.3-cp312-cp312-win_amd64.whl (4.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.0/4.0 MB 38.6 MB/s  0:00:00
+
+Using cached multitasking-0.0.13-py3-none-any.whl (16 kB)
+Using cached peewee-4.5.3-py3-none-any.whl (194 kB)
+Using cached platformdirs-4.14.0-py3-none-any.whl (35 kB)
+Using cached protobuf-7.36.2-cp310-abi3-win_amd64.whl (456 kB)
+Using cached pytz-2026.6-py2.py3-none-any.whl (506 kB)
+Using cached soupsieve-3.0.4-py3-none-any.whl (42 kB)
+Downloading websockets-17.3-cp312-cp312-win_amd64.whl (219 kB)
+Using cached pycparser-3.12-py3-none-any.whl (62 kB)
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/yfinance-1.7.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/beautifulsoup4-4.15.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/curl_cffi-0.17.0-cp310-abi3-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/cffi-2.1.1-cp312-cp312-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/lxml-6.1.3-cp312-cp312-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/multitasking-0.0.13-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/peewee-4.5.3-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/platformdirs-4.14.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/protobuf-7.36.2-cp310-abi3-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/pytz-2026.6-py2.py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/soupsieve-3.0.4-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/websockets-17.3-cp312-cp312-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/pycparser-3.12-py3-none-any.whl
+Successfully downloaded yfinance beautifulsoup4 curl_cffi certifi cffi lxml multitasking numpy pandas peewee platformdirs protobuf python-dateutil pytz requests charset_normalizer idna urllib3 six soupsieve typing-extensions websockets pycparser tzdata
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 312 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated yfinance
+
+[exit 0]
+Collecting akshare
+  Using cached akshare-1.20.8-py3-none-any.whl.metadata (14 kB)
+Collecting beautifulsoup4>=4.11.2 (from akshare)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/beautifulsoup4-4.15.0-py3-none-any.whl
+Collecting lxml>=4.9.2 (from akshare)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/lxml-6.1.3-cp312-cp312-win_amd64.whl
+Collecting pandas>=2.2.2 (from akshare)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/pandas-3.1.0-cp312-cp312-win_amd64.whl
+Collecting requests>=2.22.0 (from akshare)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/requests-2.34.2-py3-none-any.whl
+Collecting curl_cffi>=0.13.0 (from akshare)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/curl_cffi-0.17.0-cp310-abi3-win_amd64.whl
+Collecting html5lib>=1.1 (from akshare)
+  Using cached html5lib-1.1-py2.py3-none-any.whl.metadata (16 kB)
+Collecting xlrd>=2.0.1 (from akshare)
+  Using cached xlrd-2.0.2-py2.py3-none-any.whl.metadata (3.5 kB)
+Collecting urllib3>=1.25.8 (from akshare)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/urllib3-2.8.0-py3-none-any.whl
+Collecting tqdm>=4.43.0 (from akshare)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/tqdm-4.70.1-py3-none-any.whl
+Collecting openpyxl>=3.1.0 (from akshare)
+  Using cached openpyxl-3.1.5-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting py-mini-racer>=0.6.0 (from akshare)
+  Downloading py_mini_racer-0.6.0-py2.py3-none-win_amd64.whl.metadata (8.7 kB)
+Collecting akracer>=0.0.13 (from akshare)
+  Downloading akracer-0.0.14-py3-none-any.whl.metadata (3.3 kB)
+Collecting soupsieve>=1.6.1 (from beautifulsoup4>=4.11.2->akshare)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/soupsieve-3.0.4-py3-none-any.whl
+Collecting typing-extensions>=4.0.0 (from beautifulsoup4>=4.11.2->akshare)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/typing_extensions-4.16.0-py3-none-any.whl
+Collecting cffi>=2.1.1 (from curl_cffi>=0.13.0->akshare)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/cffi-2.1.1-cp312-cp312-win_amd64.whl
+Collecting certifi>=2026.10.19 (from curl_cffi>=0.13.0->akshare)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/certifi-2026.10.23-py3-none-any.whl
+Collecting pycparser (from cffi>=2.1.1->curl_cffi>=0.13.0->akshare)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/pycparser-3.12-py3-none-any.whl
+Collecting six>=1.9 (from html5lib>=1.1->akshare)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/six-1.17.0-py2.py3-none-any.whl
+Collecting webencodings (from html5lib>=1.1->akshare)
+  Using cached webencodings-0.6.1-py3-none-any.whl.metadata (3.4 kB)
+Collecting et-xmlfile (from openpyxl>=3.1.0->akshare)
+  Using cached et_xmlfile-2.0.0-py3-none-any.whl.metadata (2.7 kB)
+Collecting numpy>=2.3.3 (from pandas>=2.2.2->akshare)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/numpy-2.5.4-cp312-cp312-win_amd64.whl
+Collecting python-dateutil>=2.9.0 (from pandas>=2.2.2->akshare)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/python_dateutil-3.0.0-py2.py3-none-any.whl
+Collecting tzdata (from python-dateutil>=2.9.0->pandas>=2.2.2->akshare)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/tzdata-2026.6-py2.py3-none-any.whl
+Collecting charset_normalizer<4,>=2 (from requests>=2.22.0->akshare)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/charset_normalizer-3.5.2-cp312-cp312-win_amd64.whl
+Collecting idna<4,>=2.5 (from requests>=2.22.0->akshare)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/idna-3.20-py3-none-any.whl
+Downloading akshare-1.20.8-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 19.8 MB/s  0:00:00
+
+Downloading akracer-0.0.14-py3-none-any.whl (10.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.1/10.1 MB 65.8 MB/s  0:00:00
+
+Downloading html5lib-1.1-py2.py3-none-any.whl (112 kB)
+Using cached openpyxl-3.1.5-py2.py3-none-any.whl (250 kB)
+Downloading py_mini_racer-0.6.0-py2.py3-none-win_amd64.whl (4.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 69.8 MB/s  0:00:00
+
+Using cached xlrd-2.0.2-py2.py3-none-any.whl (96 kB)
+Using cached et_xmlfile-2.0.0-py3-none-any.whl (18 kB)
+Using cached webencodings-0.6.1-py3-none-any.whl (8.7 kB)
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/akshare-1.20.8-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/akracer-0.0.14-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/html5lib-1.1-py2.py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/openpyxl-3.1.5-py2.py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/py_mini_racer-0.6.0-py2.py3-none-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/xlrd-2.0.2-py2.py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/et_xmlfile-2.0.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/webencodings-0.6.1-py3-none-any.whl
+Successfully downloaded akshare akracer beautifulsoup4 curl_cffi certifi cffi html5lib lxml openpyxl pandas numpy py-mini-racer python-dateutil requests charset_normalizer idna urllib3 six soupsieve tqdm typing-extensions xlrd et-xmlfile pycparser tzdata webencodings
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 312 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated akshare
+
+[exit 0]
+Collecting exchange-calendars
+  Using cached exchange_calendars-4.13.2-py3-none-any.whl.metadata (26 kB)
+Collecting numpy>=1.26.4 (from exchange-calendars)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/numpy-2.5.4-cp312-cp312-win_amd64.whl
+Collecting pandas>=1.5.0 (from exchange-calendars)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/pandas-3.1.0-cp312-cp312-win_amd64.whl
+Collecting pyluach>=2.3.0 (from exchange-calendars)
+  Using cached pyluach-2.3.0-py3-none-any.whl.metadata (4.3 kB)
+Collecting toolz>=1.0.0 (from exchange-calendars)
+  Using cached toolz-1.2.0-py3-none-any.whl.metadata (5.2 kB)
+Collecting tzdata>=2025.2 (from exchange-calendars)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/tzdata-2026.6-py2.py3-none-any.whl
+Collecting korean_lunar_calendar>=0.3.1 (from exchange-calendars)
+  Using cached korean_lunar_calendar-0.4.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting python-dateutil>=2.9.0 (from pandas>=1.5.0->exchange-calendars)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/python_dateutil-3.0.0-py2.py3-none-any.whl
+Collecting six>=1.6 (from python-dateutil>=2.9.0->pandas>=1.5.0->exchange-calendars)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/six-1.17.0-py2.py3-none-any.whl
+Using cached exchange_calendars-4.13.2-py3-none-any.whl (213 kB)
+Using cached korean_lunar_calendar-0.4.0-py3-none-any.whl (11 kB)
+Using cached pyluach-2.3.0-py3-none-any.whl (25 kB)
+Using cached toolz-1.2.0-py3-none-any.whl (60 kB)
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/exchange_calendars-4.13.2-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/korean_lunar_calendar-0.4.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/pyluach-2.3.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/toolz-1.2.0-py3-none-any.whl
+Successfully downloaded exchange-calendars korean_lunar_calendar numpy pandas pyluach python-dateutil six toolz tzdata
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 312 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated exchange-calendars
+
+[exit 0]
+Collecting backtrader
+  Using cached backtrader-1.9.78.123-py2.py3-none-any.whl.metadata (6.8 kB)
+Using cached backtrader-1.9.78.123-py2.py3-none-any.whl (419 kB)
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/backtrader-1.9.78.123-py2.py3-none-any.whl
+Successfully downloaded backtrader
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 312 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated backtrader
+
+[exit 0]
+ERROR: Could not find a version that satisfies the requirement ta (from versions: none)
+ERROR: No matching distribution found for ta
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 312 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated ta
+
+[exit 1]
+Collecting empyrical
+  Using cached empyrical-0.4.2-py3-none-any.whl.metadata (1.6 kB)
+Collecting numpy>=1.9.2 (from empyrical)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/numpy-2.5.4-cp312-cp312-win_amd64.whl
+Collecting pandas>=0.16.1 (from empyrical)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/pandas-3.1.0-cp312-cp312-win_amd64.whl
+Collecting scipy>=0.15.1 (from empyrical)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/scipy-1.18.1-cp312-cp312-win_amd64.whl
+Collecting pandas-datareader>=0.2 (from empyrical)
+  Downloading pandas_datareader-0.11.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting bottleneck>=1.0.0 (from empyrical)
+  Using cached bottleneck-1.6.0-cp312-cp312-win_amd64.whl.metadata (8.4 kB)
+Collecting python-dateutil>=2.9.0 (from pandas>=0.16.1->empyrical)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/python_dateutil-3.0.0-py2.py3-none-any.whl
+Collecting lxml (from pandas-datareader>=0.2->empyrical)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/lxml-6.1.3-cp312-cp312-win_amd64.whl
+Collecting requests>=2.19.0 (from pandas-datareader>=0.2->empyrical)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/requests-2.34.2-py3-none-any.whl
+Collecting setuptools (from pandas-datareader>=0.2->empyrical)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/setuptools-84.2.1-py3-none-any.whl
+Collecting six>=1.6 (from python-dateutil>=2.9.0->pandas>=0.16.1->empyrical)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/six-1.17.0-py2.py3-none-any.whl
+Collecting tzdata (from python-dateutil>=2.9.0->pandas>=0.16.1->empyrical)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/tzdata-2026.6-py2.py3-none-any.whl
+Collecting charset_normalizer<4,>=2 (from requests>=2.19.0->pandas-datareader>=0.2->empyrical)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/charset_normalizer-3.5.2-cp312-cp312-win_amd64.whl
+Collecting idna<4,>=2.5 (from requests>=2.19.0->pandas-datareader>=0.2->empyrical)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/idna-3.20-py3-none-any.whl
+Collecting urllib3<3,>=1.26 (from requests>=2.19.0->pandas-datareader>=0.2->empyrical)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/urllib3-2.8.0-py3-none-any.whl
+Collecting certifi>=2023.5.7 (from requests>=2.19.0->pandas-datareader>=0.2->empyrical)
+  File was already downloaded /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/certifi-2026.10.23-py3-none-any.whl
+Using cached empyrical-0.4.2-py3-none-any.whl (31 kB)
+Using cached bottleneck-1.6.0-cp312-cp312-win_amd64.whl (113 kB)
+Downloading pandas_datareader-0.11.1-py3-none-any.whl (65 kB)
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/empyrical-0.4.2-py3-none-any.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/bottleneck-1.6.0-cp312-cp312-win_amd64.whl
+Saved ./windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse/pandas_datareader-0.11.1-py3-none-any.whl
+Successfully downloaded empyrical bottleneck numpy pandas pandas-datareader python-dateutil requests charset_normalizer idna urllib3 certifi scipy six lxml setuptools tzdata
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 312 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/python312_amd64/environments/16_timeseries_quant_py312/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated empyrical
+
+[exit 0]

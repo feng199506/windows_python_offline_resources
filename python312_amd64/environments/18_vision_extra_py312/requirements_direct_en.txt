@@ -1,0 +1,16 @@
+# Direct dependencies for 18_vision_extra_py312
+# Target: Windows 10/11 x86-64, CPython 3.12
+# Generated for offline wheel download. Not a historical project lockfile.
+
+pip
+setuptools
+wheel
+packaging
+numpy
+Pillow
+pytesseract
+piexif
+ImageHash
+rawpy
+img2pdf
+imageio

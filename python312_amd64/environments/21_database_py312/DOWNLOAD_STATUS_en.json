@@ -1,0 +1,29 @@
+{
+  "environment": "21_database_py312",
+  "status": "downloaded",
+  "python": "312",
+  "direct_ok": [
+    "pip",
+    "setuptools",
+    "wheel",
+    "packaging",
+    "sqlalchemy[asyncio]",
+    "alembic",
+    "greenlet",
+    "aiosqlite",
+    "psycopg[binary]",
+    "pymysql",
+    "pymongo",
+    "redis",
+    "duckdb",
+    "pyodbc",
+    "peewee",
+    "sqlite-utils",
+    "elasticsearch"
+  ],
+  "failed": [],
+  "wheel_count": 36,
+  "total_bytes": 29681251,
+  "started_utc": "2026-10-30T05:04:09Z",
+  "finished_utc": "2026-10-30T05:04:13Z"
+}

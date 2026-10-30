@@ -1,0 +1,25 @@
+{
+  "environment": "18_vision_extra_py310",
+  "status": "downloaded",
+  "python": "310",
+  "direct_ok": [
+    "pip",
+    "setuptools",
+    "wheel",
+    "packaging",
+    "numpy",
+    "Pillow",
+    "pytesseract",
+    "piexif",
+    "ImageHash",
+    "rawpy",
+    "img2pdf",
+    "imageio"
+  ],
+  "failed": [],
+  "wheel_count": 16,
+  "total_bytes": 77536097,
+  "started_utc": "2026-10-30T04:55:00Z",
+  "finished_utc": "2026-10-30T04:55:04Z",
+  "notes": "expansion round; Windows install not verified"
+}

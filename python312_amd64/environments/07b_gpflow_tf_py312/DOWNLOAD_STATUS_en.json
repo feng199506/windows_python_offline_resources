@@ -1,0 +1,28 @@
+{
+  "environment": "07b_gpflow_tf_py312",
+  "status": "downloaded",
+  "python": "312",
+  "direct_ok": [
+    "pip",
+    "setuptools",
+    "wheel",
+    "packaging",
+    "numpy<2",
+    "scipy",
+    "tensorflow==2.16.2",
+    "tensorflow-intel==2.16.2",
+    "tensorflow-probability==0.24.0",
+    "tf-keras==2.16.0",
+    "gpflow==2.11.2"
+  ],
+  "failed": [
+    {
+      "package": "tensorflow-io-gcs-filesystem>=0.23.1",
+      "detail": "xit 0]\nERROR: Could not find a version that satisfies the requirement tensorflow-io-gcs-filesystem>=0.23.1 (from versions: none)\nERROR: No matching distribution found for tensorflow-io-gcs-filesystem>=0.23.1\n\n$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 312 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/python312_amd64/environments/07b_gpflow_tf_py312/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated tensorflow-io-gcs-filesystem>=0.23.1\n\n[exit 1]\n"
+    }
+  ],
+  "wheel_count": 62,
+  "total_bytes": 922212806,
+  "started_utc": "2026-10-30T05:01:10Z",
+  "finished_utc": "2026-10-30T05:01:47Z"
+}

@@ -1,0 +1,33 @@
+{
+  "environment": "23_office_pdf_py312",
+  "status": "downloaded",
+  "python": "312",
+  "direct_ok": [
+    "pip",
+    "setuptools",
+    "wheel",
+    "packaging",
+    "python-docx",
+    "python-pptx",
+    "xlsxwriter",
+    "xlrd",
+    "reportlab",
+    "pypdf",
+    "pdfminer.six",
+    "pdfplumber",
+    "fpdf2",
+    "mammoth",
+    "openpyxl",
+    "Pillow"
+  ],
+  "failed": [
+    {
+      "package": "odfpy",
+      "detail": "heelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated xlrd\n\n[exit 0]\nERROR: Could not find a version that satisfies the requirement odfpy (from versions: none)\nERROR: No matching distribution found for odfpy\n\n$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 312 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/python312_amd64/environments/23_office_pdf_py312/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated odfpy\n\n[exit 1]\n"
+    }
+  ],
+  "wheel_count": 26,
+  "total_bytes": 35717666,
+  "started_utc": "2026-10-30T05:04:18Z",
+  "finished_utc": "2026-10-30T05:04:39Z"
+}

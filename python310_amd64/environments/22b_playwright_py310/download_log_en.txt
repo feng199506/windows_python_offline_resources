@@ -1,0 +1,39 @@
+Collecting pip (from -r /root/windows_python_offline_resources/environments/22b_playwright_py310/requirements_direct_en.txt (line 5))
+  Using cached pip-26.2.2-py3-none-any.whl.metadata (4.6 kB)
+Collecting setuptools (from -r /root/windows_python_offline_resources/environments/22b_playwright_py310/requirements_direct_en.txt (line 6))
+  Using cached setuptools-84.2.1-py3-none-any.whl.metadata (6.6 kB)
+Collecting wheel (from -r /root/windows_python_offline_resources/environments/22b_playwright_py310/requirements_direct_en.txt (line 7))
+  Using cached wheel-0.48.0-py3-none-any.whl.metadata (2.3 kB)
+Collecting packaging (from -r /root/windows_python_offline_resources/environments/22b_playwright_py310/requirements_direct_en.txt (line 8))
+  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting playwright (from -r /root/windows_python_offline_resources/environments/22b_playwright_py310/requirements_direct_en.txt (line 9))
+  Downloading playwright-1.64.1-py3-none-win_amd64.whl.metadata (3.3 kB)
+Collecting pyee<15,>=13 (from playwright->-r /root/windows_python_offline_resources/environments/22b_playwright_py310/requirements_direct_en.txt (line 9))
+  Downloading pyee-13.0.1-py3-none-any.whl.metadata (3.0 kB)
+Collecting greenlet<4.0.0,>=3.1.1 (from playwright->-r /root/windows_python_offline_resources/environments/22b_playwright_py310/requirements_direct_en.txt (line 9))
+  Using cached greenlet-3.5.6-cp310-cp310-win_amd64.whl.metadata (3.9 kB)
+Collecting typing-extensions (from pyee<15,>=13->playwright->-r /root/windows_python_offline_resources/environments/22b_playwright_py310/requirements_direct_en.txt (line 9))
+  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Using cached pip-26.2.2-py3-none-any.whl (1.8 MB)
+Using cached setuptools-84.2.1-py3-none-any.whl (876 kB)
+Using cached wheel-0.48.0-py3-none-any.whl (33 kB)
+Using cached packaging-26.3-py3-none-any.whl (129 kB)
+Downloading playwright-1.64.1-py3-none-win_amd64.whl (38.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 38.8/38.8 MB 51.5 MB/s  0:00:00
+
+Using cached greenlet-3.5.6-cp310-cp310-win_amd64.whl (322 kB)
+Downloading pyee-13.0.1-py3-none-any.whl (15 kB)
+Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Saved ./windows_python_offline_resources/environments/22b_playwright_py310/wheelhouse/pip-26.2.2-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/22b_playwright_py310/wheelhouse/setuptools-84.2.1-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/22b_playwright_py310/wheelhouse/wheel-0.48.0-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/22b_playwright_py310/wheelhouse/packaging-26.3-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/22b_playwright_py310/wheelhouse/playwright-1.64.1-py3-none-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/22b_playwright_py310/wheelhouse/greenlet-3.5.6-cp310-cp310-win_amd64.whl
+Saved ./windows_python_offline_resources/environments/22b_playwright_py310/wheelhouse/pyee-13.0.1-py3-none-any.whl
+Saved ./windows_python_offline_resources/environments/22b_playwright_py310/wheelhouse/typing_extensions-4.16.0-py3-none-any.whl
+Successfully downloaded pip setuptools wheel packaging playwright greenlet pyee typing-extensions
+
+$ /usr/bin/python3 /root/windows_python_offline_resources/tools/pip.pyz download --platform win_amd64 --python-version 310 --implementation cp --only-binary :all: --dest /root/windows_python_offline_resources/environments/22b_playwright_py310/wheelhouse --index-url https://pypi.org/simple --disable-pip-version-check --isolated -r /root/windows_python_offline_resources/environments/22b_playwright_py310/requirements_direct_en.txt
+
+[exit 0]

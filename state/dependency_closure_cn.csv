@@ -1,0 +1,16 @@
+environment,added,still_missing,skipped_no_wheel,wheel_count,total_bytes,rounds
+01_base_scientific_py310,exceptiongroup>=1; overrides>=5.0; tomli>=2,,,131,218835584,2
+01_base_scientific_py313,,,,127,216559007,1
+02_ml_stats_py310,colorama,,,38,319920705,2
+03_signal_image_audio_py310,"async-timeout<6.0,>=4.0; colorama",,,74,214608476,2
+04_pytorch_cpu_py310,,,,17,150718463,1
+04_pytorch_cpu_py313,,,,17,151573871,1
+05_gpr_bo_pytorch_py310,colorama,,,36,207130042,2
+06_bayesian_mc_py310,colorama,,,46,97391534,2
+07_tensorflow_cpu_py310,,,,33,407333782,1
+07_tensorflow_cpu_py313,,,,33,408154413,1
+08_rl_basic_py310,colorama,,,40,192760615,2
+09_huggingface_llm_cpu_py310,"async-timeout<6.0,>=4.0; colorama; exceptiongroup>=1.0.2; tomli>=1.1.0",,,64,209120407,2
+10_onnx_api_app_py310,colorama; exceptiongroup>=1.0.2; pyreadline3; tomli>=1.1.0,,,86,190734896,2
+11_optimization_control_py310,,,,28,146364906,1
+07b_gpflow_tf_py310,,,,53,494770910,1

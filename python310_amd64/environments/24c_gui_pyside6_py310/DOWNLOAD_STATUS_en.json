@@ -1,0 +1,18 @@
+{
+  "environment": "24c_gui_pyside6_py310",
+  "status": "downloaded",
+  "python": "310",
+  "direct_ok": [
+    "pip",
+    "setuptools",
+    "wheel",
+    "packaging",
+    "PySide6"
+  ],
+  "failed": [],
+  "wheel_count": 10,
+  "total_bytes": 262061244,
+  "started_utc": "2026-10-30T04:56:12Z",
+  "finished_utc": "2026-10-30T04:56:19Z",
+  "notes": "expansion round; Windows install not verified"
+}

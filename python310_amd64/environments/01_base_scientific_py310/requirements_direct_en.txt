@@ -1,0 +1,33 @@
+# Direct dependencies for 01_base_scientific_py310
+# Target: Windows 10/11 x86-64, CPython 3.10
+# Generated for offline wheel download. Not a historical project lockfile.
+
+pip
+setuptools
+wheel
+packaging
+numpy
+scipy
+pandas
+sympy
+matplotlib
+seaborn
+plotly
+jupyterlab
+ipykernel
+ipywidgets
+openpyxl
+pyarrow
+h5py
+netCDF4
+xarray
+pytest
+pyyaml
+requests
+httpx
+tqdm
+joblib
+psutil
+pywin32
+pywinpty
+colorama
